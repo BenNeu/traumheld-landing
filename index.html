@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mein Traumheld — Personalisierte Gute-Nacht-Geschichten</title>
+  <meta name="description" content="Jede Woche eine neue, personalisierte Gute-Nacht-Geschichte für dein Kind — automatisch generiert und direkt in der App.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0d0d2b;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 24px;
+      background: radial-gradient(ellipse at top, #1a1a4e 0%, #0d0d2b 60%);
+    }
+
+    .logo-img {
+      width: min(220px, 55vw);
+      height: min(220px, 55vw);
+      object-fit: contain;
+      margin-bottom: 16px;
+    }
+
+    .brand {
+      color: #f5d060;
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 6vw, 3.2rem);
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      max-width: 640px;
+    }
+
+    .hero h1 span { color: #f5d060; }
+
+    .hero p {
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      color: #9999cc;
+      max-width: 520px;
+      margin-bottom: 40px;
+    }
+
+    .store-buttons {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 48px;
+    }
+
+    .store-btn {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #1a1a3e;
+      border: 2px solid #333366;
+      border-radius: 14px;
+      padding: 14px 24px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      transition: border-color 0.2s, transform 0.2s;
+      cursor: pointer;
+    }
+
+    .store-btn:hover {
+      border-color: #f5d060;
+      transform: translateY(-2px);
+    }
+
+    .store-btn .icon { font-size: 1.8rem; }
+    .store-btn .label { font-size: 0.7rem; color: #9999cc; }
+    .store-btn .name { font-size: 1rem; font-weight: 700; }
+
+    .coming-soon {
+      color: #555577;
+      font-size: 0.85rem;
+      margin-top: -32px;
+      margin-bottom: 40px;
+    }
+
+    /* ── HOW IT WORKS ── */
+    .section {
+      padding: 80px 24px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      color: #5c5cf0;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+
+    .section h2 {
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 800;
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .section h2 span { color: #f5d060; }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+    }
+
+    .step-card {
+      background: #1a1a3e;
+      border-radius: 20px;
+      padding: 28px 24px;
+      border: 1px solid #222255;
+      text-align: center;
+    }
+
+    .step-emoji { font-size: 2.5rem; margin-bottom: 16px; }
+    .step-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 10px; }
+    .step-card p { color: #8888aa; font-size: 0.9rem; line-height: 1.6; }
+
+    /* ── FEATURES ── */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .feature {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      background: #1a1a3e;
+      border-radius: 16px;
+      padding: 20px;
+      border: 1px solid #222255;
+    }
+
+    .feature-icon { font-size: 1.8rem; flex-shrink: 0; }
+    .feature h3 { font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
+    .feature p { color: #8888aa; font-size: 0.85rem; }
+
+    /* ── CTA SECTION ── */
+    .cta-section {
+      text-align: center;
+      padding: 80px 24px;
+      background: linear-gradient(180deg, transparent, #1a1a3e33);
+    }
+
+    .cta-section h2 {
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+
+    .cta-section p {
+      color: #9999cc;
+      font-size: 1rem;
+      margin-bottom: 32px;
+    }
+
+    .price-badge {
+      display: inline-block;
+      background: #f5d060;
+      color: #0d0d2b;
+      font-size: 1.4rem;
+      font-weight: 800;
+      padding: 10px 28px;
+      border-radius: 50px;
+      margin-bottom: 12px;
+    }
+
+    .price-note { color: #555577; font-size: 0.85rem; }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid #1a1a3e;
+      padding: 32px 24px;
+      text-align: center;
+      color: #555577;
+      font-size: 0.85rem;
+    }
+
+    footer .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+
+    footer a {
+      color: #9999cc;
+      transition: color 0.2s;
+    }
+
+    footer a:hover { color: #f5d060; }
+
+    .divider {
+      height: 1px;
+      background: #1a1a3e;
+      margin: 0 auto;
+      max-width: 960px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <img src="logo.png" alt="Mein Traumheld Logo" class="logo-img">
+    <div class="brand">⭐ Mein Traumheld</div>
+    <h1>Jede Woche eine neue Geschichte — <span>nur für dein Kind</span></h1>
+    <p>Personalisierte Gute-Nacht-Abenteuer, automatisch generiert und direkt in der App. Dein Kind ist der Held.</p>
+
+    <div class="store-buttons">
+      <a href="#" class="store-btn">
+        <span class="icon">🍎</span>
+        <div>
+          <div class="label">Laden im</div>
+          <div class="name">App Store</div>
+        </div>
+      </a>
+      <a href="#" class="store-btn">
+        <span class="icon">▶</span>
+        <div>
+          <div class="label">Jetzt bei</div>
+          <div class="name">Google Play</div>
+        </div>
+      </a>
+    </div>
+    <p class="coming-soon">App erscheint bald · Jetzt vormerken</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- HOW IT WORKS -->
+  <div class="section">
+    <div class="section-label">So funktioniert es</div>
+    <h2>In 3 Schritten zu <span>deiner Geschichte</span></h2>
+    <div class="steps">
+      <div class="step-card">
+        <div class="step-emoji">✏️</div>
+        <h3>Profil anlegen</h3>
+        <p>Name, Alter, Lieblingsthema — wir lernen deinen kleinen Helden kennen.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-emoji">✨</div>
+        <h3>KI schreibt die Geschichte</h3>
+        <p>Jeden Sonntag erstellt unsere KI eine völlig neue, personalisierte Geschichte.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-emoji">🎧</div>
+        <h3>Einfach anhören</h3>
+        <p>Die fertige Geschichte erscheint automatisch in der App — als professionelles Hörabenteuer.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- FEATURES -->
+  <div class="section">
+    <div class="section-label">Was Mein Traumheld besonders macht</div>
+    <h2>Geschichten, die <span>wirklich bewegen</span></h2>
+    <div class="features-grid">
+      <div class="feature">
+        <span class="feature-icon">🦸</span>
+        <div>
+          <h3>Dein Kind ist der Held</h3>
+          <p>Jede Geschichte wird mit dem echten Namen und den Interessen deines Kindes geschrieben.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">🔄</span>
+        <div>
+          <h3>Automatisch jede Woche</h3>
+          <p>Jeden Sonntag erscheint eine neue Folge — ohne dass du etwas tun musst.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">🎵</span>
+        <div>
+          <h3>Professionelles Audio</h3>
+          <p>Sanfte Hintergrundmusik, klare Stimme — perfekt zum Einschlafen.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">📱</span>
+        <div>
+          <h3>Immer dabei</h3>
+          <p>Alle Folgen in einer App, iOS und Android. Kein Abonnement-Chaos.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">🔒</span>
+        <div>
+          <h3>Privat & sicher</h3>
+          <p>Daten werden auf Servern in Deutschland gespeichert. Kein Sharing mit Dritten.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">💛</span>
+        <div>
+          <h3>Jederzeit kündbar</h3>
+          <p>Kein Risiko. Monatlich oder jährlich — du entscheidest.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- CTA -->
+  <div class="cta-section">
+    <h2>Bereit für das erste Abenteuer?</h2>
+    <p>7 Tage kostenlos testen — dann nur</p>
+    <div class="price-badge">9,99 € / Monat</div>
+    <br>
+    <p class="price-note">oder 79,99 € / Jahr · Jederzeit kündbar</p>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-links">
+      <a href="/impressum.html">Impressum</a>
+      <a href="/datenschutz.html">Datenschutzerklärung</a>
+      <a href="mailto:info@mein-traumheld.de">Kontakt</a>
+    </div>
+    <p>© 2025 Mein Traumheld · Ben Neuendorf · Drensteinfurt</p>
+  </footer>
+
+</body>
+</html>
