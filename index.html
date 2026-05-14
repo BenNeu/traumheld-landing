@@ -46,23 +46,17 @@
     .hero-bg {
       position: absolute;
       inset: 0;
-      background-image: url('Oma Traumheld.jpg');
+      background-image: url('Mama Traumheld.jpg');
       background-size: cover;
       background-position: center top;
-      opacity: 0.55;
-      filter: saturate(0.8);
+      opacity: 1.0;
+      filter: none;
     }
 
     .hero-overlay {
       position: absolute;
       inset: 0;
-      background: linear-gradient(
-        to bottom,
-        rgba(13,13,43,0.15) 0%,
-        rgba(13,13,43,0.05) 35%,
-        rgba(13,13,43,0.75) 70%,
-        rgba(13,13,43,1) 100%
-      );
+      background: none;
     }
 
     .hero-content {
@@ -611,6 +605,17 @@
       font-weight: 700;
       letter-spacing: 0.5px;
     }
+
+    .hero-text-block {
+      background: rgba(13,13,43,0.5);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      border-radius: 20px;
+      padding: 28px 32px;
+      max-width: 620px;
+      border: 1px solid rgba(255,255,255,0.07);
+      margin-bottom: 32px;
+    }
   </style>
 </head>
 <body>
@@ -627,13 +632,15 @@
           <img src="logo.png" alt="Mein Traumheld" style="width:100%;height:100%;object-fit:contain;">
         </video>
       </div>
-      <h1>Das Abendritual,<br>das <em>wirklich entspannt.</em></h1>
-      <p class="hero-sub">
-        Kinder, die ein festes Abendritual haben, schlafen schneller ein — und schlafen besser.
-        Mein Traumheld gibt deinem Kind jeden Abend eine neue, personalisierte Geschichte,
-        auf die es sich den ganzen Tag freut.
-      </p>
-      <p class="hero-tagline">✨ Ruhigere Abende. Glücklichere Kinder. Jeden Abend neu.</p>
+      <div class="hero-text-block">
+        <h1>Das Abendritual,<br>das <em>wirklich entspannt.</em></h1>
+        <p class="hero-sub">
+          Kinder, die ein festes Abendritual haben, schlafen schneller ein — und schlafen besser.
+          Mein Traumheld gibt deinem Kind jeden Abend eine neue, personalisierte Geschichte,
+          auf die es sich den ganzen Tag freut.
+        </p>
+        <p class="hero-tagline">✨ Ruhigere Abende. Glücklichere Kinder. Jeden Abend neu.</p>
+      </div>
       <div class="store-buttons">
         <a href="#" class="store-btn">
           <span class="icon">🍎</span>
@@ -716,7 +723,7 @@
       </div>
     </div>
     <div class="emotional-img">
-      <img src="Mama Traumheld.jpg" alt="Mama liest dem Kind vor">
+      <img src="Oma Traumheld.jpg" alt="Oma liest dem Kind vor">
     </div>
   </div>
 
