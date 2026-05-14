@@ -4,62 +4,124 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mein Traumheld — Personalisierte Gute-Nacht-Geschichten</title>
-  <meta name="description" content="Jede Woche eine neue, personalisierte Gute-Nacht-Geschichte für dein Kind — automatisch generiert und direkt in der App.">
+  <meta name="description" content="Jede Woche eine neue, personalisierte Gute-Nacht-Geschichte für dein Kind — dein Kind ist der Held.">
+
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
+    :root {
+      --dark: #0d0d2b;
+      --dark2: #1a1a3e;
+      --gold: #f5d060;
+      --purple: #5c5cf0;
+      --muted: #9999cc;
+      --dim: #555577;
+    }
+
+    html { scroll-behavior: smooth; }
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #0d0d2b;
+      background: var(--dark);
       color: #fff;
       line-height: 1.6;
+      overflow-x: hidden;
     }
 
     a { color: inherit; text-decoration: none; }
 
-    /* ── HERO ── */
+    /* HERO */
     .hero {
+      position: relative;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       text-align: center;
-      padding: 60px 24px;
-      background: radial-gradient(ellipse at top, #1a1a4e 0%, #0d0d2b 60%);
+      padding: 80px 24px 60px;
+      overflow: hidden;
     }
 
-    .logo-img {
-      width: min(220px, 55vw);
-      height: min(220px, 55vw);
-      object-fit: contain;
-      margin-bottom: 16px;
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('Oma Traumheld.jpg');
+      background-size: cover;
+      background-position: center top;
+      opacity: 0.32;
+      filter: saturate(0.6);
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(13,13,43,0.4) 0%,
+        rgba(13,13,43,0.2) 40%,
+        rgba(13,13,43,0.85) 75%,
+        rgba(13,13,43,1) 100%
+      );
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .logo-wrap {
+      width: min(180px, 46vw);
+      height: min(180px, 46vw);
+      margin-bottom: 20px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    .logo-video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
 
     .brand {
-      color: #f5d060;
-      font-size: 1rem;
+      color: var(--gold);
+      font-size: 0.85rem;
       font-weight: 700;
       letter-spacing: 3px;
       text-transform: uppercase;
-      margin-bottom: 20px;
+      margin-bottom: 24px;
     }
 
     .hero h1 {
-      font-size: clamp(2rem, 6vw, 3.2rem);
+      font-size: clamp(2.2rem, 6vw, 3.8rem);
       font-weight: 800;
-      line-height: 1.2;
+      line-height: 1.15;
       margin-bottom: 20px;
-      max-width: 640px;
+      max-width: 700px;
     }
 
-    .hero h1 span { color: #f5d060; }
+    .hero h1 em {
+      font-style: normal;
+      color: var(--gold);
+    }
 
-    .hero p {
-      font-size: clamp(1rem, 2.5vw, 1.2rem);
-      color: #9999cc;
+    .hero-sub {
+      font-size: clamp(1rem, 2.5vw, 1.25rem);
+      color: var(--muted);
       max-width: 520px;
+      margin-bottom: 12px;
+      line-height: 1.7;
+    }
+
+    .hero-tagline {
+      font-size: 0.95rem;
+      color: var(--gold);
       margin-bottom: 40px;
+      opacity: 0.9;
     }
 
     .store-buttons {
@@ -67,95 +129,221 @@
       gap: 16px;
       flex-wrap: wrap;
       justify-content: center;
-      margin-bottom: 48px;
+      margin-bottom: 16px;
     }
 
     .store-btn {
       display: flex;
       align-items: center;
       gap: 12px;
-      background: #1a1a3e;
+      background: rgba(26,26,62,0.9);
       border: 2px solid #333366;
       border-radius: 14px;
       padding: 14px 24px;
-      font-size: 0.95rem;
       font-weight: 600;
       transition: border-color 0.2s, transform 0.2s;
       cursor: pointer;
+      backdrop-filter: blur(8px);
     }
 
-    .store-btn:hover {
-      border-color: #f5d060;
-      transform: translateY(-2px);
-    }
-
+    .store-btn:hover { border-color: var(--gold); transform: translateY(-2px); }
     .store-btn .icon { font-size: 1.8rem; }
-    .store-btn .label { font-size: 0.7rem; color: #9999cc; }
+    .store-btn .label { font-size: 0.65rem; color: var(--muted); }
     .store-btn .name { font-size: 1rem; font-weight: 700; }
 
-    .coming-soon {
-      color: #555577;
-      font-size: 0.85rem;
-      margin-top: -32px;
-      margin-bottom: 40px;
+    .coming-soon { color: var(--dim); font-size: 0.8rem; }
+
+    /* EMOTIONAL SECTION */
+    .emotional {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 80px 24px;
+      align-items: center;
     }
 
-    /* ── HOW IT WORKS ── */
+    @media (max-width: 720px) {
+      .emotional { grid-template-columns: 1fr; gap: 40px; }
+      .emotional-img { order: -1; }
+      .mama-section { grid-template-columns: 1fr; gap: 40px; }
+    }
+
+    .emotional-img {
+      position: relative;
+      border-radius: 24px;
+      overflow: hidden;
+      aspect-ratio: 4/5;
+      box-shadow: 0 40px 80px rgba(0,0,0,0.6);
+    }
+
+    .emotional-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+    }
+
+    .emotional-img::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(13,13,43,0.6) 0%, transparent 50%);
+    }
+
+    .emotional-text { display: flex; flex-direction: column; gap: 20px; }
+
+    .section-label {
+      color: var(--purple);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .emotional-text h2 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 800;
+      line-height: 1.2;
+    }
+
+    .emotional-text h2 span { color: var(--gold); }
+    .emotional-text p { color: var(--muted); font-size: 1.05rem; line-height: 1.8; }
+
+    .quote {
+      background: var(--dark2);
+      border-left: 3px solid var(--gold);
+      border-radius: 0 12px 12px 0;
+      padding: 16px 20px;
+      color: #fff;
+      font-style: italic;
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+
+    /* FREE STORY PLAYER */
+    .free-story {
+      padding: 60px 24px;
+      max-width: 640px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .free-story .section-label { margin-bottom: 12px; }
+
+    .free-story h2 {
+      font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+
+    .free-story h2 span { color: var(--gold); }
+    .free-story > p { color: var(--muted); margin-bottom: 32px; font-size: 1rem; }
+
+    .player-card {
+      background: var(--dark2);
+      border-radius: 24px;
+      padding: 32px 28px;
+      border: 1px solid #222255;
+      text-align: left;
+    }
+
+    .player-episode-label {
+      color: var(--gold);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .player-title { font-size: 1.2rem; font-weight: 700; margin-bottom: 6px; }
+    .player-desc { color: var(--muted); font-size: 0.88rem; margin-bottom: 24px; }
+
+    .progress-track {
+      width: 100%;
+      height: 4px;
+      background: #333366;
+      border-radius: 2px;
+      margin-bottom: 8px;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .progress-fill {
+      height: 4px;
+      background: var(--gold);
+      border-radius: 2px;
+      width: 0%;
+      transition: width 0.3s linear;
+    }
+
+    .time-row {
+      display: flex;
+      justify-content: space-between;
+      color: var(--dim);
+      font-size: 0.78rem;
+      margin-bottom: 20px;
+    }
+
+    .player-controls { display: flex; align-items: center; justify-content: center; }
+
+    .play-btn {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: var(--gold);
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      color: var(--dark);
+      transition: transform 0.15s;
+    }
+
+    .play-btn:hover { transform: scale(1.07); }
+    .play-btn:active { transform: scale(0.96); }
+    .play-icon { margin-left: 3px; }
+
+    /* HOW IT WORKS */
     .section {
       padding: 80px 24px;
       max-width: 960px;
       margin: 0 auto;
     }
 
-    .section-label {
-      color: #5c5cf0;
-      font-size: 0.8rem;
-      font-weight: 700;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      text-align: center;
-      margin-bottom: 12px;
-    }
+    .section-header { text-align: center; margin-bottom: 48px; }
+    .section-header .section-label { margin-bottom: 12px; }
+    .section-header h2 { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 800; }
+    .section-header h2 span { color: var(--gold); }
 
-    .section h2 {
-      font-size: clamp(1.6rem, 4vw, 2.4rem);
-      font-weight: 800;
-      text-align: center;
-      margin-bottom: 48px;
-    }
-
-    .section h2 span { color: #f5d060; }
-
-    .steps {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 24px;
-    }
+    .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; }
 
     .step-card {
-      background: #1a1a3e;
+      background: var(--dark2);
       border-radius: 20px;
       padding: 28px 24px;
       border: 1px solid #222255;
       text-align: center;
+      transition: border-color 0.2s, transform 0.2s;
     }
 
+    .step-card:hover { border-color: var(--purple); transform: translateY(-4px); }
     .step-emoji { font-size: 2.5rem; margin-bottom: 16px; }
-    .step-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 10px; }
-    .step-card p { color: #8888aa; font-size: 0.9rem; line-height: 1.6; }
+    .step-card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 10px; }
+    .step-card p { color: #8888aa; font-size: 0.88rem; line-height: 1.6; }
 
-    /* ── FEATURES ── */
-    .features-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 20px;
-    }
+    /* FEATURES */
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
 
     .feature {
       display: flex;
       gap: 16px;
       align-items: flex-start;
-      background: #1a1a3e;
+      background: var(--dark2);
       border-radius: 16px;
       padding: 20px;
       border: 1px solid #222255;
@@ -165,119 +353,349 @@
     .feature h3 { font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
     .feature p { color: #8888aa; font-size: 0.85rem; }
 
-    /* ── CTA SECTION ── */
+    /* MAMA SECTION */
+    .mama-section {
+      padding: 80px 24px;
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .mama-section .emotional-img { aspect-ratio: 3/4; }
+
+    /* CTA */
     .cta-section {
       text-align: center;
-      padding: 80px 24px;
-      background: linear-gradient(180deg, transparent, #1a1a3e33);
+      padding: 80px 24px 100px;
+      position: relative;
+      overflow: hidden;
     }
+
+    .cta-section::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, #1a1a4e 0%, transparent 70%);
+    }
+
+    .cta-section > * { position: relative; }
 
     .cta-section h2 {
-      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
       font-weight: 800;
       margin-bottom: 16px;
+      line-height: 1.2;
     }
 
-    .cta-section p {
-      color: #9999cc;
-      font-size: 1rem;
-      margin-bottom: 32px;
+    .cta-section h2 span { color: var(--gold); }
+
+    .cta-section > p {
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin-bottom: 24px;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .price-badge {
       display: inline-block;
-      background: #f5d060;
-      color: #0d0d2b;
-      font-size: 1.4rem;
+      background: var(--gold);
+      color: var(--dark);
+      font-size: 1.5rem;
       font-weight: 800;
-      padding: 10px 28px;
+      padding: 12px 32px;
       border-radius: 50px;
       margin-bottom: 12px;
     }
 
-    .price-note { color: #555577; font-size: 0.85rem; }
+    .price-note { color: var(--dim); font-size: 0.85rem; margin-bottom: 40px; }
 
-    /* ── FOOTER ── */
+    .divider { height: 1px; background: #1a1a3e; max-width: 960px; margin: 0 auto; }
+
     footer {
       border-top: 1px solid #1a1a3e;
       padding: 32px 24px;
       text-align: center;
-      color: #555577;
+      color: var(--dim);
       font-size: 0.85rem;
     }
 
-    footer .footer-links {
-      display: flex;
-      justify-content: center;
-      gap: 24px;
-      margin-bottom: 16px;
-      flex-wrap: wrap;
+    .footer-links { display: flex; justify-content: center; gap: 24px; margin-bottom: 16px; flex-wrap: wrap; }
+    footer a { color: var(--muted); transition: color 0.2s; }
+    footer a:hover { color: var(--gold); }
+
+    /* SCROLL REVEAL */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
     }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
 
-    footer a {
-      color: #9999cc;
-      transition: color 0.2s;
-    }
-
-    footer a:hover { color: #f5d060; }
-
-    .divider {
-      height: 1px;
-      background: #1a1a3e;
-      margin: 0 auto;
+    /* USP SECTION */
+    .usp-section {
+      padding: 70px 24px;
       max-width: 960px;
+      margin: 0 auto;
+      text-align: center;
     }
+
+    .usp-section .section-label { margin-bottom: 12px; }
+
+    .usp-section h2 {
+      font-size: clamp(1.7rem, 4vw, 2.6rem);
+      font-weight: 800;
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+
+    .usp-section h2 span { color: var(--gold); }
+
+    .usp-section > p {
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 600px;
+      margin: 0 auto 48px;
+      line-height: 1.8;
+    }
+
+    .usp-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-bottom: 48px;
+    }
+
+    .usp-card {
+      background: var(--dark2);
+      border: 1px solid #222255;
+      border-radius: 20px;
+      padding: 28px 20px;
+      text-align: center;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .usp-card:hover { border-color: var(--gold); transform: translateY(-4px); }
+
+    .usp-card .usp-icon {
+      font-size: 2.4rem;
+      margin-bottom: 14px;
+      display: block;
+    }
+
+    .usp-card h3 {
+      font-size: 1rem;
+      font-weight: 800;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+
+    .usp-card p {
+      color: var(--muted);
+      font-size: 0.85rem;
+      line-height: 1.6;
+    }
+
+    .usp-compare {
+      background: var(--dark2);
+      border: 1px solid #222255;
+      border-radius: 20px;
+      padding: 28px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      text-align: left;
+    }
+
+    @media (max-width: 560px) { .usp-compare { grid-template-columns: 1fr; } }
+
+    .compare-col h4 {
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #333355;
+    }
+
+    .compare-col.bad h4 { color: var(--dim); }
+    .compare-col.good h4 { color: var(--gold); }
+
+    .compare-item {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      margin-bottom: 12px;
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .compare-item .ci-icon { flex-shrink: 0; font-size: 1rem; margin-top: 1px; }
+    .compare-col.good .compare-item { color: #ffffff; }
   </style>
 </head>
 <body>
 
   <!-- HERO -->
   <section class="hero">
-    <img src="logo.png" alt="Mein Traumheld Logo" class="logo-img">
-    <div class="brand">⭐ Mein Traumheld</div>
-    <h1>Jede Woche eine neue Geschichte — <span>nur für dein Kind</span></h1>
-    <p>Personalisierte Gute-Nacht-Abenteuer, automatisch generiert und direkt in der App. Dein Kind ist der Held.</p>
-
-    <div class="store-buttons">
-      <a href="#" class="store-btn">
-        <span class="icon">🍎</span>
-        <div>
-          <div class="label">Laden im</div>
-          <div class="name">App Store</div>
-        </div>
-      </a>
-      <a href="#" class="store-btn">
-        <span class="icon">▶</span>
-        <div>
-          <div class="label">Jetzt bei</div>
-          <div class="name">Google Play</div>
-        </div>
-      </a>
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="logo-wrap">
+        <video class="logo-video" autoplay loop muted playsinline>
+          <source src="logo-animated.mp4" type="video/mp4">
+          <img src="logo.png" alt="Mein Traumheld" style="width:100%;height:100%;object-fit:contain;">
+        </video>
+      </div>
+      <div class="brand">⭐ Mein Traumheld</div>
+      <h1>Das Abendritual,<br>das <em>wirklich entspannt.</em></h1>
+      <p class="hero-sub">
+        Kinder, die ein festes Abendritual haben, schlafen schneller ein — und schlafen besser.
+        Mein Traumheld gibt deinem Kind jede Woche eine neue, personalisierte Geschichte,
+        auf die es sich die ganze Woche freut.
+      </p>
+      <p class="hero-tagline">✨ Ruhigere Abende. Glücklichere Kinder. Jeden Sonntag neu.</p>
+      <div class="store-buttons">
+        <a href="#" class="store-btn">
+          <span class="icon">🍎</span>
+          <div><div class="label">Laden im</div><div class="name">App Store</div></div>
+        </a>
+        <a href="#" class="store-btn">
+          <span class="icon">▶</span>
+          <div><div class="label">Jetzt bei</div><div class="name">Google Play</div></div>
+        </a>
+      </div>
+      <p class="coming-soon">App erscheint bald · Jetzt vormerken</p>
     </div>
-    <p class="coming-soon">App erscheint bald · Jetzt vormerken</p>
   </section>
 
   <div class="divider"></div>
 
+  <!-- USP SECTION -->
+  <div class="usp-section reveal">
+    <div class="section-label">Warum Mein Traumheld</div>
+    <h2>Nicht eine App —<br><span>ein Abendritual.</span></h2>
+    <p>
+      Es gibt Hunderte von Kinder-Apps. Aber keine einzige liefert jede Woche eine neue Geschichte,
+      in der dein Kind selbst der Held ist — vollautomatisch, mit professionellem Audio.
+    </p>
+
+    <div class="usp-grid">
+      <div class="usp-card">
+        <span class="usp-icon">🎭</span>
+        <h3>100 % personalisiert</h3>
+        <p>Name, Alter, Interessen, Haustiere, Freunde — alles fließt in jede Geschichte ein.</p>
+      </div>
+      <div class="usp-card">
+        <span class="usp-icon">🤖</span>
+        <h3>KI schreibt, du schläfst</h3>
+        <p>Jeden Sonntag automatisch eine neue Folge. Kein Aufwand für Eltern.</p>
+      </div>
+      <div class="usp-card">
+        <span class="usp-icon">🎙️</span>
+        <h3>Professionelles Hörbuch</h3>
+        <p>Sanfte Musik, klare Stimme — wie ein echtes Hörbuch, nur für dein Kind allein.</p>
+      </div>
+      <div class="usp-card">
+        <span class="usp-icon">♾️</span>
+        <h3>Nie die gleiche Geschichte</h3>
+        <p>Jede Folge ist einzigartig. Dein Kind wird nie zweimal dieselbe Geschichte hören.</p>
+      </div>
+    </div>
+
+    <div class="usp-compare">
+      <div class="compare-col bad">
+        <h4>❌ Andere Lösungen</h4>
+        <div class="compare-item"><span class="ci-icon">😐</span><span>Immer dieselben Geschichten — dein Kind kennt sie auswendig</span></div>
+        <div class="compare-item"><span class="ci-icon">😐</span><span>Generische Helden ohne Bezug zu deinem Kind</span></div>
+        <div class="compare-item"><span class="ci-icon">😐</span><span>Eltern müssen selbst vorlesen oder Bücher kaufen</span></div>
+        <div class="compare-item"><span class="ci-icon">😐</span><span>Teures Hardware wie Tonies oder Tigerbox nötig</span></div>
+      </div>
+      <div class="compare-col good">
+        <h4>✨ Mein Traumheld</h4>
+        <div class="compare-item"><span class="ci-icon">⭐</span><span>Jede Woche eine brandneue Geschichte — automatisch</span></div>
+        <div class="compare-item"><span class="ci-icon">⭐</span><span>Dein Kind ist der Held — mit echtem Namen und Interessen</span></div>
+        <div class="compare-item"><span class="ci-icon">⭐</span><span>Professionelles Audio direkt in der App — kein Aufwand</span></div>
+        <div class="compare-item"><span class="ci-icon">⭐</span><span>Läuft auf jedem Smartphone — kein Extra-Gerät nötig</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EMOTIONAL SECTION -->
+  <div class="emotional reveal">
+    <div class="emotional-text">
+      <div class="section-label">Der Moment, der zählt</div>
+      <h2>Endlich Abende,<br>auf die sich <span>alle freuen.</span></h2>
+      <p>
+        Kennst du das? Die letzte halbe Stunde vor dem Einschlafen, wenn die Energie noch nicht weg ist und das Kind „noch eine Geschichte" will. Immer wieder dieselben Bücher, immer derselbe Stress.
+      </p>
+      <p>
+        Mein Traumheld macht daraus ein Ritual, das dein Kind selbst will. Jeden Sonntag wartet eine neue Geschichte — und dein Kind weiß: heute Abend kommt mein Abenteuer.
+      </p>
+      <div class="quote">
+        „Mama, die kennt mich wirklich!" — was dein Kind denken wird, wenn es seine Geschichte zum ersten Mal hört.
+      </div>
+    </div>
+    <div class="emotional-img">
+      <img src="Mama Traumheld.jpg" alt="Mama liest dem Kind vor">
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- FREE STORY PLAYER -->
+  <div class="free-story reveal">
+    <div class="section-label">Kostenlos anhören</div>
+    <h2>Hör rein — <span>völlig kostenlos</span></h2>
+    <p>Eine echte Traumheld-Geschichte. Kein Konto, keine E-Mail. Einfach Play drücken.</p>
+    <div class="player-card">
+      <div class="player-episode-label">Gratis Hörprobe</div>
+      <div class="player-title">✨ Bennis großes Abenteuer</div>
+      <div class="player-desc">Eine echte personalisierte Traumheld-Geschichte — jetzt anhören</div>
+      <div class="progress-track" id="progressTrack">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <div class="time-row">
+        <span id="currentTime">0:00</span>
+        <span id="totalTime">--:--</span>
+      </div>
+      <div class="player-controls">
+        <button class="play-btn" id="playBtn" onclick="togglePlay()">
+          <span class="play-icon" id="playIcon">▶</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
   <!-- HOW IT WORKS -->
-  <div class="section">
-    <div class="section-label">So funktioniert es</div>
-    <h2>In 3 Schritten zu <span>deiner Geschichte</span></h2>
+  <div class="section reveal">
+    <div class="section-header">
+      <div class="section-label">So funktioniert es</div>
+      <h2>In 3 Schritten zu <span>deiner Geschichte</span></h2>
+    </div>
     <div class="steps">
       <div class="step-card">
         <div class="step-emoji">✏️</div>
         <h3>Profil anlegen</h3>
-        <p>Name, Alter, Lieblingsthema — wir lernen deinen kleinen Helden kennen.</p>
+        <p>Name, Alter, Lieblingsthema — wir lernen deinen kleinen Helden kennen. Einmal, dauert 2 Minuten.</p>
       </div>
       <div class="step-card">
         <div class="step-emoji">✨</div>
         <h3>KI schreibt die Geschichte</h3>
-        <p>Jeden Sonntag erstellt unsere KI eine völlig neue, personalisierte Geschichte.</p>
+        <p>Jeden Sonntag erstellt unsere KI eine völlig neue, personalisierte Geschichte — vollautomatisch.</p>
       </div>
       <div class="step-card">
         <div class="step-emoji">🎧</div>
         <h3>Einfach anhören</h3>
-        <p>Die fertige Geschichte erscheint automatisch in der App — als professionelles Hörabenteuer.</p>
+        <p>Die fertige Geschichte erscheint in der App — als professionelles Hörabenteuer mit sanfter Musik.</p>
       </div>
     </div>
   </div>
@@ -285,51 +703,57 @@
   <div class="divider"></div>
 
   <!-- FEATURES -->
-  <div class="section">
-    <div class="section-label">Was Mein Traumheld besonders macht</div>
-    <h2>Geschichten, die <span>wirklich bewegen</span></h2>
+  <div class="section reveal">
+    <div class="section-header">
+      <div class="section-label">Was Mein Traumheld besonders macht</div>
+      <h2>Geschichten, die <span>wirklich bewegen</span></h2>
+    </div>
     <div class="features-grid">
       <div class="feature">
         <span class="feature-icon">🦸</span>
-        <div>
-          <h3>Dein Kind ist der Held</h3>
-          <p>Jede Geschichte wird mit dem echten Namen und den Interessen deines Kindes geschrieben.</p>
-        </div>
+        <div><h3>Dein Kind ist der Held</h3><p>Jede Geschichte wird mit dem echten Namen und den Interessen deines Kindes geschrieben.</p></div>
       </div>
       <div class="feature">
         <span class="feature-icon">🔄</span>
-        <div>
-          <h3>Automatisch jede Woche</h3>
-          <p>Jeden Sonntag erscheint eine neue Folge — ohne dass du etwas tun musst.</p>
-        </div>
+        <div><h3>Automatisch jede Woche</h3><p>Jeden Sonntag erscheint eine neue Folge — ohne dass du etwas tun musst.</p></div>
       </div>
       <div class="feature">
         <span class="feature-icon">🎵</span>
-        <div>
-          <h3>Professionelles Audio</h3>
-          <p>Sanfte Hintergrundmusik, klare Stimme — perfekt zum Einschlafen.</p>
-        </div>
+        <div><h3>Professionelles Audio</h3><p>Sanfte Hintergrundmusik, klare Stimme — perfekt zum Einschlafen.</p></div>
       </div>
       <div class="feature">
         <span class="feature-icon">📱</span>
-        <div>
-          <h3>Immer dabei</h3>
-          <p>Alle Folgen in einer App, iOS und Android. Kein Abonnement-Chaos.</p>
-        </div>
+        <div><h3>iOS & Android</h3><p>Alle Folgen in einer App. Kein Abo-Chaos, kein Extra-Login — einfach öffnen und hören.</p></div>
       </div>
       <div class="feature">
         <span class="feature-icon">🔒</span>
-        <div>
-          <h3>Privat & sicher</h3>
-          <p>Daten werden auf Servern in Deutschland gespeichert. Kein Sharing mit Dritten.</p>
-        </div>
+        <div><h3>Privat & sicher</h3><p>Daten werden auf Servern in Deutschland gespeichert. Kein Sharing mit Dritten.</p></div>
       </div>
       <div class="feature">
         <span class="feature-icon">💛</span>
-        <div>
-          <h3>Jederzeit kündbar</h3>
-          <p>Kein Risiko. Monatlich oder jährlich — du entscheidest.</p>
-        </div>
+        <div><h3>Jederzeit kündbar</h3><p>Kein Risiko. Monatlich oder jährlich — du entscheidest, wann es aufhört.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- MAMA SECTION -->
+  <div class="mama-section reveal">
+    <div class="emotional-img">
+      <img src="Oma Traumheld.jpg" alt="Oma liest dem Kind vor">
+    </div>
+    <div class="emotional-text">
+      <div class="section-label">Für jeden Abend</div>
+      <h2>Ruhige Kinder.<br><span>Entspannte Eltern.</span></h2>
+      <p>
+        Studien zeigen: Kinder mit festem Einschlafritual schlafen schneller ein, wachen seltener nachts auf und starten entspannter in den nächsten Tag.
+      </p>
+      <p>
+        Mein Traumheld gibt euch dieses Ritual — ohne dass du jeden Abend neu überlegen musst, was du vorließt. Einfach Play drücken. Fertig.
+      </p>
+      <div class="quote">
+        14 Tage kostenlos testen — kein Risiko, keine versteckten Kosten.
       </div>
     </div>
   </div>
@@ -337,12 +761,21 @@
   <div class="divider"></div>
 
   <!-- CTA -->
-  <div class="cta-section">
-    <h2>Bereit für das erste Abenteuer?</h2>
-    <p>7 Tage kostenlos testen — dann nur</p>
-    <div class="price-badge">9,99 € / Monat</div>
-    <br>
-    <p class="price-note">oder 79,99 € / Jahr · Jederzeit kündbar</p>
+  <div class="cta-section reveal">
+    <h2>Starte heute euer<br><span>Abendritual.</span></h2>
+    <p>14 Tage kostenlos testen — dann nur</p>
+    <div class="price-badge">12,99 € / Monat</div><br>
+    <p class="price-note">oder 99,00 € / Jahr · Jederzeit kündbar</p>
+    <div class="store-buttons" style="justify-content:center;margin-top:8px;">
+      <a href="#" class="store-btn">
+        <span class="icon">🍎</span>
+        <div><div class="label">Laden im</div><div class="name">App Store</div></div>
+      </a>
+      <a href="#" class="store-btn">
+        <span class="icon">▶</span>
+        <div><div class="label">Jetzt bei</div><div class="name">Google Play</div></div>
+      </a>
+    </div>
   </div>
 
   <!-- FOOTER -->
@@ -355,5 +788,58 @@
     <p>© 2025 Mein Traumheld · Ben Neuendorf · Drensteinfurt</p>
   </footer>
 
+  <script>
+    const AUDIO_URL = 'https://podcast.mein-traumheld.de/audio/1937db20-a98f-438a-baea-04736a80c7b7.mp3';
+    let audio = null;
+    let isPlaying = false;
+
+    function formatTime(sec) {
+      const m = Math.floor(sec / 60);
+      const s = Math.floor(sec % 60);
+      return m + ':' + String(s).padStart(2, '0');
+    }
+
+    function togglePlay() {
+      if (!audio) {
+        audio = new Audio(AUDIO_URL);
+        audio.addEventListener('timeupdate', () => {
+          const pct = audio.duration ? (audio.currentTime / audio.duration) * 100 : 0;
+          document.getElementById('progressFill').style.width = pct + '%';
+          document.getElementById('currentTime').textContent = formatTime(audio.currentTime);
+        });
+        audio.addEventListener('loadedmetadata', () => {
+          document.getElementById('totalTime').textContent = formatTime(audio.duration);
+        });
+        audio.addEventListener('ended', () => {
+          isPlaying = false;
+          document.getElementById('playIcon').textContent = '▶';
+        });
+      }
+      if (isPlaying) {
+        audio.pause();
+        isPlaying = false;
+        document.getElementById('playIcon').textContent = '▶';
+      } else {
+        audio.play();
+        isPlaying = true;
+        document.getElementById('playIcon').textContent = '⏸';
+      }
+    }
+
+    document.getElementById('progressTrack').addEventListener('click', function(e) {
+      if (!audio || !audio.duration) return;
+      const rect = this.getBoundingClientRect();
+      const pct = (e.clientX - rect.left) / rect.width;
+      audio.currentTime = pct * audio.duration;
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
 </body>
 </html>
