@@ -422,6 +422,242 @@
     footer a { color: var(--muted); transition: color 0.2s; }
     footer a:hover { color: var(--gold); }
 
+    /* PRICING SECTION */
+    .pricing-section {
+      padding: 80px 24px 60px;
+      max-width: 960px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .pricing-section .section-header { margin-bottom: 16px; }
+
+    .pricing-section .section-header > p {
+      color: var(--muted);
+      font-size: 1rem;
+      max-width: 480px;
+      margin: 12px auto 0;
+      line-height: 1.7;
+    }
+
+    /* Toggle */
+    .pricing-toggle {
+      display: inline-flex;
+      background: var(--dark2);
+      border: 1px solid #222255;
+      border-radius: 50px;
+      padding: 4px;
+      margin: 32px auto 40px;
+      gap: 0;
+    }
+
+    .ptoggle-btn {
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-size: 0.9rem;
+      font-weight: 600;
+      padding: 10px 22px;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: inherit;
+    }
+
+    .ptoggle-btn.active {
+      background: var(--purple);
+      color: #fff;
+    }
+
+    .save-chip {
+      background: var(--gold);
+      color: var(--dark);
+      font-size: 0.65rem;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 20px;
+      letter-spacing: 0.3px;
+    }
+
+    /* Cards */
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      text-align: left;
+    }
+
+    @media (max-width: 680px) {
+      .pricing-grid { grid-template-columns: 1fr; }
+    }
+
+    .pricing-card {
+      background: var(--dark2);
+      border: 1px solid #222255;
+      border-radius: 24px;
+      padding: 36px 32px;
+      position: relative;
+      transition: border-color 0.2s, transform 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .pricing-card:hover { transform: translateY(-4px); }
+
+    .pricing-card.featured {
+      border-color: var(--gold);
+      background: linear-gradient(145deg, #1a1a3e 0%, #1e1a42 100%);
+      box-shadow: 0 0 60px rgba(245,208,96,0.08);
+    }
+
+    .pricing-badge {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--dark);
+      font-size: 0.7rem;
+      font-weight: 800;
+      padding: 4px 14px;
+      border-radius: 20px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      align-self: flex-start;
+    }
+
+    .pricing-plan-name {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+
+    .pricing-card.featured .pricing-plan-name { color: var(--gold); }
+
+    .pricing-subtitle {
+      color: var(--muted);
+      font-size: 0.88rem;
+      margin-bottom: 24px;
+    }
+
+    .pricing-price-row {
+      display: flex;
+      align-items: baseline;
+      gap: 2px;
+      margin-bottom: 6px;
+    }
+
+    .p-currency {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #fff;
+      margin-top: 4px;
+    }
+
+    .p-amount {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1;
+    }
+
+    .p-period {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-left: 4px;
+    }
+
+    .pricing-yearly-equiv {
+      color: var(--dim);
+      font-size: 0.8rem;
+      margin-bottom: 8px;
+      min-height: 18px;
+    }
+
+    .pricing-save-note {
+      color: #5ecc7a;
+      font-size: 0.8rem;
+      font-weight: 700;
+      margin-bottom: 28px;
+      min-height: 18px;
+    }
+
+    .pricing-divider {
+      height: 1px;
+      background: #333355;
+      margin-bottom: 24px;
+    }
+
+    .pricing-features {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 32px;
+      flex: 1;
+    }
+
+    .pricing-features li {
+      font-size: 0.9rem;
+      color: var(--muted);
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .pricing-features li.feat-yes { color: #fff; }
+    .pricing-features li.feat-dim { color: var(--dim); }
+
+    .feat-check { flex-shrink: 0; font-size: 0.95rem; margin-top: 1px; }
+
+    .pricing-cta-btn {
+      display: block;
+      text-align: center;
+      border-radius: 14px;
+      padding: 16px 24px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.15s, opacity 0.15s;
+      border: none;
+      font-family: inherit;
+      text-decoration: none;
+    }
+
+    .pricing-cta-btn:hover { transform: translateY(-2px); opacity: 0.92; }
+    .pricing-cta-btn:active { transform: scale(0.98); }
+
+    .pricing-cta-btn.primary {
+      background: var(--gold);
+      color: var(--dark);
+    }
+
+    .pricing-cta-btn.secondary {
+      background: transparent;
+      color: #fff;
+      border: 2px solid #444477;
+    }
+
+    .pricing-cta-btn.secondary:hover { border-color: var(--purple); }
+
+    .pricing-footnote {
+      color: var(--dim);
+      font-size: 0.82rem;
+      margin-top: 32px;
+      text-align: center;
+    }
+
+    .pricing-trial-note {
+      color: var(--gold);
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 10px;
+      opacity: 0.85;
+    }
+
     /* SCROLL REVEAL */
     .reveal {
       opacity: 0;
@@ -848,13 +1084,84 @@
 
   <div class="divider"></div>
 
+  <!-- PRICING -->
+  <div class="pricing-section reveal" id="pricing">
+    <div class="section-header">
+      <div class="section-label">Preise & Pläne</div>
+      <h2>14 Tage <span>kostenlos testen</span></h2>
+      <p>Danach wähle den Plan, der zu eurer Familie passt. Jederzeit kündbar.</p>
+    </div>
+
+    <div class="pricing-toggle">
+      <button class="ptoggle-btn active" onclick="setPricing('monthly')" id="btn-monthly">Monatlich</button>
+      <button class="ptoggle-btn" onclick="setPricing('yearly')" id="btn-yearly">
+        Jährlich <span class="save-chip">2 Monate gratis</span>
+      </button>
+    </div>
+
+    <div class="pricing-grid">
+
+      <!-- STANDARD -->
+      <div class="pricing-card">
+        <div class="pricing-plan-name">Standard</div>
+        <div class="pricing-subtitle">1 Geschichte pro Woche</div>
+        <div class="pricing-price-row">
+          <span class="p-currency">€</span>
+          <span class="p-amount" id="std-amount">9,99</span>
+          <span class="p-period" id="std-period">/Monat</span>
+        </div>
+        <div class="pricing-yearly-equiv" id="std-equiv"></div>
+        <div class="pricing-save-note" id="std-save"></div>
+        <div class="pricing-divider"></div>
+        <ul class="pricing-features">
+          <li class="feat-yes"><span class="feat-check">✅</span><span>1 neue Geschichte pro Woche</span></li>
+          <li class="feat-yes"><span class="feat-check">✅</span><span>100 % personalisiert für dein Kind</span></li>
+          <li class="feat-yes"><span class="feat-check">✅</span><span>Professionelles Audio mit sanfter Musik</span></li>
+          <li class="feat-yes"><span class="feat-check">✅</span><span>iOS & Android App</span></li>
+          <li class="feat-yes"><span class="feat-check">✅</span><span>14 Tage gratis testen</span></li>
+          <li class="feat-dim"><span class="feat-check">—</span><span>Täglich neue Geschichten</span></li>
+        </ul>
+        <a href="#" class="pricing-cta-btn secondary">Kostenlos starten</a>
+        <p class="pricing-trial-note">14 Tage gratis · danach 9,99 €/Monat</p>
+      </div>
+
+      <!-- PREMIUM -->
+      <div class="pricing-card featured">
+        <div class="pricing-badge">⭐ Empfohlen</div>
+        <div class="pricing-plan-name">Premium</div>
+        <div class="pricing-subtitle">Jeden Abend eine neue Geschichte</div>
+        <div class="pricing-price-row">
+          <span class="p-currency">€</span>
+          <span class="p-amount" id="prem-amount">44,99</span>
+          <span class="p-period" id="prem-period">/Monat</span>
+        </div>
+        <div class="pricing-yearly-equiv" id="prem-equiv"></div>
+        <div class="pricing-save-note" id="prem-save"></div>
+        <div class="pricing-divider"></div>
+        <ul class="pricing-features">
+          <li class="feat-yes"><span class="feat-check">✅</span><span>Täglich eine brandneue Geschichte</span></li>
+          <li class="feat-yes"><span class="feat-check">✅</span><span>100 % personalisiert für dein Kind</span></li>
+          <li class="feat-yes"><span class="feat-check">✅</span><span>Professionelles Audio mit sanfter Musik</span></li>
+          <li class="feat-yes"><span class="feat-check">✅</span><span>iOS & Android App</span></li>
+          <li class="feat-yes"><span class="feat-check">✅</span><span>14 Tage gratis testen</span></li>
+          <li class="feat-yes"><span class="feat-check">✅</span><span>Echtes Abendritual — jeden Abend neu</span></li>
+        </ul>
+        <a href="#" class="pricing-cta-btn primary">Jetzt starten</a>
+        <p class="pricing-trial-note">14 Tage gratis · danach 44,99 €/Monat</p>
+      </div>
+
+    </div>
+
+    <p class="pricing-footnote">Keine Kreditkarte zum Start nötig · Läuft über App Store / Google Play · Jederzeit kündbar</p>
+  </div>
+
+  <div class="divider"></div>
+
   <!-- CTA -->
   <div class="cta-section reveal">
-    <h2>Starte heute euer<br><span>Abendritual.</span></h2>
-    <p>14 Tage kostenlos testen — dann nur</p>
-    <div class="price-badge">12,99 € / Monat</div><br>
-    <p class="price-note">oder 99,00 € / Jahr · Jederzeit kündbar</p>
-    <div class="store-buttons" style="justify-content:center;margin-top:8px;">
+    <h2>Das Abendritual,<br>das <span>dein Kind liebt.</span></h2>
+    <p>Jetzt kostenlos testen — 14 Tage ohne Risiko.</p>
+    <div class="store-buttons" style="justify-content:center;margin-top:32px;">
       <a href="#" class="store-btn">
         <span class="icon">🍎</span>
         <div><div class="label">Laden im</div><div class="name">App Store</div></div>
@@ -864,6 +1171,7 @@
         <div><div class="label">Jetzt bei</div><div class="name">Google Play</div></div>
       </a>
     </div>
+    <p class="coming-soon" style="margin-top:16px;">App erscheint bald · Jetzt vormerken</p>
   </div>
 
   <!-- FOOTER -->
@@ -920,6 +1228,38 @@
       const pct = (e.clientX - rect.left) / rect.width;
       audio.currentTime = pct * audio.duration;
     });
+
+    // PRICING TOGGLE
+    const PRICES = {
+      monthly: {
+        std:  { amount: '9,99',  period: '/Monat', equiv: '',                     save: '',                         trialNote: '14 Tage gratis · danach 9,99 €/Monat' },
+        prem: { amount: '44,99', period: '/Monat', equiv: '',                     save: '',                         trialNote: '14 Tage gratis · danach 44,99 €/Monat' }
+      },
+      yearly: {
+        std:  { amount: '8,25',  period: '/Monat', equiv: '= 99 € pro Jahr',      save: 'Du sparst ~21 € im Jahr',  trialNote: '14 Tage gratis · dann 99 €/Jahr' },
+        prem: { amount: '33,25', period: '/Monat', equiv: '= 399 € pro Jahr',     save: 'Du sparst ~141 € im Jahr', trialNote: '14 Tage gratis · dann 399 €/Jahr' }
+      }
+    };
+
+    function setPricing(mode) {
+      const p = PRICES[mode];
+      document.getElementById('std-amount').textContent  = p.std.amount;
+      document.getElementById('std-period').textContent  = p.std.period;
+      document.getElementById('std-equiv').textContent   = p.std.equiv;
+      document.getElementById('std-save').textContent    = p.std.save;
+      document.getElementById('prem-amount').textContent = p.prem.amount;
+      document.getElementById('prem-period').textContent = p.prem.period;
+      document.getElementById('prem-equiv').textContent  = p.prem.equiv;
+      document.getElementById('prem-save').textContent   = p.prem.save;
+
+      // Update trial notes
+      const trialNotes = document.querySelectorAll('.pricing-trial-note');
+      if (trialNotes[0]) trialNotes[0].textContent = p.std.trialNote;
+      if (trialNotes[1]) trialNotes[1].textContent = p.prem.trialNote;
+
+      document.getElementById('btn-monthly').classList.toggle('active', mode === 'monthly');
+      document.getElementById('btn-yearly').classList.toggle('active', mode === 'yearly');
+    }
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(e => {
