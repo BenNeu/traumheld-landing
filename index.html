@@ -658,6 +658,92 @@
       opacity: 0.85;
     }
 
+    /* CONTACT FORM */
+    .contact-section {
+      max-width: 620px;
+      margin: 0 auto;
+      padding: 80px 24px;
+      text-align: center;
+    }
+    .contact-section .section-label {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 12px;
+    }
+    .contact-section h2 {
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+    .contact-section h2 span { color: var(--gold); }
+    .contact-section > p {
+      color: var(--muted);
+      font-size: 1rem;
+      margin-bottom: 40px;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      text-align: left;
+    }
+    .contact-form label {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 4px;
+      display: block;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      background: #111133;
+      border: 1px solid #222255;
+      border-radius: 10px;
+      padding: 14px 16px;
+      color: #fff;
+      font-size: 0.95rem;
+      font-family: inherit;
+      transition: border-color 0.2s;
+      box-sizing: border-box;
+    }
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      outline: none;
+      border-color: var(--purple);
+    }
+    .contact-form textarea {
+      min-height: 140px;
+      resize: vertical;
+    }
+    .contact-form-btn {
+      background: linear-gradient(135deg, var(--purple), #7c5cf0);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 16px 32px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.2s;
+      margin-top: 8px;
+    }
+    .contact-form-btn:hover { opacity: 0.9; transform: translateY(-2px); }
+    .contact-success {
+      display: none;
+      background: #0d2b1a;
+      border: 1px solid #1a5e35;
+      border-radius: 12px;
+      padding: 20px;
+      color: #5ecc7a;
+      font-weight: 600;
+      margin-top: 16px;
+    }
+
     /* SCROLL REVEAL */
     .reveal {
       opacity: 0;
@@ -878,16 +964,15 @@
         <p class="hero-tagline">✨ Ruhigere Abende. Glücklichere Kinder. Jeden Abend neu.</p>
       </div>
       <div class="store-buttons">
-        <a href="#" class="store-btn">
+        <a href="https://apps.apple.com/de/app/mein-traumheld/id6771015584" class="store-btn" target="_blank">
           <span class="icon">🍎</span>
           <div><div class="label">Laden im</div><div class="name">App Store</div></div>
         </a>
-        <a href="#" class="store-btn">
+        <span class="store-btn" style="opacity:0.35;cursor:default;position:relative;">
           <span class="icon">▶</span>
-          <div><div class="label">Jetzt bei</div><div class="name">Google Play</div></div>
-        </a>
+          <div><div class="label">Bald bei</div><div class="name">Google Play</div></div>
+        </span>
       </div>
-      <p class="coming-soon">App erscheint bald · Jetzt vormerken</p>
     </div>
   </section>
 
@@ -1162,16 +1247,43 @@
     <h2>Das Abendritual,<br>das <span>dein Kind liebt.</span></h2>
     <p>Jetzt kostenlos testen — 14 Tage ohne Risiko.</p>
     <div class="store-buttons" style="justify-content:center;margin-top:32px;">
-      <a href="#" class="store-btn">
+      <a href="https://apps.apple.com/de/app/mein-traumheld/id6771015584" class="store-btn" target="_blank">
         <span class="icon">🍎</span>
         <div><div class="label">Laden im</div><div class="name">App Store</div></div>
       </a>
-      <a href="#" class="store-btn">
+      <span class="store-btn" style="opacity:0.35;cursor:default;">
         <span class="icon">▶</span>
-        <div><div class="label">Jetzt bei</div><div class="name">Google Play</div></div>
-      </a>
+        <div><div class="label">Bald bei</div><div class="name">Google Play</div></div>
+      </span>
     </div>
-    <p class="coming-soon" style="margin-top:16px;">App erscheint bald · Jetzt vormerken</p>
+    <p class="coming-soon" style="margin-top:16px;">Jetzt 14 Tage kostenlos testen · Jederzeit kündbar</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- KONTAKT -->
+  <div class="contact-section reveal" id="kontakt">
+    <span class="section-label">Kontakt</span>
+    <h2>Fragen? Wir sind <span>für dich da.</span></h2>
+    <p>Schreib uns einfach — wir melden uns innerhalb von 24 Stunden.</p>
+    <form class="contact-form" id="contactForm" action="https://formspree.io/f/xbdbvbnd" method="POST">
+      <div>
+        <label for="name">Dein Name</label>
+        <input type="text" id="name" name="name" placeholder="Max Mustermann" required>
+      </div>
+      <div>
+        <label for="email">E-Mail-Adresse</label>
+        <input type="email" id="email" name="email" placeholder="du@beispiel.de" required>
+      </div>
+      <div>
+        <label for="message">Deine Nachricht</label>
+        <textarea id="message" name="message" placeholder="Wie können wir helfen?" required></textarea>
+      </div>
+      <button type="submit" class="contact-form-btn">Nachricht senden ✉️</button>
+    </form>
+    <div class="contact-success" id="contactSuccess">
+      ✅ Danke für deine Nachricht! Wir melden uns bald.
+    </div>
   </div>
 
   <!-- FOOTER -->
@@ -1268,6 +1380,34 @@
     }, { threshold: 0.12 });
 
     document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // CONTACT FORM
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+      contactForm.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        const btn = contactForm.querySelector('.contact-form-btn');
+        btn.textContent = 'Wird gesendet…';
+        btn.disabled = true;
+        try {
+          const resp = await fetch(contactForm.action, {
+            method: 'POST',
+            body: new FormData(contactForm),
+            headers: { 'Accept': 'application/json' }
+          });
+          if (resp.ok) {
+            contactForm.style.display = 'none';
+            document.getElementById('contactSuccess').style.display = 'block';
+          } else {
+            btn.textContent = 'Fehler – bitte erneut versuchen';
+            btn.disabled = false;
+          }
+        } catch {
+          btn.textContent = 'Fehler – bitte erneut versuchen';
+          btn.disabled = false;
+        }
+      });
+    }
   </script>
 </body>
 </html>
