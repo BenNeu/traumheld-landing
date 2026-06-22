@@ -942,6 +942,43 @@
 </head>
 <body>
 
+  <style>
+    .site-nav {
+      position: sticky; top: 0; z-index: 50;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 12px 24px;
+      background: rgba(13, 13, 43, 0.72);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .site-nav .nav-brand { display: flex; align-items: center; gap: 9px; font-weight: 700; color: #fff; font-size: 1.02rem; }
+    .site-nav .nav-brand img { width: 30px; height: 30px; object-fit: contain; }
+    .site-nav nav { display: flex; align-items: center; gap: 22px; font-size: 0.95rem; }
+    .site-nav nav a { color: var(--muted); transition: color .2s; }
+    .site-nav nav a:hover { color: var(--gold); }
+    .site-nav nav a.nav-cta {
+      background: var(--gold); color: var(--dark); font-weight: 700;
+      padding: 9px 18px; border-radius: 999px;
+    }
+    .site-nav nav a.nav-cta:hover { color: var(--dark); opacity: .92; }
+    @media (max-width: 600px) {
+      .site-nav { padding: 10px 16px; }
+      .site-nav nav { gap: 14px; font-size: 0.88rem; }
+      .site-nav nav a.nav-cta { padding: 8px 14px; }
+    }
+  </style>
+
+  <!-- NAVIGATION -->
+  <div class="site-nav">
+    <a class="nav-brand" href="/"><img src="/logo.png" alt="Mein Traumheld">Mein Traumheld</a>
+    <nav>
+      <a href="/ratgeber/">Ratgeber</a>
+      <a href="#pricing">Preise</a>
+      <a href="#pricing" class="nav-cta">Kostenlos starten</a>
+    </nav>
+  </div>
+
   <!-- HERO -->
   <section class="hero">
     <div class="hero-bg"></div>
