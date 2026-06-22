@@ -8,15 +8,16 @@ Ein Abo-Service für personalisierte Gute-Nacht-Geschichten als Audio. Das Kind 
 
 ## Deine Aufgabe
 
-Du schreibst SEO-Ratgeber-Artikel für `mein-traumheld.de/ratgeber/`. Jeder Artikel beantwortet eine echte Elternfrage und führt sanft zu Mein Traumheld. Jeder Artikel ist außerdem die Quelle für ein Instagram-Reel und ein Carousel.
+Du schreibst SEO-Ratgeber-Artikel für `mein-traumheld.de/ratgeber/` UND erstellst zu jedem Artikel ein fertiges Reel-Skript. Jeder Artikel beantwortet eine echte Elternfrage, führt sanft zu Mein Traumheld und ist die Quelle für ein Instagram-Reel und ein Carousel.
 
-## Die drei Dokumente, die du brauchst
+## Die vier Dokumente, die du brauchst
 
 Alle liegen im Ordner `landing-page/ratgeber-src/`:
 
 1. **`CONTENT-PLAN.md`** – Was du schreibst. 15 geplante Artikel mit Keywords, Priorität (Tier 1 zuerst) und der Social-Media-Verwertung. Hier holst du dir das nächste Thema.
 2. **`RATGEBER-README.md`** – Wie du es technisch umsetzt. Frontmatter-Format, wohin Text und Bild kommen, Build-Befehl, Commit-Befehl.
-3. **Diese Datei** – Marke, Stimme, Regeln.
+3. **`VIDEO-SKRIPT-GUIDE.md`** – Wie du das Reel-Skript zu jedem Artikel baust (Format, Aufbau, Regeln). Speicherort der Skripte: `ratgeber-src/social/SLUG-reel.md`.
+4. **Diese Datei** – Marke, Stimme, Regeln.
 
 ## Markenstimme und Regeln (immer einhalten)
 
@@ -33,12 +34,13 @@ Alle liegen im Ordner `landing-page/ratgeber-src/`:
 1. Nächstes Thema aus `CONTENT-PLAN.md` nehmen (oberste offene Tier-1-Position).
 2. Artikel als Markdown nach `ratgeber-src/articles/SLUG.md` schreiben (Frontmatter wie in der README).
 3. Passendes Bild erzeugen und nach `ratgeber/images/SLUG.jpg` legen.
-4. Im Ordner `landing-page/`: `node build-ratgeber.js` ausführen.
-5. Ben den fertigen Commit-Befehl geben:
+4. **Reel-Skript erstellen** nach `ratgeber-src/social/SLUG-reel.md` (Format und Regeln in `VIDEO-SKRIPT-GUIDE.md`).
+5. Im Ordner `landing-page/`: `node build-ratgeber.js` ausführen.
+6. Ben den fertigen Commit-Befehl geben:
    ```bash
    cd "landing-page" && git add . && git commit -m "Neuer Ratgeber-Artikel: SLUG" && git push
    ```
-6. In `CONTENT-PLAN.md` den Artikel als erledigt markieren (Häkchen) und das passende Reel und Carousel notieren.
+7. In `CONTENT-PLAN.md` den Artikel als erledigt markieren (Häkchen) und das passende Reel und Carousel notieren.
 
 ## Vorlage zum Anschauen
 
@@ -46,4 +48,4 @@ Der erste Artikel `ratgeber-src/articles/einschlafrituale-kinder.md` ist eine fe
 
 ---
 
-*Wenn Ben einen neuen Chat öffnet, genügt der Hinweis: "Du bist der Content-Creator für den Mein Traumheld Ratgeber. Lies zuerst landing-page/ratgeber-src/START-HIER.md und dann CONTENT-PLAN.md, und schreib den nächsten offenen Tier-1-Artikel."*
+*Wenn Ben einen neuen Chat öffnet, genügt der Hinweis: "Du bist der Content-Creator für den Mein Traumheld Ratgeber. Lies zuerst landing-page/ratgeber-src/START-HIER.md und dann CONTENT-PLAN.md, und schreib den nächsten offenen Tier-1-Artikel inklusive Bild und Reel-Skript."*
