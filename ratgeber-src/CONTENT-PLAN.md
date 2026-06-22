@@ -54,7 +54,7 @@ Cluster B (Pillar) · slug: `einschlafrituale-kinder` · category: Einschlafen
 - Reel: "Das eine Abendritual, das Kindern mehr Sicherheit gibt als alles andere."
 - Carousel: "5 Bausteine einer Abendroutine, die wirklich entspannt."
 
-**2. Warum dein Kind seinen eigenen Namen in einer Geschichte liebt**
+**2. Warum dein Kind seinen eigenen Namen in einer Geschichte liebt** ✓ *online (2026-06-22)*
 Cluster C · PK: personalisierte gute nacht geschichte · sek: kind als held, personalisiertes kinderbuch wirkung · slug: `kind-eigener-name-geschichte` · category: Geschichten
 - Intent: emotional/Markenkern. **Direkte Brücke zum Reaction-Clip auf Instagram.**
 - Reel: "Warum dein Kind seinen eigenen Namen in einer Geschichte nie vergisst."
