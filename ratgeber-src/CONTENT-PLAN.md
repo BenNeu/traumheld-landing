@@ -60,7 +60,7 @@ Cluster C · PK: personalisierte gute nacht geschichte · sek: kind als held, pe
 - Reel: "Warum dein Kind seinen eigenen Namen in einer Geschichte nie vergisst."
 - Carousel: "Was im Kopf deines Kindes passiert, wenn es zum Helden der Geschichte wird."
 
-**3. Kind schläft abends nicht ein: Ursachen und was wirklich hilft**
+**3. Kind schläft abends nicht ein: Ursachen und was wirklich hilft** ✓ *online (2026-06-22)*
 Cluster A (Pillar) · PK: kind schläft nicht ein · sek: kind will nicht schlafen, einschlafprobleme kind · slug: `kind-schlaeft-nicht-ein` · category: Einschlafen
 - Intent: sehr hohe Suchnachfrage, Problembewusstsein.
 - Reel: "3 Gründe, warum dein Kind abends nicht einschläft, und was hilft."
