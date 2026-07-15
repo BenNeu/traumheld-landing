@@ -52,6 +52,17 @@ Wenn dir abends die Kraft zum freien Erzählen fehlt, ist das völlig normal. Na
 
 Genau hier setzt Mein Traumheld an. Dein Kind wird selbst zum Helden seiner Gute-Nacht-Geschichte, mit echtem Namen, Lieblingsfarbe, Freunden und Haustier. Jeden Abend entsteht eine neue Geschichte, liebevoll erzählt und als Audio zum Anhören, ohne dass du dir selbst etwas ausdenken musst. So wird aus dem Einschlafen der schönste Moment des Tages, und dein Kind erlebt sich Abend für Abend als mutigen, gesehenen kleinen Helden.
 
+## Häufige Fragen
+
+**Ab welchem Alter reagieren Kinder auf ihren Namen in Geschichten?**
+Auf den eigenen Namen reagieren Kinder schon im ersten Lebensjahr. Richtig eintauchen in eine Geschichte, in der sie selbst vorkommen, können die meisten ab etwa 2,5 bis 3 Jahren, wenn sie einer einfachen Handlung folgen können.
+
+**Macht es mein Kind egozentrisch, wenn es immer der Held ist?**
+Nein. In den Geschichten erlebt sich dein Kind als mutig, hilfsbereit und freundlich, es hilft anderen Figuren und meistert Aufgaben. Genau diese erlebten Werte prägen das Selbstbild. Sich gesehen zu fühlen ist ein Grundbedürfnis von Kindern, keine Verwöhnung.
+
+**Muss ich mir jeden Abend eine neue Geschichte ausdenken?**
+Nein. Schon kleine persönliche Details in einer bekannten Geschichte wirken. Und wenn die Kraft zum Erfinden fehlt, gibt es fertige Lösungen: Bei Mein Traumheld entsteht jeden Abend automatisch eine neue Heldengeschichte mit dem Namen deines Kindes, professionell als Audio erzählt.
+
 ## Das Wichtigste in Kürze
 
 Der eigene Name zieht die volle Aufmerksamkeit deines Kindes auf sich, weil er das vertrauteste Wort seiner Welt ist. Eine personalisierte Gute-Nacht-Geschichte macht aus dem Zuhörer einen Helden, stärkt das Selbstbild und verwandelt den Abend in einen Moment der Vorfreude statt des Kampfes. Schon kleine persönliche Details genügen, und wenn der Alltag keine Zeit zum Erfinden lässt, nimmt dir eine fertige Heldengeschichte diese Aufgabe ab. Wie du den restlichen Abend ruhig gestaltest, liest du in unserem Ratgeber zu [Einschlafritualen für Kinder](/ratgeber/einschlafrituale-kinder.html).

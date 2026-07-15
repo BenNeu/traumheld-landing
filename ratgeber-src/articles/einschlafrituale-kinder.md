@@ -60,6 +60,17 @@ Eine Geschichte wirkt am stärksten, wenn das Kind sich selbst darin wiederfinde
 
 Bei Mein Traumheld wird dein Kind selbst zum Helden seiner Gute-Nacht-Geschichte. Jeden Abend neu, mit echtem Namen und liebevoll erzählt. So wird aus der Abendroutine ein Moment, auf den sich dein Kind freut.
 
+## Häufige Fragen
+
+**Ab welchem Alter sind Einschlafrituale sinnvoll?**
+Schon Babys ab etwa 4 bis 6 Monaten profitieren von festen, ruhigen Abläufen am Abend. Das Ritual wächst dann einfach mit: beim Baby sind es Stillen oder Fläschchen, Schlaflied und Kuscheln, beim Kleinkind kommen Zähneputzen und die Gute-Nacht-Geschichte dazu.
+
+**Wie lange dauert es, bis ein neues Ritual wirkt?**
+Gib eurer neuen Routine 2 bis 3 Wochen. Kinder brauchen Wiederholung, damit der Ablauf zum verlässlichen Signal wird. Die ersten Abende können sogar unruhiger sein als vorher, das ist normal und kein Zeichen, dass es nicht funktioniert.
+
+**Was mache ich, wenn mein Kind das Ritual plötzlich ablehnt?**
+Meist steckt eine Entwicklungsphase oder ein verändertes Schlafbedürfnis dahinter. Halte die Grundstruktur bei und passe einzelne Bausteine an, zum Beispiel eine spannendere Geschichte für ein größeres Kind oder ein späterer Beginn, wenn dein Kind abends noch nicht müde ist.
+
 ## Das Wichtigste in Kürze
 
 Einschlafrituale geben Kindern Sicherheit, weil sie den Abend vorhersehbar machen. Eine gute Routine besteht aus einem klaren Übergang, einer festen Reihenfolge, gedämpftem Licht, einer Geschichte und einem festen Abschied. Bleib verlässlich, auch an schwierigen Abenden. Dann wird der Abend wieder zu einer ruhigen, schönen Zeit, für dein Kind und für dich.

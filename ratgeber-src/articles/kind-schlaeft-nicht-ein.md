@@ -64,6 +64,17 @@ Wenn dein Kind vor allem deshalb wach liegt, weil der Kopf nicht zur Ruhe kommt,
 
 Genau hier setzt Mein Traumheld an. Dein Kind wird selbst zum Helden seiner Gute-Nacht-Geschichte, jeden Abend neu und liebevoll als Audio erzählt. So bekommt der wache Kopf etwas Schönes, an dem er andocken kann, und aus dem Einschlafkampf wird ein Moment, auf den sich dein Kind freut.
 
+## Häufige Fragen
+
+**Wie lange darf ein Kind zum Einschlafen brauchen?**
+Bis zu 30 Minuten sind völlig normal. Erst wenn dein Kind über Wochen regelmäßig deutlich länger wach liegt und tagsüber erschöpft wirkt, lohnt ein genauer Blick auf Schlafenszeit, Abendgestaltung und mögliche Sorgen.
+
+**Soll ich bei meinem Kind bleiben, bis es eingeschlafen ist?**
+Wenn es deinem Kind hilft und für dich machbar ist, spricht nichts dagegen. Willst du das Begleiten sanft reduzieren, verkürze es in kleinen Schritten, zum Beispiel erst am Bett sitzen, dann auf dem Stuhl daneben, dann nur noch die Tür anlehnen.
+
+**Hilft Melatonin Kindern beim Einschlafen?**
+Melatonin-Präparate gehören bei Kindern nicht in den Alltag und nicht in Eigenregie. Besprich das immer zuerst mit der Kinderärztin oder dem Kinderarzt. In den allermeisten Fällen wirken die richtige Schlafenszeit, ein ruhiger Abend und ein festes Ritual besser und nachhaltiger.
+
 ## Das Wichtigste in Kürze
 
 Wenn dein Kind abends nicht einschläft, steckt fast immer eine verständliche Ursache dahinter: die falsche Schlafenszeit, zu viel Reiz, ein voller Kopf oder ein fehlender Ablauf. Finde das natürliche Müdigkeitsfenster, fahre den Abend früh herunter, gib deinem Kind einen festen Ablauf und etwas Ruhiges für den Kopf. Bleib geduldig, denn Schlaf lässt sich nicht erzwingen, nur einladen. Mit ruhigen, verlässlichen Schritten findet dein Kind wieder leichter in den Schlaf, und der Abend gehört wieder euch beiden.
