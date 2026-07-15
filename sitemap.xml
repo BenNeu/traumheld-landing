@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mein-traumheld.de/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-07-15</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://mein-traumheld.de/ratgeber/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-07-15</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mein-traumheld.de/ratgeber/kind-angst-im-dunkeln.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mein-traumheld.de/ratgeber/gute-nacht-geschichten-app-vergleich.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mein-traumheld.de/ratgeber/einschlafgeschichten-zum-anhoeren.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mein-traumheld.de/ratgeber/kind-schlaeft-nicht-ein.html</loc>
@@ -27,12 +42,12 @@
   </url>
   <url>
     <loc>https://mein-traumheld.de/impressum.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-07-15</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://mein-traumheld.de/datenschutz.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-07-15</lastmod>
     <priority>0.3</priority>
   </url>
 </urlset>
