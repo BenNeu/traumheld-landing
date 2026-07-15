@@ -1,0 +1,30 @@
+# Mein Traumheld
+
+> Mein Traumheld ist eine App fuer personalisierte Gute-Nacht-Geschichten. Jeden Abend erhaelt das Kind vollautomatisch eine neue, professionell vertonte Hoergeschichte, in der es selbst der Held ist (eigener Name, Alter, Interessen, Haustiere, Freunde). 14 Tage kostenlos testbar, danach ab 9,99 Euro/Monat (Standard: 1 Geschichte/Woche) oder 44,99 Euro/Monat (Premium: taeglich eine neue Geschichte). Daten werden auf Servern in Deutschland gespeichert. Verfuegbar im Apple App Store, Google Play folgt.
+
+Zielgruppe: Eltern von Kindern zwischen 3 und 10 Jahren, die ein verlaessliches, ruhiges Abendritual suchen.
+
+## Wichtige Seiten
+
+- [Startseite mit Gratis-Hoerprobe und Preisen](https://mein-traumheld.de/): Produktueberblick, kostenlose Beispielgeschichte zum Anhoeren, Preise und Plaene
+- [Ratgeber-Uebersicht](https://mein-traumheld.de/ratgeber/): Alle Elternratgeber zu Einschlafen, Ritualen, Geschichten und kindlichen Gefuehlen
+
+## Ratgeber: Einschlafen
+
+- [Kind schläft abends nicht ein: Ursachen und was wirklich hilft](https://mein-traumheld.de/ratgeber/kind-schlaeft-nicht-ein.html): Warum dein Kind abends nicht einschläft und welche ruhigen Schritte wirklich helfen, damit der Abend wieder entspannt wird.
+- [Einschlafrituale für Kinder: Der sanfte Weg zu ruhigen Abenden](https://mein-traumheld.de/ratgeber/einschlafrituale-kinder.html): Warum Einschlafrituale Kindern Sicherheit geben und wie du in wenigen Schritten eine Abendroutine aufbaust, die wirklich entspannt.
+
+## Ratgeber: Gefühle
+
+- [Mein Kind hat Angst im Dunkeln: Sätze und Rituale, die wirklich Mut machen](https://mein-traumheld.de/ratgeber/kind-angst-im-dunkeln.html): Dein Kind hat Angst im Dunkeln? Warum das normal ist, 10 Sätze, die Mut machen, und Rituale, die die Angst Abend für Abend kleiner werden lassen.
+
+## Ratgeber: Geschichten
+
+- [Gute-Nacht-Geschichten-App: Die 6 besten Apps im Vergleich (2026)](https://mein-traumheld.de/ratgeber/gute-nacht-geschichten-app-vergleich.html): Gute-Nacht-Geschichten-App gesucht? 6 Apps im ehrlichen Vergleich: Personalisierung, Audio, Preise. Plus: worauf Eltern wirklich achten sollten.
+- [Einschlafgeschichten zum Anhören: Warum Hörgeschichten Kindern beim Einschlafen helfen](https://mein-traumheld.de/ratgeber/einschlafgeschichten-zum-anhoeren.html): Einschlafgeschichten zum Anhören: Warum Hörgeschichten Kinder beruhigen, woran du gute erkennst und wo du sie findest. Mit kostenloser Hörprobe.
+- [Personalisierte Gute-Nacht-Geschichte: Warum dein Kind seinen eigenen Namen darin liebt](https://mein-traumheld.de/ratgeber/kind-eigener-name-geschichte.html): Warum eine personalisierte Gute-Nacht-Geschichte dein Kind so fesselt und was im Kopf passiert, wenn es zum Helden der eigenen Geschichte wird.
+
+## Rechtliches
+
+- [Impressum](https://mein-traumheld.de/impressum.html)
+- [Datenschutz](https://mein-traumheld.de/datenschutz.html)

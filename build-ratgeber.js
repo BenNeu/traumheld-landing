@@ -146,6 +146,43 @@ function wordCount(md) {
   return md.replace(/[#>*`_\-]/g, ' ').split(/\s+/).filter(Boolean).length;
 }
 
+// ---------- FAQ-Extraktion (fuer FAQPage-Schema / GEO) ----------
+// Erkennt eine H2-Sektion "Häufige Fragen" (oder "FAQ") und liest darin
+// fettgedruckte Fragen (**Frage?**) mit den folgenden Absaetzen als Antwort.
+function plainText(md) {
+  return md
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/(^|[^*])\*([^*\n]+)\*/g, '$1$2')
+    .replace(/`([^`]+)`/g, '$1')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+function extractFaq(md) {
+  const lines = md.replace(/\r\n/g, '\n').split('\n');
+  const faqs = [];
+  let inFaq = false;
+  let current = null;
+  for (const line of lines) {
+    const h2 = line.match(/^##\s+(.*)$/);
+    if (h2) {
+      if (inFaq) { if (current && current.a.length) faqs.push(current); current = null; }
+      inFaq = /häufige fragen|haeufige fragen|faq/i.test(h2[1]);
+      continue;
+    }
+    if (!inFaq) continue;
+    const q = line.match(/^\*\*(.+?)\*\*\s*$/);
+    if (q) {
+      if (current && current.a.length) faqs.push(current);
+      current = { q: plainText(q[1]), a: [] };
+      continue;
+    }
+    if (current && line.trim()) current.a.push(plainText(line));
+  }
+  if (current && current.a.length) faqs.push(current);
+  return faqs.map(f => ({ q: f.q, a: f.a.join(' ') }));
+}
+
 // ---------- Load ----------
 const articleTpl = fs.readFileSync(path.join(TPL, 'article.html'), 'utf8');
 const indexTpl = fs.readFileSync(path.join(TPL, 'index.html'), 'utf8');
@@ -180,7 +217,7 @@ for (const file of files) {
     : `<div class="hero-grad"></div>`;
   const ogImage = image ? (image.startsWith('http') ? image : SITE + image) : `${SITE}/logo.png`;
 
-  const jsonld = JSON.stringify({
+  const schemaBlocks = [{
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: data.title,
@@ -195,7 +232,30 @@ for (const file of files) {
       logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` }
     },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url }
-  });
+  }, {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Startseite', item: `${SITE}/` },
+      { '@type': 'ListItem', position: 2, name: 'Ratgeber', item: `${SITE}/ratgeber/` },
+      { '@type': 'ListItem', position: 3, name: data.title, item: url }
+    ]
+  }];
+
+  // FAQPage-Schema, wenn der Artikel eine FAQ-Sektion hat (SEO + GEO)
+  const faqs = extractFaq(body);
+  if (faqs.length) {
+    schemaBlocks.push({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faqs.map(f => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a }
+      }))
+    });
+  }
+  const jsonld = JSON.stringify(schemaBlocks);
 
   const html = articleTpl
     .replace(/{{TITLE}}/g, escAttr(data.title))
@@ -272,5 +332,36 @@ Sitemap: ${SITE}/sitemap.xml
 `;
 fs.writeFileSync(path.join(ROOT, 'robots.txt'), robots);
 console.log('✓ robots.txt gebaut');
+
+// ---------- llms.txt (GEO: strukturierter Einstieg fuer KI-Crawler) ----------
+const byCategory = {};
+for (const a of articles) {
+  (byCategory[a.category] = byCategory[a.category] || []).push(a);
+}
+const llmsSections = Object.keys(byCategory).sort().map(cat =>
+  `## Ratgeber: ${cat}\n\n` +
+  byCategory[cat].map(a => `- [${a.title}](${a.url}): ${a.description}`).join('\n')
+).join('\n\n');
+
+const llms = `# Mein Traumheld
+
+> Mein Traumheld ist eine App fuer personalisierte Gute-Nacht-Geschichten. Jeden Abend erhaelt das Kind vollautomatisch eine neue, professionell vertonte Hoergeschichte, in der es selbst der Held ist (eigener Name, Alter, Interessen, Haustiere, Freunde). 14 Tage kostenlos testbar, danach ab 9,99 Euro/Monat (Standard: 1 Geschichte/Woche) oder 44,99 Euro/Monat (Premium: taeglich eine neue Geschichte). Daten werden auf Servern in Deutschland gespeichert. Verfuegbar im Apple App Store, Google Play folgt.
+
+Zielgruppe: Eltern von Kindern zwischen 3 und 10 Jahren, die ein verlaessliches, ruhiges Abendritual suchen.
+
+## Wichtige Seiten
+
+- [Startseite mit Gratis-Hoerprobe und Preisen](${SITE}/): Produktueberblick, kostenlose Beispielgeschichte zum Anhoeren, Preise und Plaene
+- [Ratgeber-Uebersicht](${SITE}/ratgeber/): Alle Elternratgeber zu Einschlafen, Ritualen, Geschichten und kindlichen Gefuehlen
+
+${llmsSections}
+
+## Rechtliches
+
+- [Impressum](${SITE}/impressum.html)
+- [Datenschutz](${SITE}/datenschutz.html)
+`;
+fs.writeFileSync(path.join(ROOT, 'llms.txt'), llms);
+console.log('✓ llms.txt gebaut');
 
 console.log(`\nFertig. ${articles.length} Artikel verarbeitet.`);
