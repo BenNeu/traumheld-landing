@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mein-traumheld.de/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://mein-traumheld.de/ratgeber/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mein-traumheld.de/ratgeber/warum-vorlesen-wichtig.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mein-traumheld.de/ratgeber/personalisierte-kindergeschichten.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mein-traumheld.de/ratgeber/ki-geschichten-fuer-kinder.html</loc>
+    <lastmod>2026-08-15</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mein-traumheld.de/ratgeber/kurze-gute-nacht-geschichten.html</loc>
@@ -47,12 +62,12 @@
   </url>
   <url>
     <loc>https://mein-traumheld.de/impressum.html</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://mein-traumheld.de/datenschutz.html</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <priority>0.3</priority>
   </url>
 </urlset>
