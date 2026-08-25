@@ -17,6 +17,11 @@ const SITE = 'https://mein-traumheld.de';
 const SRC = path.join(ROOT, 'ratgeber-src', 'articles');
 const TPL = path.join(ROOT, 'ratgeber-src', 'templates');
 const OUT = path.join(ROOT, 'ratgeber');
+// Zweiter Bereich: die kostenlosen Gute-Nacht-Geschichten unter /geschichten/.
+// Eigener Quell- und Ausgabeordner, aber dasselbe Skript – sonst wuerden sich
+// die beiden Laeufe gegenseitig die sitemap.xml ueberschreiben.
+const SRC_G = path.join(ROOT, 'ratgeber-src', 'geschichten');
+const OUT_G = path.join(ROOT, 'geschichten');
 const YEAR = new Date().getFullYear();
 
 const MONTHS = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
@@ -303,11 +308,137 @@ const indexHtml = indexTpl
 fs.writeFileSync(path.join(OUT, 'index.html'), indexHtml);
 console.log('✓ Blog-Index gebaut: ratgeber/index.html');
 
+// ---------- GESCHICHTEN ----------
+// Kostenlose Gute-Nacht-Geschichten unter /geschichten/. Warum eigener Bereich:
+// Fuer "gute nacht geschichten" (56.800 Suchen/Monat, Difficulty 17) liefert
+// Google ausschliesslich Sammlungen mit echten Geschichten – kein einziger
+// Ratgeber steht in den Top 8. Die Ratgeber-Artikel koennen darauf nicht
+// ranken, weil sie ueber Geschichten schreiben statt welche zu sein.
+const geschichten = [];
+if (fs.existsSync(SRC_G)) {
+  if (!fs.existsSync(OUT_G)) fs.mkdirSync(OUT_G, { recursive: true });
+  const storyTpl = fs.readFileSync(path.join(TPL, 'story.html'), 'utf8');
+  const storyIndexTpl = fs.readFileSync(path.join(TPL, 'story-index.html'), 'utf8');
+
+  for (const file of fs.readdirSync(SRC_G).filter(f => f.endsWith('.md'))) {
+    const raw = fs.readFileSync(path.join(SRC_G, file), 'utf8');
+    const { data, body } = parseFrontmatter(raw);
+    if (!data.title) { console.warn('WARN: ueberspringe (kein title):', file); continue; }
+
+    const slug = data.slug || slugify(data.title);
+    const date = data.date || new Date().toISOString().slice(0, 10);
+    const alter = data.category || 'Zum Vorlesen';
+    const description = data.description || '';
+    const url = `${SITE}/geschichten/${slug}.html`;
+    // Vorlesezeit steht im Frontmatter; fehlt sie, aus der Wortzahl schaetzen.
+    // 130 Woerter je Minute – Vorlesen ist langsamer als Lesen.
+    const vorlesezeit = data.lesezeit || `${Math.max(1, Math.round(wordCount(body) / 130))} Minuten`;
+    const image = data.image ? (data.image.startsWith('http') ? data.image : `/geschichten/${data.image.replace(/^\/?geschichten\//, '')}`) : '';
+    const ogImage = image ? (image.startsWith('http') ? image : SITE + image) : `${SITE}/logo.png`;
+    const hero = image
+      ? `<img class="hero-img" src="${escAttr(image)}" alt="${escAttr(data.imageAlt || data.title)}">`
+      : `<div class="hero-grad"></div>`;
+
+    const schema = [{
+      '@context': 'https://schema.org',
+      '@type': 'ShortStory',
+      name: data.title,
+      headline: data.title,
+      description: description,
+      inLanguage: 'de',
+      typicalAgeRange: alter.replace(/\s*Jahre\s*$/, '').replace('–', '-'),
+      datePublished: date,
+      author: { '@type': 'Organization', name: 'Mein Traumheld' },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Mein Traumheld',
+        logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` }
+      },
+      isPartOf: { '@type': 'CollectionPage', name: 'Gute-Nacht-Geschichten zum Vorlesen', '@id': `${SITE}/geschichten/` },
+      mainEntityOfPage: { '@type': 'WebPage', '@id': url }
+    }, {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Startseite', item: `${SITE}/` },
+        { '@type': 'ListItem', position: 2, name: 'Gute-Nacht-Geschichten', item: `${SITE}/geschichten/` },
+        { '@type': 'ListItem', position: 3, name: data.title, item: url }
+      ]
+    }];
+
+    const html = storyTpl
+      .replace(/{{TITLE}}/g, escAttr(data.title))
+      .replace(/{{DESCRIPTION}}/g, escAttr(description))
+      .replace(/{{KEYWORDS}}/g, escAttr(data.keywords || ''))
+      .replace(/{{AUTHOR}}/g, escAttr(data.author || 'Mein Traumheld'))
+      .replace(/{{CATEGORY}}/g, escAttr(alter))
+      .replace(/{{CANONICAL}}/g, url)
+      .replace(/{{OG_IMAGE}}/g, escAttr(ogImage))
+      .replace(/{{DATE_ISO}}/g, date)
+      .replace(/{{VORLESEZEIT}}/g, escAttr(vorlesezeit))
+      .replace(/{{JSONLD}}/g, JSON.stringify(schema))
+      .replace(/{{HERO}}/g, hero)
+      .replace(/{{ARTICLE_BODY}}/g, mdToHtml(body))
+      .replace(/{{RATGEBER_LINK}}/g, escAttr(data.ratgeberLink || '/ratgeber/'))
+      .replace(/{{RATGEBER_TEXT}}/g, esc(data.ratgeberText || 'Alle Ratgeber-Artikel'))
+      .replace(/{{YEAR}}/g, YEAR);
+
+    fs.writeFileSync(path.join(OUT_G, `${slug}.html`), html);
+    geschichten.push({ slug, title: data.title, description, date, alter, vorlesezeit, url, image, imageAlt: data.imageAlt || data.title });
+    console.log('✓ Geschichte gebaut:', `${slug}.html`);
+  }
+
+  // Uebersicht nach Alter gruppiert. Die Reihenfolge ist fest, nicht
+  // alphabetisch – von den Kleinsten aufwaerts.
+  const REIHENFOLGE = ['3–5 Jahre', '5–6 Jahre', '6–8 Jahre'];
+  const gruppen = {};
+  for (const g of geschichten) (gruppen[g.alter] = gruppen[g.alter] || []).push(g);
+  const bekannt = REIHENFOLGE.filter(a => gruppen[a]);
+  const uebrige = Object.keys(gruppen).filter(a => !REIHENFOLGE.includes(a)).sort();
+
+  const gruppenHtml = [...bekannt, ...uebrige].map(alter => {
+    const karten = gruppen[alter].map(g => {
+      const thumb = g.image
+        ? `<img class="card-thumb" src="${escAttr(g.image)}" alt="${escAttr(g.imageAlt)}" loading="lazy">`
+        : `<div class="card-thumb"></div>`;
+      return `      <a class="card" href="/geschichten/${g.slug}.html">
+        ${thumb}
+        <div class="card-body">
+          <span class="eyebrow">${escAttr(g.alter)}</span>
+          <h3>${esc(g.title)}</h3>
+          <p>${esc(g.description)}</p>
+          <div class="card-meta">${escAttr(g.vorlesezeit)} Vorlesezeit</div>
+        </div>
+      </a>`;
+    }).join('\n');
+    return `    <h2 class="index-head" style="margin-top:2rem">Geschichten für ${esc(alter)}</h2>\n    <div class="card-grid">\n${karten}\n    </div>`;
+  }).join('\n\n');
+
+  const sammlungSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Gute-Nacht-Geschichten zum Vorlesen',
+    description: 'Kostenlose Gute-Nacht-Geschichten zum Vorlesen fuer Kinder von 3 bis 8 Jahren.',
+    inLanguage: 'de',
+    url: `${SITE}/geschichten/`,
+    hasPart: geschichten.map(g => ({ '@type': 'ShortStory', name: g.title, url: g.url }))
+  };
+
+  const indexG = storyIndexTpl
+    .replace('{{GRUPPEN}}', gruppenHtml || '<p style="color:#9999cc">Bald gibt es hier die ersten Geschichten.</p>')
+    .replace(/{{JSONLD}}/g, JSON.stringify(sammlungSchema))
+    .replace(/{{YEAR}}/g, YEAR);
+  fs.writeFileSync(path.join(OUT_G, 'index.html'), indexG);
+  console.log('✓ Geschichten-Index gebaut: geschichten/index.html');
+}
+
 // ---------- Sitemap ----------
 const today = new Date().toISOString().slice(0, 10);
 const urls = [
   { loc: `${SITE}/`, lastmod: today, priority: '1.0' },
   { loc: `${SITE}/ratgeber/`, lastmod: today, priority: '0.8' },
+  { loc: `${SITE}/geschichten/`, lastmod: today, priority: '0.9' },
+  ...geschichten.map(g => ({ loc: g.url, lastmod: g.date, priority: '0.7' })),
   ...articles.map(a => ({ loc: a.url, lastmod: a.date, priority: '0.7' })),
   { loc: `${SITE}/impressum.html`, lastmod: today, priority: '0.3' },
   { loc: `${SITE}/datenschutz.html`, lastmod: today, priority: '0.3' },
@@ -338,6 +469,15 @@ const byCategory = {};
 for (const a of articles) {
   (byCategory[a.category] = byCategory[a.category] || []).push(a);
 }
+const nachAlter = {};
+for (const g of geschichten) (nachAlter[g.alter] = nachAlter[g.alter] || []).push(g);
+const geschichtenSektion = geschichten.length
+  ? Object.keys(nachAlter).sort().map(alter =>
+      `## Gute-Nacht-Geschichten: ${alter}\n\n` +
+      nachAlter[alter].map(g => `- [${g.title}](${g.url}): ${g.description}`).join('\n')
+    ).join('\n\n')
+  : '';
+
 const llmsSections = Object.keys(byCategory).sort().map(cat =>
   `## Ratgeber: ${cat}\n\n` +
   byCategory[cat].map(a => `- [${a.title}](${a.url}): ${a.description}`).join('\n')
@@ -353,6 +493,9 @@ Zielgruppe: Eltern von Kindern zwischen 3 und 10 Jahren, die ein verlaessliches,
 
 - [Startseite mit Gratis-Hoerprobe und Preisen](${SITE}/): Produktueberblick, kostenlose Beispielgeschichte zum Anhoeren, Preise und Plaene
 - [Ratgeber-Uebersicht](${SITE}/ratgeber/): Alle Elternratgeber zu Einschlafen, Ritualen, Geschichten und kindlichen Gefuehlen
+- [Gute-Nacht-Geschichten zum Vorlesen](${SITE}/geschichten/): Kostenlose Geschichten zum Vorlesen, nach Alter sortiert
+
+${geschichtenSektion}
 
 ${llmsSections}
 
@@ -364,4 +507,4 @@ ${llmsSections}
 fs.writeFileSync(path.join(ROOT, 'llms.txt'), llms);
 console.log('✓ llms.txt gebaut');
 
-console.log(`\nFertig. ${articles.length} Artikel verarbeitet.`);
+console.log(`\nFertig. ${articles.length} Artikel und ${geschichten.length} Geschichten verarbeitet.`);
