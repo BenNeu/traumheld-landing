@@ -9,6 +9,8 @@ keywords: angst im dunkeln, gute nacht geschichte, mut
 lesezeit: 4 Minuten
 ratgeberLink: /ratgeber/kind-angst-im-dunkeln.html
 ratgeberText: "Wenn Kinder Angst im Dunkeln haben"
+image: images/die-ente-die-angst-vor-dem-dunkeln-hatte.jpg
+imageAlt: "Stiller Teich bei Nacht mit Schilf, eine kleine Ente am Wasserrand"
 ---
 
 Am Teich wohnte eine kleine Ente. Sie hieß Piet, und Piet hatte Angst vor dem Dunkeln.

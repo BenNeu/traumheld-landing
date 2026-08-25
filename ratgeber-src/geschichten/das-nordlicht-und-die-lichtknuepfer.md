@@ -9,6 +9,8 @@ keywords: gute nacht geschichte, vorlesen, einschlafen, kinder
 lesezeit: 9 Minuten
 ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
 ratgeberText: "Warum Vorlesen so viel bewirkt"
+image: images/das-nordlicht-und-die-lichtknuepfer.jpg
+imageAlt: "Nordlicht wie leuchtende Fäden über einem arktischen Himmel, darunter Eistürme"
 ---
 
 Hoch im Norden erhebt sich eine geheimnisvolle Welt, in der der Himmel in magischen Farben tanzt. Hier oben, wo die Sterne in unendlicher Weite funkeln, gibt es die Lichtknüpfer. Diese weisen Gestalten haben es sich zur Aufgabe gemacht, das Nordlicht, auch Aurora genannt, mit Fäden aus Sternenstaub und Mondschein zu weben. Jede Nacht steigen sie auf ihre eisigen Türme, um das Himmelszelt in ein brillantes Farbenspiel aus Grün, Violett und Blau zu verwandeln. Das Nordlicht erhellt die dunklen, frostigen Nächte und hüllt die Welt in eine Decke aus leuchtendem Licht.

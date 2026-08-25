@@ -9,6 +9,8 @@ keywords: gute nacht geschichte kurz lustig, hund, mond
 lesezeit: 2 Minuten
 ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
 ratgeberText: "Warum kurze Geschichten oft besser wirken"
+image: images/der-hund-der-den-mond-anbellte.jpg
+imageAlt: "Kleiner Hund im nächtlichen Garten, den Kopf zum riesigen Mond erhoben"
 ---
 
 Bruno war ein Hund, und Bruno hatte eine Aufgabe.

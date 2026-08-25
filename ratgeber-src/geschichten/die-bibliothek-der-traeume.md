@@ -9,6 +9,8 @@ keywords: gute nacht geschichte, vorlesen, einschlafen, kinder
 lesezeit: 9 Minuten
 ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
 ratgeberText: "Warum Vorlesen so viel bewirkt"
+image: images/die-bibliothek-der-traeume.jpg
+imageAlt: "Uralte Bibliothek tief im Wald, Regale wachsen zwischen den Baumstämmen"
 ---
 
 Tief im Herzen des Waldes, wo die Bäume flüstern und die Schatten tanzen, stand eine uralte Bibliothek. Diese Bibliothek war so alt wie die Nacht selbst, ihre Wände aus moosbedecktem Stein und ihr Dach aus geflochtenen Ästen und Blättern. Die Bibliothek war ein magischer Ort, wo jedes Buch einen eigenen Traum in sich trug. Manche Träume waren bunt und warm wie ein leuchtender Regenbogen nach einem Sommerregen, während andere silbern und geheimnisvoll wie ein sternenklarer Nachthimmel waren.

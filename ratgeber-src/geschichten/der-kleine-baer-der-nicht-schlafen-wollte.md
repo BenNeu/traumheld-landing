@@ -9,6 +9,8 @@ keywords: gute nacht geschichte, einschlafen, bär, vorlesen
 lesezeit: 3 Minuten
 ratgeberLink: /ratgeber/einschlafrituale-kinder.html
 ratgeberText: "Einschlafrituale, die Kindern wirklich helfen"
+image: images/der-kleine-baer-der-nicht-schlafen-wollte.jpg
+imageAlt: "Beleuchtete Bärenhöhle am Rand eines verschneiten Kiefernwaldes unter einem großen gelben Mond"
 ---
 
 Im Wald am Hang, dort wo die großen Tannen stehen, lag eine Höhle. In der Höhle wohnte Mama Bär. Und neben Mama Bär lag ein kleiner Bär, der hieß Bruno.

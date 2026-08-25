@@ -9,6 +9,8 @@ keywords: gute nacht geschichte kurz lustig, socke, quatschgeschichte
 lesezeit: 3 Minuten
 ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
 ratgeberText: "Warum kurze Geschichten oft besser wirken"
+image: images/die-socke-die-abhauen-wollte.jpg
+imageAlt: "Gestreifte Socke als Nest hoch in einem Baum, darin drei kleine Eier"
 ---
 
 Es gibt eine Sache, die alle Erwachsenen falsch verstehen.

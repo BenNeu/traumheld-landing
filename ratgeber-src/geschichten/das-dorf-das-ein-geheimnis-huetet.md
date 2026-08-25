@@ -9,6 +9,8 @@ keywords: gute nacht geschichte, vorlesen, einschlafen, kinder
 lesezeit: 8 Minuten
 ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
 ratgeberText: "Warum Vorlesen so viel bewirkt"
+image: images/das-dorf-das-ein-geheimnis-huetet.jpg
+imageAlt: "Kleines Bergdorf zwischen schneebedeckten Gipfeln mit warm erleuchteten Fenstern"
 ---
 
 Zwischen den hohen, schneebedeckten Gipfeln der Berge liegt ein kleines Dorf, das eine ganz besondere Heimat hat. Dieses Dorf schmiegt sich sicher und geborgen zwischen den Händen und Schultern von Riesen, die seit hundert Jahren friedlich schlafen. Die Riesen mit ihren riesigen Körpern und freundlichen Gesichtern, die dem Himmel zugewandt sind, strahlen eine wohlige Wärme aus, die das Dorf auch in den kältesten Winternächten warm hält. Die Bewohner leben in Harmonie mit den gewaltigen Wesen, die ihnen Schutz und Geborgenheit bieten, während sie träumen.

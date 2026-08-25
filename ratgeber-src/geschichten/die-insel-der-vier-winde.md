@@ -9,6 +9,8 @@ keywords: gute nacht geschichte, vorlesen, einschlafen, kinder
 lesezeit: 9 Minuten
 ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
 ratgeberText: "Warum Vorlesen so viel bewirkt"
+image: images/die-insel-der-vier-winde.jpg
+imageAlt: "Kleine Insel im Ozean mit vier Häusern aus Wolken in verschiedenen Farben"
 ---
 
 Auf einer kleinen Insel mitten im riesigen Ozean lebten die vier mächtigen Winde. Diese Insel war der einzigartige Geburtsort der Winde, die die Welt kühlten und wärmten, die Blätter rauschen ließen und die Wolken über den Himmel trugen. Jeder Wind hatte sein eigenes Haus aus Wolken, das seinen Charakter widerspiegelte. Da war das Haus des Nordwinds, ein stiller Ort aus eisblauen Wolken, wo Ruhe und Frieden herrschten. Der Südwind lebte in einem gemütlichen Haus aus flauschigen, sonnengelben Wolken und schenkte allen, die ihn kannten, eine angenehme Wärme. Der Ostwind hatte ein neugieriges, zartes Haus aus rosafarbenen Wolken, das ständig über neue Ideen und Entdeckungen staunte. Und zuletzt gab es noch den Westwind, der mit seinen silbernen Wolken immer zu einem Streich aufgelegt war und das Lachen in die Lüfte trug. 

@@ -9,6 +9,8 @@ keywords: kurze gute nacht geschichte, schafe zählen, lustig
 lesezeit: 2 Minuten
 ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
 ratgeberText: "Warum kurze Geschichten oft besser wirken"
+image: images/das-schaf-das-wolken-zaehlte.jpg
+imageAlt: "Mondbeschienene Wiese mit ruhenden Schafen unter einem Sternenhimmel"
 ---
 
 Alle Menschen wissen: Wenn man nicht einschlafen kann, zählt man Schafe.

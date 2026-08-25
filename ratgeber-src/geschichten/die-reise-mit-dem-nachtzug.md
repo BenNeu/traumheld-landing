@@ -9,6 +9,8 @@ keywords: gute nacht geschichte, nachtzug, reisen, einschlafen
 lesezeit: 4 Minuten
 ratgeberLink: /ratgeber/einschlafgeschichten-zum-anhoeren.html
 ratgeberText: "Einschlafgeschichten zum Anhören"
+image: images/die-reise-mit-dem-nachtzug.jpg
+imageAlt: "Blick aus dem Fenster eines Nachtzugs auf dunkle Felder und ein erleuchtetes Haus"
 ---
 
 Der Zug fuhr los, als es schon dunkel war.

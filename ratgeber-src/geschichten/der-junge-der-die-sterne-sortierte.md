@@ -9,6 +9,8 @@ keywords: gute nacht geschichte, sterne, sternbilder, ordnung
 lesezeit: 4 Minuten
 ratgeberLink: /ratgeber/kind-schlaeft-nicht-ein.html
 ratgeberText: "Wenn das Kind nicht einschlafen kann"
+image: images/der-junge-der-die-sterne-sortierte.jpg
+imageAlt: "Schreibtisch am Fenster voller Sternkarten, draußen der echte Sternenhimmel"
 ---
 
 Tom mochte Ordnung.

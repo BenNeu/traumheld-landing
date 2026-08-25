@@ -9,6 +9,8 @@ keywords: gute nacht geschichte, vorlesen, einschlafen, kinder
 lesezeit: 9 Minuten
 ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
 ratgeberText: "Warum Vorlesen so viel bewirkt"
+image: images/der-garten-auf-der-rueckseite-des-mondes.jpg
+imageAlt: "Leuchtender Garten auf der Rückseite des Mondes mit fremdartigen Blumen"
 ---
 
 Auf der geheimnisvollen Rückseite des Mondes, verborgen vor den neugierigen Augen der Menschen, lag ein wunderbarer Garten. Dieser Garten war einzigartig, denn hier wuchsen die magischen Mondblumen. Jede Nacht, wenn die Erde in Dunkelheit gehüllt war, öffneten die Mondblumen ihre Blüten und strahlten ein sanftes, beruhigendes Licht aus. Dieses Licht war das perfekte Nachtlicht für all die Kinder auf der Erde, die darauf warteten, in ihre Träume zu gleiten. Die Mondblumen waren von einer Vielzahl an Farben: strahlendes Silber, leuchtendes Blau und zartes Perlweiß. Sie tanzten leise im Mondwind und flüsterten ein Lied der Ruhe.

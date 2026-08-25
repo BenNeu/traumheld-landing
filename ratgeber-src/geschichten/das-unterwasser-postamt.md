@@ -9,6 +9,8 @@ keywords: gute nacht geschichte, vorlesen, einschlafen, kinder
 lesezeit: 8 Minuten
 ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
 ratgeberText: "Warum Vorlesen so viel bewirkt"
+image: images/das-unterwasser-postamt.jpg
+imageAlt: "Unterwasser-Postamt zwischen Korallenriffen mit hell erleuchteten Fenstern"
 ---
 
 Tief unten im stillen Ozean, verborgen zwischen Korallenriffen und sanft wiegenden Algen, liegt ein ganz besonderes Gebäude: das Unterwasser-Postamt. Jede Nacht, wenn die Welt oben schlafen geht, erwacht es zum Leben. In dem gläsernen Gebäude, das im Mondlicht schimmert, arbeiten eifrige Meeresbewohner: flinken Fischlein, brummenden Hummern und fleißigen Oktopussen. Sie alle haben eine wichtige Aufgabe — die Briefe der Träume zu sortieren und sicherzustellen, dass sie ihren richtigen Empfänger erreichen.

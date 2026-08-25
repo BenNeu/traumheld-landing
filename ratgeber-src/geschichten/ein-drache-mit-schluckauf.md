@@ -9,6 +9,8 @@ keywords: gute nacht geschichte kurz lustig, drache, schluckauf
 lesezeit: 3 Minuten
 ratgeberLink: /ratgeber/personalisierte-kindergeschichten.html
 ratgeberText: "Warum Kinder sich selbst in Geschichten wiederfinden wollen"
+image: images/ein-drache-mit-schluckauf.jpg
+imageAlt: "Großer gutmütiger Drache auf einem Felsvorsprung, ein kleines Flämmchen entweicht ihm"
 ---
 
 Der Drache hieß Hicks.

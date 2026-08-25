@@ -9,6 +9,8 @@ keywords: gute nacht geschichte, traktor, fahrzeuge, bauernhof
 lesezeit: 3 Minuten
 ratgeberLink: /ratgeber/warum-vorlesen-wichtig.html
 ratgeberText: "Warum Vorlesen so viel bewirkt"
+image: images/der-traktor-der-traeumte.jpg
+imageAlt: "Alter grüner Traktor allein in einer Scheune, Mondlicht fällt durch die Bretterritzen"
 ---
 
 In der Scheune stand ein Traktor. Er war grün, er war alt, und er hieß Fritz.

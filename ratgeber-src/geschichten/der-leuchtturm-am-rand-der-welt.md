@@ -9,6 +9,8 @@ keywords: gute nacht geschichte, vorlesen, einschlafen, kinder
 lesezeit: 8 Minuten
 ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
 ratgeberText: "Warum Vorlesen so viel bewirkt"
+image: images/der-leuchtturm-am-rand-der-welt.jpg
+imageAlt: "Leuchtturm auf einer Felseninsel, sein Strahl streicht über leuchtende Meerestiere"
 ---
 
 Am Rande der Welt, wo das Meer mit dem Himmel zu verschmelzen scheint, steht ein uralter Leuchtturm. Seine steinerne Gestalt ragt hoch über die Klippen einer einsamen Felseninsel. Nacht für Nacht dreht sich das sanfte Licht in seinem Turm und führt die geheimnisvollen Geschöpfe der Nacht sicher durch die Dunkelheit. Da sind die Sternenfische, die glitzernd knapp unter der Wasseroberfläche schweben, die Wolkenvögel, die in träumerischen Schleifen über das Meer gleiten, und die Traumsegler, die auf unsichtbaren Strömungen durch die Lüfte reisen. Der Leuchtturm ist ein leuchtender Wächter, der ihnen Orientierung und Sicherheit schenkt. Doch heute Nacht ist etwas anders. Das Licht des alten Turms ist erloschen. Ein fast unheimlicher Schleier hat sich über die Insel gelegt, und die Nachtgeschöpfe irren ziellos umher, verloren in der Dunkelheit. 

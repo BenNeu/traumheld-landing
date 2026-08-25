@@ -9,6 +9,8 @@ keywords: gute nacht geschichte kurz lustig, elefant, quatsch
 lesezeit: 3 Minuten
 ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
 ratgeberText: "Warum kurze Geschichten oft besser wirken"
+image: images/der-elefant-im-badezimmer.jpg
+imageAlt: "Ein großer freundlicher Elefant sitzt in einer Badewanne voller Schaum"
 ---
 
 Als Jonas ins Badezimmer kam, saß da ein Elefant in der Badewanne.

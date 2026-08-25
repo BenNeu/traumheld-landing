@@ -9,6 +9,8 @@ keywords: gute nacht geschichte, vorlesen, einschlafen, kinder
 lesezeit: 8 Minuten
 ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
 ratgeberText: "Warum Vorlesen so viel bewirkt"
+image: images/der-zug-der-die-traeume-bringt.jpg
+imageAlt: "Zug auf einem Viadukt durch schlafendes Land, die Waggons voller leuchtender Träume"
 ---
 
 In einer sternenklaren Nacht, während die meisten Kinder in ihren Betten schlummerten, fuhr ein ganz besonderer Zug leise und geheimnisvoll durch die Welt. Bekannt als der Jahreszeiten-Zug, war er einzigartig, denn er trug die Verantwortung, die Jahreszeiten an die passenden Orte auf der Erde zu bringen. Jeder seiner Waggons war reich gefüllt mit den Schätzen einer Jahreszeit: makelloser Schnee für die verschneiten Wälder im Norden, bunte Blüten für die Frühlingswiesen, heiße Sonnenscheinstralen für die Strände des Südens und das goldene Licht des Herbstes für die Laubwälder. 
