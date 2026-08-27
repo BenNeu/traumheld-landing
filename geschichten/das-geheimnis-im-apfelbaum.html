@@ -96,9 +96,26 @@
 <p>Und noch am selben Abend, kurz bevor es richtig dunkel wurde, ging er noch einmal ans Ende des Gartens.</p>
     </div>
 
+    <div class="lead-box" id="gratis-pdf">
+      <h3>Zehn Geschichten für deine Abende, kostenlos</h3>
+      <p>Ein PDF mit zehn Gute-Nacht-Geschichten zum Vorlesen. Große Schrift, fürs Handy und zum Ausdrucken. Dazu jede Woche eine neue Geschichte per Mail.</p>
+      <form class="lead-form" id="leadForm" novalidate>
+        <div class="lead-zeile">
+          <input type="email" id="leadEmail" name="email" required placeholder="deine@adresse.de" autocomplete="email" aria-label="E-Mail-Adresse">
+          <button type="submit" id="leadBtn">PDF anfordern</button>
+        </div>
+        <input class="lead-hp" type="text" id="leadHp" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <label class="lead-consent">
+          <input type="checkbox" id="leadOk">
+          <span>Ja, schickt mir das PDF und jede Woche eine neue Gute-Nacht-Geschichte. Abmelden geht jederzeit mit einem Klick. <a href="/datenschutz.html">Datenschutz</a></span>
+        </label>
+        <p class="lead-hinweis" id="leadHinweis" role="status"></p>
+      </form>
+    </div>
+
     <div class="cta-box">
       <h3>Diese Geschichte mit dem Namen deines Kindes?</h3>
-      <p>Mein Traumheld schreibt jede Nacht eine neue Geschichte, in der dein Kind die Hauptrolle spielt — vorgelesen mit echter Stimme. 14 Tage kostenlos testen.</p>
+      <p>Mein Traumheld schreibt jede Nacht eine neue Geschichte, in der dein Kind die Hauptrolle spielt, vorgelesen mit echter Stimme. 14 Tage kostenlos testen.</p>
       <a class="cta-btn" href="https://apps.apple.com/de/app/mein-traumheld/id6771015584?ct=web-geschichten&amp;mt=8" target="_blank" rel="noopener">Jetzt kostenlos starten</a>
     </div>
 
@@ -117,5 +134,80 @@
     </div>
     <p>© 2026 Mein Traumheld · Ben Neuendorf · Drensteinfurt</p>
   </footer>
+  <script>
+  // Eintragung fuer das Gratis-PDF. Bewusst kein Popup: Wer von einem Reel
+  // kommt, springt bei einem Popup sofort wieder ab. Das Formular steht am
+  // Ende der Geschichte, wo der Leser gerade zufrieden ist.
+  (function () {
+    var form = document.getElementById('leadForm');
+    if (!form) return;
+
+    var ENDPUNKT = 'https://podcast.mein-traumheld.de/geschichten-lead';
+    var mail = document.getElementById('leadEmail');
+    var ok = document.getElementById('leadOk');
+    var hp = document.getElementById('leadHp');
+    var knopf = document.getElementById('leadBtn');
+    var hinweis = document.getElementById('leadHinweis');
+
+    var EINWILLIGUNG = 'PDF mit zehn Geschichten plus woechentliche Gute-Nacht-Geschichte per Mail, Abmeldung jederzeit.';
+
+    function sag(text, art) {
+      hinweis.textContent = text;
+      hinweis.className = 'lead-hinweis' + (art ? ' ' + art : '');
+    }
+
+    function utm() {
+      var p = new URLSearchParams(location.search), o = {};
+      ['utm_source','utm_medium','utm_campaign','utm_content','utm_term'].forEach(function (k) {
+        if (p.get(k)) o[k] = p.get(k);
+      });
+      return o;
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!mail.value || mail.value.indexOf('@') < 1) {
+        return sag('Da fehlt noch eine gültige E-Mail-Adresse.', 'fehler');
+      }
+      if (!ok.checked) {
+        return sag('Bitte setz noch den Haken, sonst dürfen wir nichts schicken.', 'fehler');
+      }
+
+      knopf.disabled = true;
+      var alterText = knopf.textContent;
+      knopf.textContent = 'Moment ...';
+      sag('');
+
+      var daten = Object.assign({
+        parent_email: mail.value,
+        einwilligung: true,
+        einwilligungstext: EINWILLIGUNG,
+        quelle: location.pathname,
+        landing_page: location.href,
+        referrer: document.referrer || null,
+        hp: hp.value
+      }, utm());
+
+      fetch(ENDPUNKT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(daten)
+      }).then(function (r) {
+        return r.json().catch(function () { return {}; }).then(function (j) {
+          return { ok: r.ok, j: j };
+        });
+      }).then(function (a) {
+        if (!a.ok) throw new Error(a.j.error || 'Fehler');
+        form.querySelector('.lead-zeile').style.display = 'none';
+        form.querySelector('.lead-consent').style.display = 'none';
+        sag('Fast geschafft. Wir haben dir eine Mail geschickt, bitte klick darin einmal auf den Link. Danach kommt das PDF.', 'gut');
+      }).catch(function (err) {
+        knopf.disabled = false;
+        knopf.textContent = alterText;
+        sag(err.message || 'Das hat gerade nicht geklappt. Versuch es bitte noch einmal.', 'fehler');
+      });
+    });
+  })();
+  </script>
 </body>
 </html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danke | Mein Traumheld</title>
+  <!-- Diese Seite gehoert nicht in die Suche, sie ist das Ziel eines
+       Bestaetigungslinks und ausserhalb dieses Ablaufs sinnlos. -->
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="/ratgeber/ratgeber.css">
+</head>
+<body>
+  <div class="topbar">
+    <a class="brand" href="/"><img src="/logo.png" alt="Mein Traumheld">Mein Traumheld</a>
+    <nav>
+      <a href="/geschichten/">Geschichten</a>
+      <a href="/ratgeber/">Ratgeber</a>
+      <a href="/#pricing">Preise</a>
+    </nav>
+  </div>
+
+  <article class="wrap">
+    <div class="index-head">
+      <h1 id="kopf">Einen Moment ...</h1>
+      <p id="text"></p>
+    </div>
+
+    <div class="cta-box" id="download" style="display:none">
+      <h3>Dein PDF ist fertig</h3>
+      <p>Zehn Gute-Nacht-Geschichten zum Vorlesen, große Schrift, fürs Handy und zum Ausdrucken.</p>
+      <a class="cta-btn" href="/download/mein-traumheld-zehn-geschichten.pdf" download>PDF herunterladen</a>
+    </div>
+
+    <div class="cta-box" id="weiter" style="display:none">
+      <h3>Und wenn dein Kind selbst der Held sein soll</h3>
+      <p>Mein Traumheld erzählt jede Woche eine neue Gute-Nacht-Geschichte, in der dein Kind die Hauptrolle spielt, vorgelesen mit echter Stimme. 14 Tage kostenlos testen.</p>
+      <a class="cta-btn" href="/#pricing">Kostenlos starten</a>
+    </div>
+
+    <a class="back-link" href="/geschichten/">← Alle Gute-Nacht-Geschichten</a>
+  </article>
+
+  <footer>
+    <div class="footer-links">
+      <a href="/geschichten/">Geschichten</a>
+      <a href="/ratgeber/">Ratgeber</a>
+      <a href="/impressum.html">Impressum</a>
+      <a href="/datenschutz.html">Datenschutzerklärung</a>
+      <a href="mailto:info@mein-traumheld.de">Kontakt</a>
+    </div>
+    <p>© 2026 Mein Traumheld · Ben Neuendorf · Drensteinfurt</p>
+  </footer>
+
+  <script>
+  (function () {
+    var status = new URLSearchParams(location.search).get('status') || 'ok';
+    var kopf = document.getElementById('kopf');
+    var text = document.getElementById('text');
+
+    if (status === 'ok') {
+      kopf.textContent = 'Danke, das war es schon';
+      text.textContent = 'Deine Adresse ist bestätigt. Das PDF kannst du hier direkt herunterladen, und ab jetzt bekommst du jede Woche eine neue Gute-Nacht-Geschichte.';
+      document.getElementById('download').style.display = '';
+      document.getElementById('weiter').style.display = '';
+    } else if (status === 'ungueltig') {
+      kopf.textContent = 'Dieser Link geht leider nicht mehr';
+      text.textContent = 'Vielleicht wurde er schon benutzt oder beim Kopieren abgeschnitten. Trag dich einfach noch einmal ein, dann kommt eine frische Mail.';
+    } else {
+      kopf.textContent = 'Da ist etwas schiefgegangen';
+      text.textContent = 'Das lag an uns, nicht an dir. Versuch es in ein paar Minuten noch einmal, oder schreib kurz an info@mein-traumheld.de.';
+    }
+  })();
+  </script>
+</body>
+</html>

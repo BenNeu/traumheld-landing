@@ -108,3 +108,37 @@ footer a:hover { color: var(--gold); }
   .topbar nav { gap: 14px; font-size: 0.85rem; }
   .article-body { font-size: 1.05rem; }
 }
+
+/* GRATIS-PDF: E-Mail-Eintragung auf den Geschichten-Seiten */
+.lead-box {
+  background: linear-gradient(135deg, #17173a, #1d1d47);
+  border: 1px solid var(--gold); border-radius: 18px;
+  padding: 30px 28px; margin: 44px 0 30px;
+}
+.lead-box h3 { color: #fff; font-size: 1.35rem; margin-bottom: 10px; }
+.lead-box p { color: var(--muted); margin-bottom: 20px; }
+.lead-zeile { display: flex; gap: 10px; flex-wrap: wrap; }
+.lead-zeile input[type=email] {
+  flex: 1 1 240px; min-width: 0;
+  padding: 14px 16px; border-radius: 999px;
+  border: 1px solid #2f2f63; background: #0e0e28; color: #fff; font-size: 1rem;
+}
+.lead-zeile input[type=email]:focus { outline: 2px solid var(--gold); outline-offset: 1px; }
+.lead-zeile button {
+  background: var(--gold); color: var(--dark); font-weight: 700; font-size: 1rem;
+  border: 0; padding: 14px 26px; border-radius: 999px; cursor: pointer;
+  transition: transform .2s, opacity .2s;
+}
+.lead-zeile button:hover:not(:disabled) { transform: translateY(-2px); }
+.lead-zeile button:disabled { opacity: .6; cursor: default; }
+/* Honigtopf: fuer Menschen unsichtbar, Bots fuellen ihn trotzdem aus. */
+.lead-hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.lead-consent {
+  display: flex; gap: 10px; align-items: flex-start;
+  margin-top: 16px; color: var(--muted); font-size: .92rem; line-height: 1.5;
+}
+.lead-consent input { margin-top: 3px; flex: 0 0 auto; }
+.lead-consent a { color: var(--gold); text-decoration: underline; }
+.lead-hinweis { margin: 14px 0 0; font-size: .95rem; min-height: 1px; }
+.lead-hinweis.fehler { color: #ff9b9b; }
+.lead-hinweis.gut { color: #9be6a8; }
