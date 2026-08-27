@@ -21,17 +21,17 @@
 
   <article class="wrap">
     <div class="index-head">
-      <h1 id="kopf">Einen Moment ...</h1>
-      <p id="text"></p>
+      <h1 id="kopf">Danke, das war es schon</h1>
+      <p id="text">Deine Adresse ist bestätigt. Das PDF kannst du hier direkt herunterladen, und ab jetzt bekommst du jede Woche eine neue Gute-Nacht-Geschichte.</p>
     </div>
 
-    <div class="cta-box" id="download" style="display:none">
+    <div class="cta-box" id="download">
       <h3>Dein PDF ist fertig</h3>
       <p>Zehn Gute-Nacht-Geschichten zum Vorlesen, große Schrift, fürs Handy und zum Ausdrucken.</p>
       <a class="cta-btn" href="/download/mein-traumheld-zehn-geschichten.pdf" download>PDF herunterladen</a>
     </div>
 
-    <div class="cta-box" id="weiter" style="display:none">
+    <div class="cta-box" id="weiter">
       <h3>Und wenn dein Kind selbst der Held sein soll</h3>
       <p>Mein Traumheld erzählt jede Woche eine neue Gute-Nacht-Geschichte, in der dein Kind die Hauptrolle spielt, vorgelesen mit echter Stimme. 14 Tage kostenlos testen.</p>
       <a class="cta-btn" href="/#pricing">Kostenlos starten</a>
@@ -57,12 +57,12 @@
     var kopf = document.getElementById('kopf');
     var text = document.getElementById('text');
 
-    if (status === 'ok') {
-      kopf.textContent = 'Danke, das war es schon';
-      text.textContent = 'Deine Adresse ist bestätigt. Das PDF kannst du hier direkt herunterladen, und ab jetzt bekommst du jede Woche eine neue Gute-Nacht-Geschichte.';
-      document.getElementById('download').style.display = '';
-      document.getElementById('weiter').style.display = '';
-    } else if (status === 'ungueltig') {
+    if (status === 'ok') return;   // steht schon so im HTML
+
+    document.getElementById('download').style.display = 'none';
+    document.getElementById('weiter').style.display = 'none';
+
+    if (status === 'ungueltig') {
       kopf.textContent = 'Dieser Link geht leider nicht mehr';
       text.textContent = 'Vielleicht wurde er schon benutzt oder beim Kopieren abgeschnitten. Trag dich einfach noch einmal ein, dann kommt eine frische Mail.';
     } else {

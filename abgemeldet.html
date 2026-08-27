@@ -19,11 +19,11 @@
 
   <article class="wrap">
     <div class="index-head">
-      <h1 id="kopf">Einen Moment ...</h1>
-      <p id="text"></p>
+      <h1 id="kopf">Du bist abgemeldet</h1>
+      <p id="text">Von uns kommt keine Mail mehr. Kein Nachhaken, keine Rückfrage. Danke, dass du eine Weile dabei warst.</p>
     </div>
 
-    <div class="cta-box" id="trost" style="display:none">
+    <div class="cta-box" id="trost">
       <h3>Die Geschichten bleiben da</h3>
       <p>Alle dreißig Gute-Nacht-Geschichten stehen weiterhin kostenlos auf der Website. Du kannst sie jederzeit lesen, ganz ohne Anmeldung.</p>
       <a class="cta-btn" href="/geschichten/">Zu den Geschichten</a>
@@ -49,11 +49,11 @@
     var kopf = document.getElementById('kopf');
     var text = document.getElementById('text');
 
-    if (status === 'ok') {
-      kopf.textContent = 'Du bist abgemeldet';
-      text.textContent = 'Von uns kommt keine Mail mehr. Kein Nachhaken, keine Rückfrage. Danke, dass du eine Weile dabei warst.';
-      document.getElementById('trost').style.display = '';
-    } else if (status === 'ungueltig') {
+    if (status === 'ok') return;   // steht schon so im HTML
+
+    document.getElementById('trost').style.display = 'none';
+
+    if (status === 'ungueltig') {
       kopf.textContent = 'Dieser Link geht nicht mehr';
       text.textContent = 'Vielleicht wurde er beim Kopieren abgeschnitten. Schreib kurz an info@mein-traumheld.de, dann tragen wir dich von Hand aus.';
     } else {
