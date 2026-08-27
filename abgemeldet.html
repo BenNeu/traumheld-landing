@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abgemeldet | Mein Traumheld</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="/ratgeber/ratgeber.css">
+</head>
+<body>
+  <div class="topbar">
+    <a class="brand" href="/"><img src="/logo.png" alt="Mein Traumheld">Mein Traumheld</a>
+    <nav>
+      <a href="/geschichten/">Geschichten</a>
+      <a href="/ratgeber/">Ratgeber</a>
+      <a href="/#pricing">Preise</a>
+    </nav>
+  </div>
+
+  <article class="wrap">
+    <div class="index-head">
+      <h1 id="kopf">Einen Moment ...</h1>
+      <p id="text"></p>
+    </div>
+
+    <div class="cta-box" id="trost" style="display:none">
+      <h3>Die Geschichten bleiben da</h3>
+      <p>Alle dreißig Gute-Nacht-Geschichten stehen weiterhin kostenlos auf der Website. Du kannst sie jederzeit lesen, ganz ohne Anmeldung.</p>
+      <a class="cta-btn" href="/geschichten/">Zu den Geschichten</a>
+    </div>
+
+    <a class="back-link" href="/">← Zur Startseite</a>
+  </article>
+
+  <footer>
+    <div class="footer-links">
+      <a href="/geschichten/">Geschichten</a>
+      <a href="/ratgeber/">Ratgeber</a>
+      <a href="/impressum.html">Impressum</a>
+      <a href="/datenschutz.html">Datenschutzerklärung</a>
+      <a href="mailto:info@mein-traumheld.de">Kontakt</a>
+    </div>
+    <p>© 2026 Mein Traumheld · Ben Neuendorf · Drensteinfurt</p>
+  </footer>
+
+  <script>
+  (function () {
+    var status = new URLSearchParams(location.search).get('status') || 'ok';
+    var kopf = document.getElementById('kopf');
+    var text = document.getElementById('text');
+
+    if (status === 'ok') {
+      kopf.textContent = 'Du bist abgemeldet';
+      text.textContent = 'Von uns kommt keine Mail mehr. Kein Nachhaken, keine Rückfrage. Danke, dass du eine Weile dabei warst.';
+      document.getElementById('trost').style.display = '';
+    } else if (status === 'ungueltig') {
+      kopf.textContent = 'Dieser Link geht nicht mehr';
+      text.textContent = 'Vielleicht wurde er beim Kopieren abgeschnitten. Schreib kurz an info@mein-traumheld.de, dann tragen wir dich von Hand aus.';
+    } else {
+      kopf.textContent = 'Da ist etwas schiefgegangen';
+      text.textContent = 'Das lag an uns. Schreib kurz an info@mein-traumheld.de, dann erledigen wir es von Hand.';
+    }
+  })();
+  </script>
+</body>
+</html>
