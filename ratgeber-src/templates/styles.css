@@ -142,3 +142,39 @@ footer a:hover { color: var(--gold); }
 .lead-hinweis { margin: 14px 0 0; font-size: .95rem; min-height: 1px; }
 .lead-hinweis.fehler { color: #ff9b9b; }
 .lead-hinweis.gut { color: #9be6a8; }
+
+/* --- Vergleichstabellen im Ratgeber (seit 2026-09-07) --- */
+/* Wrapper scrollt auf dem Handy waagerecht, statt die Seite zu sprengen. */
+.tabelle-wrap {
+  margin: 28px 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid rgba(153, 153, 204, .22);
+  border-radius: 12px;
+}
+.tabelle-wrap table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  font-size: .95rem;
+  line-height: 1.5;
+}
+.tabelle-wrap th,
+.tabelle-wrap td {
+  padding: 12px 14px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(153, 153, 204, .16);
+}
+.tabelle-wrap thead th {
+  color: var(--gold);
+  font-weight: 600;
+  background: rgba(92, 92, 240, .12);
+  border-bottom: 1px solid rgba(245, 208, 96, .3);
+}
+.tabelle-wrap tbody td:first-child {
+  color: var(--text);
+  font-weight: 500;
+}
+.tabelle-wrap tbody tr:last-child td { border-bottom: none; }
+.tabelle-wrap tbody tr:nth-child(even) { background: rgba(255, 255, 255, .025); }

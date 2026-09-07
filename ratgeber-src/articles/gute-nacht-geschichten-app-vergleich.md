@@ -86,7 +86,7 @@ Die meisten Apps arbeiten mit Abos zwischen etwa 5 und 45 Euro im Monat, je nach
 Hörgeschichten funktionieren ab etwa 3 Jahren gut, wenn Kinder einer erzählten Handlung folgen können. Für Jüngere sind kurze, einfache Geschichten und viel Nähe wichtiger als Technik.
 
 **Ersetzt eine App das Vorlesen?**
-Nein, und das soll sie auch nicht. Vorlesen aus Büchern bleibt wertvoll für Sprache und Bindung. Eine App ist die Ergänzung für die Abende, an denen die eigenen Ideen aufgebraucht sind, oder das tägliche Extra-Ritual, auf das sich dein Kind freut. Warum dein Kind Geschichten mit dem eigenen Namen so sehr liebt, erfährst du [hier](kind-eigener-name-geschichte.html).
+Nein, und das soll sie auch nicht. Vorlesen aus Büchern bleibt wertvoll für Sprache und Bindung. Eine App ist die Ergänzung für die Abende, an denen die eigenen Ideen aufgebraucht sind, oder das tägliche Extra-Ritual, auf das sich dein Kind freut. Warum dein Kind Geschichten mit dem eigenen Namen so sehr liebt, erfährst du im Ratgeber zu [personalisierten Kindergeschichten](personalisierte-kindergeschichten.html).
 
 ## Fazit: Die beste App ist die, die euer Ritual trägt
 

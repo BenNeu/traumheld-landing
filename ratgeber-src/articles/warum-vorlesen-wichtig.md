@@ -100,7 +100,7 @@ Das ist selten ein Zeichen von Desinteresse. Meistens stimmt eine dieser Sachen 
 
 **Dein Kind muss sich bewegen.** Manche Kinder hören besser zu, wenn sie dabei mit einem Kuscheltier hantieren. Das ist kein schlechtes Zuhören, das ist ihre Art zuzuhören.
 
-**Es kommt darin nicht vor.** Der stärkste Hebel überhaupt: Wenn dein Kind selbst die Hauptfigur ist, ist die Aufmerksamkeit sofort da. Warum das so gut funktioniert, liest du im Ratgeber [Warum dein Kind seinen eigenen Namen in einer Geschichte liebt](kind-eigener-name-geschichte.html).
+**Es kommt darin nicht vor.** Der stärkste Hebel überhaupt: Wenn dein Kind selbst die Hauptfigur ist, ist die Aufmerksamkeit sofort da. Warum das so gut funktioniert, liest du im Ratgeber zu [personalisierten Kindergeschichten](personalisierte-kindergeschichten.html).
 
 ## Vorlesen als fester Teil des Abendrituals
 

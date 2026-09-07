@@ -60,7 +60,7 @@ Die meisten Einschlafprobleme sind eine Phase und gehen mit etwas Geduld vorbei.
 
 ## Die Geschichte als sanfte Einschlafhilfe
 
-Wenn dein Kind vor allem deshalb wach liegt, weil der Kopf nicht zur Ruhe kommt, ist eine Geschichte oft das Wirksamste. Am stärksten wirkt sie, wenn das Kind sich selbst darin wiederfindet. Trägt der Held den eigenen Namen, kommt die Lieblingsfarbe vor und ist der beste Freund dabei, taucht das Kind ganz ein und vergisst den Tag. Warum dieser Effekt so kraftvoll ist, erfährst du im Ratgeber [Warum dein Kind seinen eigenen Namen in einer Geschichte liebt](/ratgeber/kind-eigener-name-geschichte.html).
+Wenn dein Kind vor allem deshalb wach liegt, weil der Kopf nicht zur Ruhe kommt, ist eine Geschichte oft das Wirksamste. Am stärksten wirkt sie, wenn das Kind sich selbst darin wiederfindet. Trägt der Held den eigenen Namen, kommt die Lieblingsfarbe vor und ist der beste Freund dabei, taucht das Kind ganz ein und vergisst den Tag. Warum dieser Effekt so kraftvoll ist, erfährst du im Ratgeber zu [personalisierten Kindergeschichten](/ratgeber/personalisierte-kindergeschichten.html).
 
 Genau hier setzt Mein Traumheld an. Dein Kind wird selbst zum Helden seiner Gute-Nacht-Geschichte, jeden Abend neu und liebevoll als Audio erzählt. So bekommt der wache Kopf etwas Schönes, an dem er andocken kann, und aus dem Einschlafkampf wird ein Moment, auf den sich dein Kind freut.
 

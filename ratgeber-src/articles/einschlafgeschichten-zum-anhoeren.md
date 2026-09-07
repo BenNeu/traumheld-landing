@@ -68,7 +68,7 @@ Du hast mehrere Möglichkeiten, jede mit eigenen Stärken und Schwächen:
 
 Alle diese Quellen haben eins gemeinsam: Es sind Geschichten über andere. Über Kater, Löwen, fremde Kinder. Das ist schön. Aber es gibt einen Moment, der stärker ist: wenn dein Kind seinen eigenen Namen in der Geschichte hört. Wenn nicht irgendein Held das Abenteuer erlebt, sondern es selbst, mit seinem Haustier, seinen Freunden, seinen Lieblingsthemen.
 
-Was dabei im Kopf deines Kindes passiert und warum es diesen Moment nie vergisst, haben wir [hier ausführlich beschrieben](kind-eigener-name-geschichte.html). Genau dafür haben wir Mein Traumheld gebaut: Jeden Abend wartet eine neue Einschlafgeschichte zum Anhören, professionell vertont, mit sanfter Musik, und dein Kind ist der Held.
+Was dabei im Kopf deines Kindes passiert und warum es diesen Moment nie vergisst, haben wir im Ratgeber zu [personalisierten Kindergeschichten](personalisierte-kindergeschichten.html) ausführlich beschrieben. Genau dafür haben wir Mein Traumheld gebaut: Jeden Abend wartet eine neue Einschlafgeschichte zum Anhören, professionell vertont, mit sanfter Musik, und dein Kind ist der Held.
 
 ## Häufige Fragen
 

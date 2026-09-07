@@ -63,7 +63,7 @@ Es gibt einen Weg, der in kaum einem Ratgeber steht und der erstaunlich gut funk
 
 Kinder lernen über Identifikation. Wenn dein Kind Abend für Abend hört, wie es selbst, mit seinem eigenen Namen, ein Abenteuer besteht, eine dunkle Höhle erkundet oder einem ängstlichen Tier hilft, dann speichert sein Kopf genau dieses Bild ab: Ich bin jemand, der so etwas schafft. Dieses Selbstbild nimmt es mit, wenn das Licht ausgeht.
 
-Das ist keine Zauberei, sondern Selbstwirksamkeit: die Erfahrung, Herausforderungen aus eigener Kraft zu meistern, hier eben zunächst in der sicheren Welt der Geschichte. Was im Kopf deines Kindes passiert, wenn es der Held der eigenen Geschichte ist, haben wir [hier genauer beschrieben](kind-eigener-name-geschichte.html).
+Das ist keine Zauberei, sondern Selbstwirksamkeit: die Erfahrung, Herausforderungen aus eigener Kraft zu meistern, hier eben zunächst in der sicheren Welt der Geschichte. Was im Kopf deines Kindes passiert, wenn es der Held der eigenen Geschichte ist, steht im Ratgeber zu [personalisierten Kindergeschichten](personalisierte-kindergeschichten.html).
 
 Genau darauf sind die Geschichten von Mein Traumheld gebaut: Dein Kind erlebt sich jeden Abend als mutig, hilfsbereit und stark, in einer ruhigen Hörgeschichte, die sanft ins Einschlafen führt.
 

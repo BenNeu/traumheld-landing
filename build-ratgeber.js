@@ -132,6 +132,21 @@ function mdToHtml(md) {
       continue;
     }
 
+    // table  | a | b |  /  |---|---|  /  | c | d |
+    if (/^\s*\|/.test(line) && i + 1 < lines.length && /^\s*\|[\s:|-]+\|\s*$/.test(lines[i + 1])) {
+      const zellen = (zeile) => zeile.trim().replace(/^\||\|$/g, '').split('|').map(c => c.trim());
+      const kopf = zellen(lines[i]);
+      i += 2;
+      const koerper = [];
+      while (i < lines.length && /^\s*\|/.test(lines[i])) {
+        koerper.push(zellen(lines[i])); i++;
+      }
+      const thead = `<thead><tr>${kopf.map(c => `<th>${inline(c)}</th>`).join('')}</tr></thead>`;
+      const tbody = `<tbody>${koerper.map(r => `<tr>${r.map(c => `<td>${inline(c)}</td>`).join('')}</tr>`).join('')}</tbody>`;
+      out.push(`<div class="tabelle-wrap"><table>${thead}${tbody}</table></div>`);
+      continue;
+    }
+
     // paragraph (collect until blank or block start)
     const buf = [];
     while (i < lines.length && !/^\s*$/.test(lines[i])
@@ -139,7 +154,8 @@ function mdToHtml(md) {
         && !/^\s*>\s?/.test(lines[i])
         && !/^\s*[-*+]\s+/.test(lines[i])
         && !/^\s*\d+\.\s+/.test(lines[i])
-        && !/^\s*(---|\*\*\*|___)\s*$/.test(lines[i])) {
+        && !/^\s*(---|\*\*\*|___)\s*$/.test(lines[i])
+        && !(/^\s*\|/.test(lines[i]) && i + 1 < lines.length && /^\s*\|[\s:|-]+\|\s*$/.test(lines[i + 1]))) {
       buf.push(lines[i]); i++;
     }
     out.push(`<p>${inline(buf.join(' ').trim())}</p>`);

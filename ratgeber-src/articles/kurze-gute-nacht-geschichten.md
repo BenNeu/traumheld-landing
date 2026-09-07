@@ -12,7 +12,7 @@ imageAlt: "Elternteil liest dem Kind im warmen Licht eine kurze Gute-Nacht-Gesch
 
 Manchmal muss es einfach schnell gehen und trotzdem schön sein. Hier findest du 5 kurze Gute-Nacht-Geschichten zum Vorlesen, jede etwa 5 Minuten lang, kostenlos und ohne Anmeldung. Alle Geschichten stammen aus der Traumheld-Welt: ruhig erzählt, mit einem kleinen Abenteuer, einem mutigen Kind als Held und einem friedlichen Ende, das sanft ins Einschlafen führt.
 
-Ein Tipp vorab: In jeder Geschichte trägt der Held einen anderen Namen. Wenn du beim Vorlesen einfach den Namen deines Kindes einsetzt, passiert etwas Magisches. Warum das so stark wirkt, liest du im Ratgeber über [personalisierte Geschichten](kind-eigener-name-geschichte.html).
+Ein Tipp vorab: In jeder Geschichte trägt der Held einen anderen Namen. Wenn du beim Vorlesen einfach den Namen deines Kindes einsetzt, passiert etwas Magisches. Warum das so stark wirkt, liest du im Ratgeber über [personalisierte Kindergeschichten](personalisierte-kindergeschichten.html).
 
 ## Der Laternenwald (ca. 5 Minuten)
 
