@@ -752,6 +752,9 @@
       transition: opacity 0.7s ease, transform 0.7s ease;
     }
     .reveal.visible { opacity: 1; transform: translateY(0); }
+    /* Wer per Link direkt auf einen Abschnitt springt, soll ihn sofort sehen,
+       auch wenn die Einblend-Animation noch nicht ausgeloest wurde. */
+    .reveal:target { opacity: 1; transform: translateY(0); }
 
     /* USP SECTION */
     .usp-section {
@@ -1089,7 +1092,7 @@
   <div class="divider"></div>
 
   <!-- FREE STORY PLAYER -->
-  <div class="free-story reveal">
+  <div class="free-story reveal" id="hoerprobe">
     <div class="section-label">Kostenlos anhören</div>
     <h2>Hör rein — <span>völlig kostenlos</span></h2>
     <p>Eine echte Traumheld-Geschichte. Kein Konto, keine E-Mail. Einfach Play drücken.</p>

@@ -2,10 +2,13 @@
 title: "Einschlafgeschichten zum Anhören: Warum Hörgeschichten Kindern beim Einschlafen helfen"
 description: "Einschlafgeschichten zum Anhören: Warum Hörgeschichten Kinder beruhigen, woran du gute erkennst und wo du sie findest. Mit kostenloser Hörprobe."
 slug: einschlafgeschichten-zum-anhoeren
-date: 2026-07-15
+date: 2026-09-08
 author: Ben Neuendorf
 category: Geschichten
 keywords: einschlafgeschichten zum anhören, hörgeschichten kinder, gute nacht geschichten hörbuch, hörspiele zum einschlafen kinder, einschlafgeschichten audio
+audioUrl: https://podcast.mein-traumheld.de/audio/1937db20-a98f-438a-baea-04736a80c7b7.mp3
+audioTitel: "Bennis großes Abenteuer"
+audioDauer: "knapp 5 Minuten"
 image: images/einschlafgeschichten-zum-anhoeren.jpg
 imageAlt: "Kind liegt entspannt im Bett und hört eine Einschlafgeschichte"
 ---
@@ -50,7 +53,13 @@ Wenn dein Kind trotz ruhiger Geschichten abends lange wach liegt, lohnt sich ein
 
 ## Höre hier eine kostenlose Einschlafgeschichte
 
-Am besten verstehst du den Unterschied, wenn du ihn hörst. Auf unserer [Startseite](https://mein-traumheld.de/#hoerprobe) kannst du eine echte Traumheld-Einschlafgeschichte kostenlos anhören, ohne Konto und ohne E-Mail. Einfach Play drücken und die Augen zumachen. Du wirst merken: Die Geschichte wird zum Ende hin ruhiger, die Musik sanfter, alles ist auf das Einschlafen hin erzählt.
+Am besten verstehst du den Unterschied, wenn du ihn hörst. Das hier ist eine echte Traumheld-Einschlafgeschichte, knapp fünf Minuten lang, professionell erzählt und mit leiser Musik unterlegt.
+
+::audio::
+
+Achte beim Hören auf den Verlauf. Die Geschichte wird zum Ende hin ruhiger, die Stimme leiser, die Musik sanfter. Alles ist auf das Einschlafen hin erzählt, nicht auf Spannung. Genau daran erkennst du eine gute Einschlafgeschichte, ganz gleich von welchem Anbieter sie kommt.
+
+Am besten probierst du sie heute Abend direkt aus, wenn dein Kind schon im Bett liegt.
 
 ## Die besten Quellen für Einschlafgeschichten zum Anhören
 

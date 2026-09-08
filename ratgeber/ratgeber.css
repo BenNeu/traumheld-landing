@@ -211,3 +211,49 @@ footer a:hover { color: var(--gold); }
   transition: color .2s;
 }
 .weiterlesen a:hover { color: var(--gold); }
+
+/* --- Hoerprobe im Ratgeber (seit 2026-09-08) --- */
+/* Natives audio-Element: laeuft ohne JavaScript und ist von Haus aus bedienbar. */
+.hoerprobe {
+  margin: 32px 0;
+  padding: 24px 26px;
+  background: linear-gradient(135deg, #17173a, #1d1d47);
+  border: 1px solid #2f2f63;
+  border-radius: 18px;
+}
+.hoerprobe figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.hoerprobe-label {
+  color: var(--dark);
+  background: var(--gold);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+.hoerprobe-titel {
+  color: #fff;
+  font-size: 1.12rem;
+  font-weight: 600;
+}
+.hoerprobe-dauer { color: var(--muted); font-size: .92rem; }
+.hoerprobe audio {
+  width: 100%;
+  display: block;
+  border-radius: 999px;
+}
+.hoerprobe-hinweis {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: .92rem;
+}
+@media (max-width: 600px) {
+  .hoerprobe { padding: 20px 18px; }
+}

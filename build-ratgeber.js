@@ -132,6 +132,13 @@ function mdToHtml(md) {
       continue;
     }
 
+    // Hoerprobe: Zeile "::audio::" wird zum Player.
+    // Quelle und Beschriftung kommen aus dem Frontmatter (audioUrl, audioTitel, audioDauer).
+    if (/^\s*::audio::\s*$/.test(line)) {
+      out.push('{{AUDIO_PLAYER}}');
+      i++; continue;
+    }
+
     // table  | a | b |  /  |---|---|  /  | c | d |
     if (/^\s*\|/.test(line) && i + 1 < lines.length && /^\s*\|[\s:|-]+\|\s*$/.test(lines[i + 1])) {
       const zellen = (zeile) => zeile.trim().replace(/^\||\|$/g, '').split('|').map(c => c.trim());
@@ -155,7 +162,8 @@ function mdToHtml(md) {
         && !/^\s*[-*+]\s+/.test(lines[i])
         && !/^\s*\d+\.\s+/.test(lines[i])
         && !/^\s*(---|\*\*\*|___)\s*$/.test(lines[i])
-        && !(/^\s*\|/.test(lines[i]) && i + 1 < lines.length && /^\s*\|[\s:|-]+\|\s*$/.test(lines[i + 1]))) {
+        && !(/^\s*\|/.test(lines[i]) && i + 1 < lines.length && /^\s*\|[\s:|-]+\|\s*$/.test(lines[i + 1]))
+        && !/^\s*::audio::\s*$/.test(lines[i])) {
       buf.push(lines[i]); i++;
     }
     out.push(`<p>${inline(buf.join(' ').trim())}</p>`);
@@ -276,6 +284,37 @@ for (const file of files) {
       }))
     });
   }
+  // Hoerprobe-Player. Bewusst das native audio-Element: laeuft ohne JavaScript,
+  // ist von Haus aus barrierefrei und funktioniert auf jedem Geraet.
+  let audioHtml = '';
+  if (data.audioUrl) {
+    const audioTitel = data.audioTitel || 'Hörprobe';
+    const audioDauer = data.audioDauer || '';
+    audioHtml = `<figure class="hoerprobe">
+  <figcaption>
+    <span class="hoerprobe-label">Gratis Hörprobe</span>
+    <span class="hoerprobe-titel">${esc(audioTitel)}</span>
+    ${audioDauer ? `<span class="hoerprobe-dauer">${esc(audioDauer)}</span>` : ''}
+  </figcaption>
+  <audio controls preload="metadata" src="${escAttr(data.audioUrl)}">
+    Dein Browser kann diese Geschichte nicht abspielen.
+    <a href="${escAttr(data.audioUrl)}">Hier kannst du sie herunterladen.</a>
+  </audio>
+  <p class="hoerprobe-hinweis">Kein Konto, keine E-Mail. Einfach Play drücken.</p>
+</figure>`;
+
+    schemaBlocks.push({
+      '@context': 'https://schema.org',
+      '@type': 'AudioObject',
+      name: audioTitel,
+      description: description,
+      contentUrl: data.audioUrl,
+      encodingFormat: 'audio/mpeg',
+      inLanguage: 'de-DE',
+      isFamilyFriendly: true
+    });
+  }
+
   const jsonld = JSON.stringify(schemaBlocks);
 
   const html = articleTpl
@@ -291,7 +330,7 @@ for (const file of files) {
     .replace(/{{READING_TIME}}/g, readingTime)
     .replace(/{{JSONLD}}/g, jsonld)
     .replace(/{{HERO}}/g, hero)
-    .replace(/{{ARTICLE_BODY}}/g, bodyHtml)
+    .replace(/{{ARTICLE_BODY}}/g, bodyHtml.replace('{{AUDIO_PLAYER}}', audioHtml))
     .replace(/{{YEAR}}/g, YEAR);
 
   fs.writeFileSync(path.join(OUT, `${slug}.html`), html);
