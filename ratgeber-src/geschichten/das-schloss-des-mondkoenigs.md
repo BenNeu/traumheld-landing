@@ -7,10 +7,12 @@ author: Mein Traumheld
 category: 6–8 Jahre
 keywords: gute nacht geschichte, vorlesen, einschlafen, kinder
 lesezeit: 9 Minuten
-ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
-ratgeberText: "Warum Vorlesen so viel bewirkt"
+ratgeberLink: /ratgeber/einschlafgeschichten-zum-anhoeren.html
+ratgeberText: "Einschlafgeschichten zum Anhören"
 image: images/das-schloss-des-mondkoenigs.jpg
 imageAlt: "Silbernes Schloss hoch über den Wolken, eine Brücke aus Mondlicht führt zum Tor"
+ratgeberLink2: /ratgeber/kind-angst-im-dunkeln.html
+ratgeberText2: "Sätze und Rituale, die gegen die Angst im Dunkeln helfen"
 ---
 
 Hoch oben am Himmel, jenseits der höchsten Wolken, schwebte das prächtige Schloss des Mondkönigs. Es war ein wundersamer Anblick, wie es dort majestätisch in der Nacht funkelte, erbaut aus gefrorenem Mondlicht und weichem Abendnebel. Die Türme erhoben sich wie silberne Pfeile gen Himmel, und in den Hallen hallte das sanfte Murmeln der schlafenden Träume wider. Dieses Schloss war kein gewöhnliches Bauwerk, es war ein Ort, an dem sich Magie und Träume trafen und vereinten.

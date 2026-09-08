@@ -397,6 +397,8 @@ if (fs.existsSync(SRC_G)) {
       .replace(/{{ARTICLE_BODY}}/g, mdToHtml(body))
       .replace(/{{RATGEBER_LINK}}/g, escAttr(data.ratgeberLink || '/ratgeber/'))
       .replace(/{{RATGEBER_TEXT}}/g, esc(data.ratgeberText || 'Alle Ratgeber-Artikel'))
+      .replace(/{{RATGEBER_LINK_2}}/g, escAttr(data.ratgeberLink2 || '/ratgeber/'))
+      .replace(/{{RATGEBER_TEXT_2}}/g, esc(data.ratgeberText2 || 'Alle Ratgeber-Artikel'))
       .replace(/{{YEAR}}/g, YEAR);
 
     fs.writeFileSync(path.join(OUT_G, `${slug}.html`), html);

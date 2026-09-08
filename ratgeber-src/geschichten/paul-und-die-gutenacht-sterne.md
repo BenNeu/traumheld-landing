@@ -7,10 +7,12 @@ author: Mein Traumheld
 category: 3–5 Jahre
 keywords: gute nacht geschichte, sterne, einschlafritual
 lesezeit: 3 Minuten
-ratgeberLink: /ratgeber/einschlafrituale-kinder.html
-ratgeberText: "Einschlafrituale, die Kindern wirklich helfen"
+ratgeberLink: /ratgeber/personalisierte-kindergeschichten.html
+ratgeberText: "Warum dein Kind seinen eigenen Namen in der Geschichte liebt"
 image: images/paul-und-die-gutenacht-sterne.jpg
 imageAlt: "Blick aus einem Kinderbett durch das Fenster auf sieben helle Sterne"
+ratgeberLink2: /ratgeber/einschlafrituale-kinder.html
+ratgeberText2: "So baust du eine ruhige Abendroutine auf"
 ---
 
 Paul hatte ein Fenster über seinem Bett. Wenn er auf dem Rücken lag, sah er genau hinaus.

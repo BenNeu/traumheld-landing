@@ -8,9 +8,11 @@ category: 3–5 Jahre
 keywords: gute nacht geschichte, traktor, fahrzeuge, bauernhof
 lesezeit: 3 Minuten
 ratgeberLink: /ratgeber/warum-vorlesen-wichtig.html
-ratgeberText: "Warum Vorlesen so viel bewirkt"
+ratgeberText: "Was zehn Minuten Vorlesen am Abend bewirken"
 image: images/der-traktor-der-traeumte.jpg
 imageAlt: "Alter grüner Traktor allein in einer Scheune, Mondlicht fällt durch die Bretterritzen"
+ratgeberLink2: /ratgeber/gute-nacht-geschichten-app-vergleich.html
+ratgeberText2: "Welche Gute-Nacht-App passt zu euch?"
 ---
 
 In der Scheune stand ein Traktor. Er war grün, er war alt, und er hieß Fritz.

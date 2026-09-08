@@ -7,10 +7,12 @@ author: Mein Traumheld
 category: 5–6 Jahre
 keywords: gute nacht geschichte kurz lustig, hund, mond
 lesezeit: 2 Minuten
-ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
-ratgeberText: "Warum kurze Geschichten oft besser wirken"
+ratgeberLink: /ratgeber/kind-angst-im-dunkeln.html
+ratgeberText: "Wenn dein Kind Angst im Dunkeln hat"
 image: images/der-hund-der-den-mond-anbellte.jpg
 imageAlt: "Kleiner Hund im nächtlichen Garten, den Kopf zum riesigen Mond erhoben"
+ratgeberLink2: /ratgeber/gute-nacht-geschichten-app-vergleich.html
+ratgeberText2: "Welche Gute-Nacht-App passt zu euch?"
 ---
 
 Bruno war ein Hund, und Bruno hatte eine Aufgabe.

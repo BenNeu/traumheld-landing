@@ -11,6 +11,8 @@ ratgeberLink: /ratgeber/einschlafgeschichten-zum-anhoeren.html
 ratgeberText: "Einschlafgeschichten zum Anhören"
 image: images/die-reise-mit-dem-nachtzug.jpg
 imageAlt: "Blick aus dem Fenster eines Nachtzugs auf dunkle Felder und ein erleuchtetes Haus"
+ratgeberLink2: /ratgeber/gute-nacht-geschichten-app-vergleich.html
+ratgeberText2: "Welche Gute-Nacht-App passt zu euch?"
 ---
 
 Der Zug fuhr los, als es schon dunkel war.

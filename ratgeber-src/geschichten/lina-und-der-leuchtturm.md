@@ -7,10 +7,12 @@ author: Mein Traumheld
 category: 6–8 Jahre
 keywords: gute nacht geschichte, leuchtturm, meer, großvater
 lesezeit: 5 Minuten
-ratgeberLink: /ratgeber/warum-vorlesen-wichtig.html
-ratgeberText: "Warum Vorlesen so viel bewirkt"
+ratgeberLink: /ratgeber/personalisierte-kindergeschichten.html
+ratgeberText: "Warum dein Kind seinen eigenen Namen in der Geschichte liebt"
 image: images/lina-und-der-leuchtturm.jpg
 imageAlt: "Laternenraum eines Leuchtturms im Sturm, die große Linse dreht sich"
+ratgeberLink2: /ratgeber/gute-nacht-geschichten-app-vergleich.html
+ratgeberText2: "Welche Gute-Nacht-App passt zu euch?"
 ---
 
 Der Leuchtturm stand auf einem Felsen, und der Felsen stand im Meer, und hinter dem Meer kam nichts mehr. Jedenfalls sagte Linas Großvater das immer.

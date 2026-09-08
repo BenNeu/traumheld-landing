@@ -7,10 +7,12 @@ author: Mein Traumheld
 category: 6–8 Jahre
 keywords: gute nacht geschichte, vorlesen, einschlafen, kinder
 lesezeit: 9 Minuten
-ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
-ratgeberText: "Warum Vorlesen so viel bewirkt"
+ratgeberLink: /ratgeber/kind-angst-im-dunkeln.html
+ratgeberText: "Wenn dein Kind Angst im Dunkeln hat"
 image: images/der-laternenwald.jpg
 imageAlt: "Uralter Wald bei Nacht, an jedem Baum hängt eine golden leuchtende Laterne"
+ratgeberLink2: /ratgeber/kurze-gute-nacht-geschichten.html
+ratgeberText2: "Noch mehr kurze Gute-Nacht-Geschichten"
 ---
 
 Tief im Herzen des Waldes, dort wo die Bäume so dicht aneinander standen, dass kaum ein Sonnenstrahl hindurchdrang, fand man die Laternen des uralten Waldes. An jedem Baum hing eine zarte Laterne, deren sanftes Licht die Dunkelheit vertrieb. Diese Laternen waren nicht nur einfache Lichtquellen. Sie enthielten die Wünsche von Kindern aus aller Welt. Manche Wünsche waren einfach, wie "einen neuen Ball", und andere geheimnisvoller, wie "ein Freund für immer". Bei Nacht, wenn die Sterne am Himmel funkelten, stiegen die Wünsche der Kinder gen Himmel, getragen von den warmen, flackernden Lichtern der Laternen. Der Himmel selbst, so erzählte man sich, lauschte den Wünschen und erfüllte sie, wenn die Zeit reif war.

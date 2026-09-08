@@ -8,9 +8,11 @@ category: 5–6 Jahre
 keywords: gute nacht geschichte kurz lustig, zähne putzen, krokodil
 lesezeit: 3 Minuten
 ratgeberLink: /ratgeber/einschlafrituale-kinder.html
-ratgeberText: "Einschlafrituale, die Kindern wirklich helfen"
+ratgeberText: "Einschlafrituale, die wirklich entspannen"
 image: images/das-krokodil-das-nicht-zaehne-putzen-wollte.jpg
 imageAlt: "Krokodil im flachen Flussufer bei Sonnenuntergang, ein Vogel sitzt auf seiner Nase"
+ratgeberLink2: /ratgeber/warum-vorlesen-wichtig.html
+ratgeberText2: "Warum Vorlesen so viel bewirkt"
 ---
 
 Ein Krokodil hat 68 Zähne.

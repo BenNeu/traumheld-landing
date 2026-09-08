@@ -7,10 +7,12 @@ author: Mein Traumheld
 category: 5–6 Jahre
 keywords: gute nacht geschichte, vorlesen, einschlafen, kinder
 lesezeit: 8 Minuten
-ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
-ratgeberText: "Warum Vorlesen so viel bewirkt"
+ratgeberLink: /ratgeber/kind-schlaeft-nicht-ein.html
+ratgeberText: "Wenn dein Kind abends nicht einschläft"
 image: images/der-berg-aus-kristall.jpg
 imageAlt: "Gewaltiger Kristallberg, der nachts von innen heraus in vielen Farben leuchtet"
+ratgeberLink2: /ratgeber/personalisierte-kindergeschichten.html
+ratgeberText2: "Personalisierte Kindergeschichten: was wirklich dahintersteckt"
 ---
 
 In einer fernen, stillen Welt, in der die Nächte niemals ganz dunkel sind, ragt ein majestätischer Berg in den Himmel. Dieser Berg ist nicht aus gewöhnlichem Gestein, sondern besteht aus unzähligen leuchtenden Kristallen, die in allen Farben des Regenbogens schimmern. Jede Nacht, wenn die Sonne untergeht und die Dunkelheit die Erde umarmt, beginnen die Kristalle sanft zu glühen. Sie füllen den Himmel mit einem zauberhaften Licht, das die Sterne zum Funkeln bringt und die Nacht in einen großen, stillen Dom verwandelt. Die Kristalle speichern die Farben der Welt und geben sie in all ihrer Pracht wieder frei, um den Lebewesen Frieden und Trost zu spenden. 

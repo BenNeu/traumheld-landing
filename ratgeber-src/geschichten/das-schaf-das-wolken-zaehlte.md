@@ -7,10 +7,12 @@ author: Mein Traumheld
 category: 3–5 Jahre
 keywords: kurze gute nacht geschichte, schafe zählen, lustig
 lesezeit: 2 Minuten
-ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
-ratgeberText: "Warum kurze Geschichten oft besser wirken"
+ratgeberLink: /ratgeber/kind-schlaeft-nicht-ein.html
+ratgeberText: "Wenn dein Kind abends nicht einschläft"
 image: images/das-schaf-das-wolken-zaehlte.jpg
 imageAlt: "Mondbeschienene Wiese mit ruhenden Schafen unter einem Sternenhimmel"
+ratgeberLink2: /ratgeber/einschlafrituale-kinder.html
+ratgeberText2: "So baust du eine ruhige Abendroutine auf"
 ---
 
 Alle Menschen wissen: Wenn man nicht einschlafen kann, zählt man Schafe.

@@ -8,9 +8,11 @@ category: 6–8 Jahre
 keywords: gute nacht geschichte, geheimnis, oma, apfelbaum
 lesezeit: 5 Minuten
 ratgeberLink: /ratgeber/warum-vorlesen-wichtig.html
-ratgeberText: "Warum Vorlesen so viel bewirkt"
+ratgeberText: "Was zehn Minuten Vorlesen am Abend bewirken"
 image: images/das-geheimnis-im-apfelbaum.jpg
 imageAlt: "Alter hohler Apfelbaum mit einer rostigen Blechdose in der Höhlung"
+ratgeberLink2: /ratgeber/kurze-gute-nacht-geschichten.html
+ratgeberText2: "Noch mehr kurze Gute-Nacht-Geschichten"
 ---
 
 Der Apfelbaum stand am Ende des Gartens, und er war alt. So alt, dass er in der Mitte hohl war.

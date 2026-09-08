@@ -7,10 +7,12 @@ author: Mein Traumheld
 category: 5–6 Jahre
 keywords: gute nacht geschichte kurz lustig, socke, quatschgeschichte
 lesezeit: 3 Minuten
-ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
-ratgeberText: "Warum kurze Geschichten oft besser wirken"
+ratgeberLink: /ratgeber/einschlafrituale-kinder.html
+ratgeberText: "Einschlafrituale, die wirklich entspannen"
 image: images/die-socke-die-abhauen-wollte.jpg
 imageAlt: "Gestreifte Socke als Nest hoch in einem Baum, darin drei kleine Eier"
+ratgeberLink2: /ratgeber/ki-geschichten-fuer-kinder.html
+ratgeberText2: "Wie Geschichten mit KI entstehen, ehrlich erklärt"
 ---
 
 Es gibt eine Sache, die alle Erwachsenen falsch verstehen.

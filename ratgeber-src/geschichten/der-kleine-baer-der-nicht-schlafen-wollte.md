@@ -7,10 +7,12 @@ author: Mein Traumheld
 category: 3–5 Jahre
 keywords: gute nacht geschichte, einschlafen, bär, vorlesen
 lesezeit: 3 Minuten
-ratgeberLink: /ratgeber/einschlafrituale-kinder.html
-ratgeberText: "Einschlafrituale, die Kindern wirklich helfen"
+ratgeberLink: /ratgeber/kind-schlaeft-nicht-ein.html
+ratgeberText: "Wenn dein Kind abends nicht einschläft"
 image: images/der-kleine-baer-der-nicht-schlafen-wollte.jpg
 imageAlt: "Beleuchtete Bärenhöhle am Rand eines verschneiten Kiefernwaldes unter einem großen gelben Mond"
+ratgeberLink2: /ratgeber/einschlafrituale-kinder.html
+ratgeberText2: "So baust du eine ruhige Abendroutine auf"
 ---
 
 Im Wald am Hang, dort wo die großen Tannen stehen, lag eine Höhle. In der Höhle wohnte Mama Bär. Und neben Mama Bär lag ein kleiner Bär, der hieß Bruno.

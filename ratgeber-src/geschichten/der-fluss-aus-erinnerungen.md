@@ -7,10 +7,12 @@ author: Mein Traumheld
 category: 6–8 Jahre
 keywords: gute nacht geschichte, vorlesen, einschlafen, kinder
 lesezeit: 9 Minuten
-ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
-ratgeberText: "Warum Vorlesen so viel bewirkt"
+ratgeberLink: /ratgeber/einschlafgeschichten-zum-anhoeren.html
+ratgeberText: "Einschlafgeschichten zum Anhören"
 image: images/der-fluss-aus-erinnerungen.jpg
 imageAlt: "Ein Fluss aus treibenden Lichtern fließt durch eine dunkle stille Landschaft"
+ratgeberLink2: /ratgeber/warum-vorlesen-wichtig.html
+ratgeberText2: "Warum Vorlesen so viel bewirkt"
 ---
 
 In einer Nacht, die so leise war, dass das Flüstern der Sterne zu hören war, floss ein ganz besonderer Fluss durch das Land. Es war kein gewöhnlicher Fluss aus Wasser, sondern ein Strom aus leuchtenden Erinnerungen. Kleine Lichter trieben darin wie Boote: Erinnerungen an warme Sommerabende, an die ersten Schritte auf weichem Gras, an das unvergessliche Lachen von Freunden. Diese Erinnerungen funkelten sanft und erzählten ihre Geschichten an diejenigen, die den Fluss betrachteten. Jedes Licht schien lebendig, voller Freude und Wärme, und der Fluss selbst war ein stiller Zeuge unzähliger kostbarer Momente.

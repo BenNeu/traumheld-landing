@@ -7,10 +7,12 @@ author: Mein Traumheld
 category: 5–6 Jahre
 keywords: gute nacht geschichte kurz lustig, elefant, quatsch
 lesezeit: 3 Minuten
-ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
-ratgeberText: "Warum kurze Geschichten oft besser wirken"
+ratgeberLink: /ratgeber/einschlafrituale-kinder.html
+ratgeberText: "Einschlafrituale, die wirklich entspannen"
 image: images/der-elefant-im-badezimmer.jpg
 imageAlt: "Ein großer freundlicher Elefant sitzt in einer Badewanne voller Schaum"
+ratgeberLink2: /ratgeber/gute-nacht-geschichten-app-vergleich.html
+ratgeberText2: "Welche Gute-Nacht-App passt zu euch?"
 ---
 
 Als Jonas ins Badezimmer kam, saß da ein Elefant in der Badewanne.

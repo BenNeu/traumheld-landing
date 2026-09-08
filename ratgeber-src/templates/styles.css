@@ -178,3 +178,36 @@ footer a:hover { color: var(--gold); }
 }
 .tabelle-wrap tbody tr:last-child td { border-bottom: none; }
 .tabelle-wrap tbody tr:nth-child(even) { background: rgba(255, 255, 255, .025); }
+
+/* --- Weiterlesen-Block am Ende einer Geschichte (seit 2026-09-08) --- */
+/* Steht direkt nach der Geschichte, damit die Links Gewicht haben. */
+.weiterlesen {
+  margin: 40px 0 10px;
+  padding: 22px 26px;
+  background: rgba(92, 92, 240, .08);
+  border-left: 3px solid var(--gold);
+  border-radius: 0 14px 14px 0;
+}
+.weiterlesen h3 {
+  color: var(--gold);
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: .3px;
+  margin: 0 0 12px;
+}
+.weiterlesen ul { margin: 0; padding: 0; list-style: none; }
+.weiterlesen li { margin: 0 0 9px; padding-left: 18px; position: relative; }
+.weiterlesen li:last-child { margin-bottom: 0; }
+.weiterlesen li::before {
+  content: "→";
+  position: absolute; left: 0;
+  color: var(--muted);
+}
+.weiterlesen a {
+  color: #d8d8ea;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(153, 153, 204, .45);
+  transition: color .2s;
+}
+.weiterlesen a:hover { color: var(--gold); }

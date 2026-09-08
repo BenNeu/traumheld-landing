@@ -8,9 +8,11 @@ category: 6–8 Jahre
 keywords: gute nacht geschichte, vorlesen, einschlafen, kinder
 lesezeit: 9 Minuten
 ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
-ratgeberText: "Warum Vorlesen so viel bewirkt"
+ratgeberText: "Fünf kurze Geschichten zum Vorlesen, kostenlos"
 image: images/das-labyrinth-der-jahreszeiten.jpg
 imageAlt: "Unterirdisches Labyrinth, hinter jedem Torbogen liegt eine andere Jahreszeit"
+ratgeberLink2: /ratgeber/ki-geschichten-fuer-kinder.html
+ratgeberText2: "Wie Geschichten mit KI entstehen, ehrlich erklärt"
 ---
 
 Tief unter der Erde, verborgen vor den Blicken der Welt, liegt ein geheimnisvolles Labyrinth aus Gängen und Kammern. Dieses unterirdische Wunderwerk ist kein gewöhnlicher Ort — hier wird das Wetter der gesamten Erde entschieden. Jeder schmale Gang und jede geräumige Kammer hat ihre eigene besondere Aufgabe. In einer Kammer tanzen die sanften Sommerwinde, die die Blumen blühen und die Bäume rauschen lassen. Eine andere Kammer beherbergt die wilden Winterstürme, die Schneeflocken vom Himmel wirbeln lassen und die Welt in ein weißes Wunderland verwandeln. 

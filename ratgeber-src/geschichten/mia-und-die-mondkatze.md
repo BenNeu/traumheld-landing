@@ -7,10 +7,12 @@ author: Mein Traumheld
 category: 3–5 Jahre
 keywords: gute nacht geschichte, mond, katze, einschlafen
 lesezeit: 3 Minuten
-ratgeberLink: /ratgeber/kind-schlaeft-nicht-ein.html
-ratgeberText: "Wenn das Kind nicht einschlafen kann"
+ratgeberLink: /ratgeber/personalisierte-kindergeschichten.html
+ratgeberText: "Warum dein Kind seinen eigenen Namen in der Geschichte liebt"
 image: images/mia-und-die-mondkatze.jpg
 imageAlt: "Silberne Katze auf einem Fensterbrett, dahinter ein riesiger Mond am Nachthimmel"
+ratgeberLink2: /ratgeber/ki-geschichten-fuer-kinder.html
+ratgeberText2: "Wie Geschichten mit KI entstehen, ehrlich erklärt"
 ---
 
 Mia konnte nicht schlafen. Sie lag in ihrem Bett und schaute an die Decke, wo die Leuchtsterne klebten. Vier waren abgefallen. Sie hatte sie gezählt.

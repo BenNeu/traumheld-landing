@@ -8,9 +8,11 @@ category: 6–8 Jahre
 keywords: gute nacht geschichte, sterne, sternbilder, ordnung
 lesezeit: 4 Minuten
 ratgeberLink: /ratgeber/kind-schlaeft-nicht-ein.html
-ratgeberText: "Wenn das Kind nicht einschlafen kann"
+ratgeberText: "Wenn dein Kind abends nicht einschläft"
 image: images/der-junge-der-die-sterne-sortierte.jpg
 imageAlt: "Schreibtisch am Fenster voller Sternkarten, draußen der echte Sternenhimmel"
+ratgeberLink2: /ratgeber/personalisierte-kindergeschichten.html
+ratgeberText2: "Personalisierte Kindergeschichten: was wirklich dahintersteckt"
 ---
 
 Tom mochte Ordnung.
