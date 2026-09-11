@@ -257,3 +257,26 @@ footer a:hover { color: var(--gold); }
 @media (max-width: 600px) {
   .hoerprobe { padding: 20px 18px; }
 }
+
+
+/* BUCH-HINWEIS unter den Geschichten (ab 11.09.2026) */
+.buch-box {
+  display: flex; gap: 24px; align-items: flex-start;
+  background: linear-gradient(135deg, var(--dark2), #232357);
+  border: 1px solid #2f2f63; border-radius: 18px;
+  padding: 28px; margin: 40px 0;
+}
+.buch-bild { flex: 0 0 auto; line-height: 0; }
+.buch-bild img {
+  width: 160px; height: auto; border-radius: 6px;
+  box-shadow: 0 10px 26px rgba(0,0,0,.45);
+  transition: transform .2s;
+}
+.buch-bild:hover img { transform: translateY(-3px); }
+.buch-text h3 { color: #fff; font-size: 1.35rem; margin-bottom: 10px; }
+.buch-text p { color: var(--muted); margin-bottom: 20px; }
+.buch-preis { color: var(--muted); margin-left: 14px; font-size: .95rem; }
+@media (max-width: 560px) {
+  .buch-box { flex-direction: column; align-items: center; text-align: center; }
+  .buch-preis { display: block; margin: 12px 0 0; }
+}

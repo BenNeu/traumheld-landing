@@ -971,6 +971,26 @@
       .site-nav nav { gap: 14px; font-size: 0.88rem; }
       .site-nav nav a.nav-cta { padding: 8px 14px; }
     }
+  
+    /* BUCH-ABSCHNITT (seit 11.09.2026) */
+    .buch-section { max-width: 1000px; margin: 0 auto; padding: 70px 24px; text-align: center; }
+    .buch-inner {
+      display: flex; gap: 44px; align-items: center;
+      justify-content: center; text-align: left; margin-top: 22px;
+    }
+    .buch-section .buch-bild { flex: 0 0 auto; line-height: 0; }
+    .buch-section .buch-bild img {
+      width: 210px; height: auto; border-radius: 8px;
+      box-shadow: 0 18px 40px rgba(0,0,0,.5); transition: transform .25s;
+    }
+    .buch-section .buch-bild:hover img { transform: translateY(-4px); }
+    .buch-text { max-width: 460px; }
+    .buch-text h2 { margin-bottom: 16px; }
+    .buch-text p { margin-bottom: 26px; }
+    @media (max-width: 700px) {
+      .buch-inner { flex-direction: column; text-align: center; gap: 28px; }
+      .buch-text { max-width: none; }
+    }
   </style>
 
   <!-- NAVIGATION -->
@@ -1298,6 +1318,30 @@
       </span>
     </div>
     <p class="coming-soon" style="margin-top:16px;">Jetzt 14 Tage kostenlos testen · Jederzeit kündbar</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- BUCH (seit 11.09.2026) -->
+  <div class="buch-section reveal" id="buch">
+    <span class="section-label">Neu</span>
+    <div class="buch-inner">
+      <a class="buch-bild" href="https://www.amazon.de/dp/B0HJH1643C" target="_blank" rel="noopener">
+        <img src="/buch-cover.jpg" width="210" height="315" loading="lazy"
+             alt="Buchcover: Mein Traumheld, 30 Gute-Nacht-Geschichten zum Vorlesen">
+      </a>
+      <div class="buch-text">
+        <h2>Das Buch zum <span>Vorlesen</span></h2>
+        <p>30 Gute-Nacht-Geschichten auf 145 Seiten, sortiert nach Alter.
+        Über jeder Geschichte steht, wie lange sie dauert: zwei Minuten an den
+        Abenden, an denen es schnell gehen muss, sieben, wenn ihr Zeit habt.
+        Für die Abende, an denen kein Handy im Kinderzimmer liegen soll.</p>
+        <a class="store-btn" href="https://www.amazon.de/dp/B0HJH1643C" target="_blank" rel="noopener">
+          <span class="icon">📖</span>
+          <div><div class="label">Taschenbuch, 12,99 &euro;</div><div class="name">Bei Amazon</div></div>
+        </a>
+      </div>
+    </div>
   </div>
 
   <div class="divider"></div>
