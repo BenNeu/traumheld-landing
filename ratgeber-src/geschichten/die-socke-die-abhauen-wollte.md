@@ -11,8 +11,8 @@ ratgeberLink: /ratgeber/einschlafrituale-kinder.html
 ratgeberText: "Einschlafrituale, die wirklich entspannen"
 image: images/die-socke-die-abhauen-wollte.jpg
 imageAlt: "Gestreifte Socke als Nest hoch in einem Baum, darin drei kleine Eier"
-ratgeberLink2: /ratgeber/ki-geschichten-fuer-kinder.html
-ratgeberText2: "Wie Geschichten mit KI entstehen, ehrlich erklärt"
+ratgeberLink2: /ratgeber/abendroutine-kind.html
+ratgeberText2: "Schlafanzug, Zähne, Geschichte: die richtige Reihenfolge"
 ---
 
 Es gibt eine Sache, die alle Erwachsenen falsch verstehen.

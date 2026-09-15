@@ -7,8 +7,8 @@ author: Mein Traumheld
 category: 3–5 Jahre
 keywords: gute nacht geschichte, einschlafen, bär, vorlesen
 lesezeit: 3 Minuten
-ratgeberLink: /ratgeber/kind-schlaeft-nicht-ein.html
-ratgeberText: "Wenn dein Kind abends nicht einschläft"
+ratgeberLink: /ratgeber/abendroutine-kind.html
+ratgeberText: "Der Abendablauf, der auch an schlechten Tagen hält"
 image: images/der-kleine-baer-der-nicht-schlafen-wollte.jpg
 imageAlt: "Beleuchtete Bärenhöhle am Rand eines verschneiten Kiefernwaldes unter einem großen gelben Mond"
 ratgeberLink2: /ratgeber/einschlafrituale-kinder.html

@@ -32,7 +32,7 @@ Kündige das Ende des Tages an, statt es zu erzwingen. Ein Satz wie "Noch einmal
 
 ### 2. Die immer gleiche Reihenfolge
 
-Zähneputzen, Schlafanzug, Bett. Wenn die Schritte jeden Abend gleich sind, muss dein Kind nicht verhandeln. Der Ablauf trägt von selbst.
+Zähneputzen, Schlafanzug, Bett. Wenn die Schritte jeden Abend gleich sind, muss dein Kind nicht verhandeln. Der Ablauf trägt von selbst. Wie so ein Ablauf mit konkreten Uhrzeiten aussieht, steht im Artikel zur [Abendroutine für Kinder](abendroutine-kind.html).
 
 ### 3. Licht und Geräusche herunterfahren
 
@@ -40,7 +40,7 @@ Dimme das Licht eine halbe Stunde vor dem Schlafen. Helles Licht bremst das Schl
 
 ### 4. Eine Geschichte zum Ankommen
 
-Vorlesen ist der Klassiker, weil es wirkt. Die ruhige Stimme, die Nähe, das Eintauchen in eine andere Welt. Eine Geschichte ist die Brücke vom Tag in den Schlaf.
+Vorlesen ist der Klassiker, weil es wirkt. Die ruhige Stimme, die Nähe, das Eintauchen in eine andere Welt. Eine Geschichte ist die Brücke vom Tag in den Schlaf. Was diese zehn Minuten im Kind auslösen, steht im Artikel darüber, [warum Vorlesen so wichtig ist](warum-vorlesen-wichtig.html).
 
 ### 5. Ein fester Abschiedssatz
 
@@ -53,6 +53,8 @@ Zwischen 20 und 30 Minuten sind für die meisten Kinder ideal. Kurz genug, dass 
 ## Wenn das Ritual mal nicht klappt
 
 Es wird Abende geben, an denen nichts funktioniert. Das ist normal und kein Rückschritt. Bleib bei deiner Reihenfolge, auch wenn das Kind quengelt. Gerade dann gibt die Verlässlichkeit Halt. Ein Ritual wirkt über Wochen, nicht über einen einzelnen Abend.
+
+Wenn es über längere Zeit gar nicht besser wird, liegt es meistens an der Schlafenszeit oder am Mittagsschlaf. Die häufigsten Ursachen gehen wir durch, wenn [dein Kind abends nicht einschläft](kind-schlaeft-nicht-ein.html).
 
 ## Die Rolle der personalisierten Geschichte
 

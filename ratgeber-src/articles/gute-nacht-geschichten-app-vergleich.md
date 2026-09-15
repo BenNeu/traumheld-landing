@@ -33,6 +33,8 @@ Eine gute Geschichten-App nimmt dir genau diesen Teil ab. Der gemeinsame Moment 
 
 Die Preise der Anbieter ändern sich immer wieder, prüfe sie am besten direkt im App Store. Schauen wir uns die Apps im Detail an.
 
+Wenn bei euch eine Hörbox im Kinderzimmer steht und du überlegst, ob eine App die überhaupt ersetzen kann: Diese Frage beantworten wir getrennt, samt Jahresrechnung, im Artikel über die [Toniebox-Alternative ohne zweites Gerät](toniebox-alternative-app.html).
+
 ## Oscar Stories: Der bekannte KI-Geschichtenerzähler
 
 Oscar Stories aus Österreich war einer der ersten Anbieter für KI-Kindergeschichten im deutschsprachigen Raum. Die App macht vieles gut: Dein Kind und sogar seine Freunde können Rollen in der Geschichte übernehmen, die Themenauswahl ist groß und die Illustrationen sind liebevoll.

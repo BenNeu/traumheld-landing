@@ -30,6 +30,8 @@ Wie groß der Unterschied ist, sieht man am besten direkt nebeneinander. Derselb
 
 Der zweite Anfang ist keine bessere Literatur. Er ist nur ihrer. Und deshalb hört Mia zu.
 
+Damit Stufe zwei überhaupt funktioniert, muss die Geschichte für jedes Kind neu entstehen. Wie das technisch abläuft und wo die Grenzen liegen, steht im Artikel über [KI-Geschichten für Kinder](ki-geschichten-fuer-kinder.html).
+
 ## Warum der eigene Name so stark wirkt
 
 Das ist keine Marketing-Behauptung, sondern gut erklärbar.

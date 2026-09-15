@@ -45,7 +45,7 @@ Wichtig ist weniger der perfekte Satz als die Haltung dahinter: ernst nehmen, zu
 
 ## Rituale gegen die Angst: Was wirklich hilft
 
-Neben den Worten helfen verlässliche Abläufe. Angst wird kleiner, wenn der Abend vorhersehbar ist.
+Neben den Worten helfen verlässliche Abläufe. Angst wird kleiner, wenn der Abend vorhersehbar ist. Wie so ein Ablauf konkret aussieht, Schritt für Schritt und mit Uhrzeiten, steht im Artikel zur [Abendroutine für Kinder](abendroutine-kind.html).
 
 **Der gemeinsame Zimmer-Rundgang.** Schaut zusammen unters Bett, hinter den Vorhang, in den Schrank. Nicht du kontrollierst für dein Kind, ihr macht es gemeinsam, und dein Kind führt. So erlebt es sich als handelnd statt ausgeliefert.
 

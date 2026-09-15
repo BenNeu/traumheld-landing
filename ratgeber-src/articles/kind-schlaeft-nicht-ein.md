@@ -38,6 +38,8 @@ Du musst nicht alles auf einmal ändern. Schon ein, zwei ruhige Stellschrauben m
 
 Beobachte, wann dein Kind von selbst müde wird. Gähnen, Augenreiben, Quengeln sind das Zeitfenster. Genau dann sollte das Kind im Bett liegen, nicht eine Stunde davor und nicht eine Stunde danach. Wer dieses Fenster trifft, spart sich den halben Kampf.
 
+Damit das Kind zum richtigen Zeitpunkt auch wirklich im Bett ist, muss der Abend früh genug anfangen. Einen fertigen Ablauf mit Uhrzeiten findest du im Artikel zur [Abendroutine für Kinder](abendroutine-kind.html).
+
 ### Den Abend früh herunterfahren
 
 Beginne die Ruhe nicht erst im Bett, sondern eine halbe Stunde vorher. Licht dimmen, Stimme senken, keine Bildschirme mehr. Der Körper bekommt so die Signale, die er zum Müdewerden braucht.

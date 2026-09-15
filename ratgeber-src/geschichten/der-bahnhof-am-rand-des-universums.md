@@ -11,8 +11,8 @@ ratgeberLink: /ratgeber/ki-geschichten-fuer-kinder.html
 ratgeberText: "KI-Geschichten für Kinder: was Eltern wissen sollten"
 image: images/der-bahnhof-am-rand-des-universums.jpg
 imageAlt: "Bahnhof aus Sternenlicht am Rand des Universums, ein leuchtender Zug wartet"
-ratgeberLink2: /ratgeber/gute-nacht-geschichten-app-vergleich.html
-ratgeberText2: "Welche Gute-Nacht-App passt zu euch?"
+ratgeberLink2: /ratgeber/toniebox-alternative-app.html
+ratgeberText2: "Braucht ihr abends überhaupt ein zweites Gerät?"
 ---
 
 Es war eine ungewöhnliche Nacht am leuchtenden Bahnhof am Rand des Universums. Jeden Abend sammelten sich hier Züge aus reinem Sternenlicht, bereit, sanft in alle Galaxien zu gleiten. Der Bahnhof war ein magischer Ort, dessen Gleise sich wie flüssiges Silber durch die funkelnde Dunkelheit zogen. Überall war ein sanftes Summen zu hören, als ob die Sterne miteinander flüsterten. Der Duft von frischem Kometenstaub lag in der Luft, süß und geheimnisvoll .

@@ -11,8 +11,8 @@ ratgeberLink: /ratgeber/kind-angst-im-dunkeln.html
 ratgeberText: "Wenn dein Kind Angst im Dunkeln hat"
 image: images/der-hund-der-den-mond-anbellte.jpg
 imageAlt: "Kleiner Hund im nächtlichen Garten, den Kopf zum riesigen Mond erhoben"
-ratgeberLink2: /ratgeber/gute-nacht-geschichten-app-vergleich.html
-ratgeberText2: "Welche Gute-Nacht-App passt zu euch?"
+ratgeberLink2: /ratgeber/toniebox-alternative-app.html
+ratgeberText2: "Immer dieselbe Hörfigur? Das hilft wirklich"
 ---
 
 Bruno war ein Hund, und Bruno hatte eine Aufgabe.

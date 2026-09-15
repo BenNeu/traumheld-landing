@@ -69,7 +69,7 @@ Du hast mehrere Möglichkeiten, jede mit eigenen Stärken und Schwächen:
 
 **Podcasts und YouTube.** Es gibt liebevolle Kanäle mit Gute-Nacht-Geschichten, viele davon kostenlos. Auch hier gilt: vorher selbst anhören und Autoplay abschalten. Bei YouTube kommt der Bildschirm dazu, den du abends eigentlich vermeiden willst.
 
-**Toniebox, Tigerbox und Co.** Die Hörboxen sind bei Kindern beliebt und einfach zu bedienen. Die Kosten summieren sich aber: Box plus einzelne Figuren oder ein zusätzliches Abo. Und die Inhalte sind für alle Kinder gleich, dein Kind hört dieselben Geschichten wie Millionen andere.
+**Toniebox, Tigerbox und Co.** Die Hörboxen sind bei Kindern beliebt und einfach zu bedienen. Die Kosten summieren sich aber: Box plus einzelne Figuren oder ein zusätzliches Abo. Und die Inhalte sind für alle Kinder gleich, dein Kind hört dieselben Geschichten wie Millionen andere. Was eine Box über ein Jahr tatsächlich kostet und wann sich der Wechsel lohnt, rechnen wir im Artikel zur [Toniebox-Alternative](toniebox-alternative-app.html) durch.
 
 **Geschichten-Apps.** Apps liefern Nachschub ohne neue Hardware. Die Unterschiede liegen im Detail: Manche bieten Texte zum Selbst-Vorlesen, andere fertiges Audio. Einen ehrlichen Überblick findest du in unserem [App-Vergleich](gute-nacht-geschichten-app-vergleich.html).
 

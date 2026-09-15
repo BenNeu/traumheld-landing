@@ -118,6 +118,8 @@ Kurze Geschichten wirken am stärksten, wenn sie Teil eines festen Abendrituals 
 
 Wenn deine Stimme abends selbst müde ist, gibt es die Traumheld-Geschichten auch fertig vertont als ruhiges Hörabenteuer mit sanfter Musik. Mehr dazu im Ratgeber über [Einschlafgeschichten zum Anhören](einschlafgeschichten-zum-anhoeren.html).
 
+Für den Advent haben wir eine eigene Sammlung angelegt, mit drei [kurzen Weihnachtsgeschichten zum Vorlesen](weihnachtsgeschichten-fuer-kinder-kurz.html), jede mit Minutenangabe und Altersempfehlung.
+
 ## Häufige Fragen
 
 **Wie lang sollte eine Gute-Nacht-Geschichte sein?**
