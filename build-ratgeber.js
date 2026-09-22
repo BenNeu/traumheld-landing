@@ -495,6 +495,8 @@ if (fs.existsSync(SRC_G)) {
     return `    <h2 class="index-head" style="margin-top:2rem">Geschichten für ${esc(alter)}</h2>\n${hinweise}${hinweise ? '\n' : ''}    <div class="card-grid">\n${karten}\n    </div>`;
   }).join('\n\n');
 
+  const themenLinks = sammlungQuellen.filter(s => !s.data.alter && s.data.slug)
+    .map(s => `    <p class="weiterlesen" style="margin:0 0 .5rem"><a href="/geschichten/${s.data.slug}.html">${esc(s.data.title)}</a></p>`).join('\n');
   const sammlungSchema = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
@@ -506,7 +508,7 @@ if (fs.existsSync(SRC_G)) {
   };
 
   const indexG = storyIndexTpl
-    .replace('{{GRUPPEN}}', gruppenHtml || '<p style="color:#9999cc">Bald gibt es hier die ersten Geschichten.</p>')
+    .replace('{{GRUPPEN}}', (themenLinks ? themenLinks + '\n\n' : '') + gruppenHtml || '<p style="color:#9999cc">Bald gibt es hier die ersten Geschichten.</p>')
     .replace(/{{JSONLD}}/g, JSON.stringify(sammlungSchema))
     .replace(/{{YEAR}}/g, YEAR);
   fs.writeFileSync(path.join(OUT_G, 'index.html'), indexG);
@@ -517,8 +519,18 @@ if (fs.existsSync(SRC_G)) {
     if (!data.title || !data.slug) { console.warn('WARN: Sammlung ohne title/slug uebersprungen'); continue; }
     const url = `${SITE}/geschichten/${data.slug}.html`;
     const [intro, nachKarten = ''] = body.split('<!-- KARTEN -->');
-    const treffer = geschichten.filter(g => g.alter === data.alter)
-      .sort((x, y) => (parseInt(x.vorlesezeit) - parseInt(y.vorlesezeit)) || x.title.localeCompare(y.title, 'de'));
+    // Entweder feste Auswahl (Feld geschichten: slug, slug, ...) in genau dieser
+    // Reihenfolge, oder alle Geschichten einer Altersgruppe (Feld alter).
+    let treffer;
+    if (data.geschichten) {
+      const liste = data.geschichten.split(',').map(s => s.trim()).filter(Boolean);
+      treffer = liste.map(s => geschichten.find(g => g.slug === s));
+      liste.forEach((s, i) => { if (!treffer[i]) console.warn(`WARN: Sammlung ${data.slug}: Geschichte ${s} nicht gefunden`); });
+      treffer = treffer.filter(Boolean);
+    } else {
+      treffer = geschichten.filter(g => g.alter === data.alter)
+        .sort((x, y) => (parseInt(x.vorlesezeit) - parseInt(y.vorlesezeit)) || x.title.localeCompare(y.title, 'de'));
+    }
     const ogImage = data.image ? `${SITE}/geschichten/${data.image.replace(/^\/?geschichten\//, '')}` : `${SITE}/logo.png`;
     const schema = [{
       '@context': 'https://schema.org',
