@@ -370,6 +370,9 @@ console.log('✓ Blog-Index gebaut: ratgeber/index.html');
 // Ratgeber steht in den Top 8. Die Ratgeber-Artikel koennen darauf nicht
 // ranken, weil sie ueber Geschichten schreiben statt welche zu sein.
 const geschichten = [];
+// Sammelseiten (z. B. fuer 4-Jaehrige) unter /geschichten/<slug>.html,
+// Quelle ratgeber-src/sammlungen/*.md. Filter ueber das Feld alter.
+const sammlungen = [];
 if (fs.existsSync(SRC_G)) {
   if (!fs.existsSync(OUT_G)) fs.mkdirSync(OUT_G, { recursive: true });
   const storyTpl = fs.readFileSync(path.join(TPL, 'story.html'), 'utf8');
@@ -453,6 +456,25 @@ if (fs.existsSync(SRC_G)) {
   const bekannt = REIHENFOLGE.filter(a => gruppen[a]);
   const uebrige = Object.keys(gruppen).filter(a => !REIHENFOLGE.includes(a)).sort();
 
+  const SRC_S = path.join(ROOT, 'ratgeber-src', 'sammlungen');
+  const sammlungQuellen = fs.existsSync(SRC_S)
+    ? fs.readdirSync(SRC_S).filter(f => f.endsWith('.md')).map(f => parseFrontmatter(fs.readFileSync(path.join(SRC_S, f), 'utf8')))
+    : [];
+  const karte = g => {
+    const thumb = g.image
+      ? `<img class="card-thumb" src="${escAttr(g.image)}" alt="${escAttr(g.imageAlt)}" loading="lazy">`
+      : `<div class="card-thumb"></div>`;
+    return `      <a class="card" href="/geschichten/${g.slug}.html">
+        ${thumb}
+        <div class="card-body">
+          <span class="eyebrow">${escAttr(g.alter)}</span>
+          <h3>${esc(g.title)}</h3>
+          <p>${esc(g.description)}</p>
+          <div class="card-meta">${escAttr(g.vorlesezeit)} Vorlesezeit</div>
+        </div>
+      </a>`;
+  };
+
   const gruppenHtml = [...bekannt, ...uebrige].map(alter => {
     const karten = gruppen[alter].map(g => {
       const thumb = g.image
@@ -468,7 +490,9 @@ if (fs.existsSync(SRC_G)) {
         </div>
       </a>`;
     }).join('\n');
-    return `    <h2 class="index-head" style="margin-top:2rem">Geschichten für ${esc(alter)}</h2>\n    <div class="card-grid">\n${karten}\n    </div>`;
+    const hinweise = sammlungQuellen.filter(s => s.data.alter === alter)
+      .map(s => `    <p class="weiterlesen" style="margin:0 0 1rem"><a href="/geschichten/${s.data.slug}.html">${esc(s.data.title)}: die kurzen Geschichten auf einer Seite</a></p>`).join('\n');
+    return `    <h2 class="index-head" style="margin-top:2rem">Geschichten für ${esc(alter)}</h2>\n${hinweise}${hinweise ? '\n' : ''}    <div class="card-grid">\n${karten}\n    </div>`;
   }).join('\n\n');
 
   const sammlungSchema = {
@@ -487,6 +511,53 @@ if (fs.existsSync(SRC_G)) {
     .replace(/{{YEAR}}/g, YEAR);
   fs.writeFileSync(path.join(OUT_G, 'index.html'), indexG);
   console.log('✓ Geschichten-Index gebaut: geschichten/index.html');
+
+  const sammlungTpl = fs.readFileSync(path.join(TPL, 'sammlung.html'), 'utf8');
+  for (const { data, body } of sammlungQuellen) {
+    if (!data.title || !data.slug) { console.warn('WARN: Sammlung ohne title/slug uebersprungen'); continue; }
+    const url = `${SITE}/geschichten/${data.slug}.html`;
+    const [intro, nachKarten = ''] = body.split('<!-- KARTEN -->');
+    const treffer = geschichten.filter(g => g.alter === data.alter)
+      .sort((x, y) => (parseInt(x.vorlesezeit) - parseInt(y.vorlesezeit)) || x.title.localeCompare(y.title, 'de'));
+    const ogImage = data.image ? `${SITE}/geschichten/${data.image.replace(/^\/?geschichten\//, '')}` : `${SITE}/logo.png`;
+    const schema = [{
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      name: data.title,
+      description: data.description || '',
+      inLanguage: 'de',
+      url,
+      isPartOf: { '@type': 'CollectionPage', '@id': `${SITE}/geschichten/` },
+      mainEntity: {
+        '@type': 'ItemList',
+        numberOfItems: treffer.length,
+        itemListElement: treffer.map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: g.url, name: g.title }))
+      }
+    }, {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Startseite', item: `${SITE}/` },
+        { '@type': 'ListItem', position: 2, name: 'Gute-Nacht-Geschichten', item: `${SITE}/geschichten/` },
+        { '@type': 'ListItem', position: 3, name: data.title, item: url }
+      ]
+    }];
+    const html = sammlungTpl
+      .replace(/{{SEO_TITLE}}/g, escAttr(data.seoTitle || data.title))
+      .replace(/{{TITLE}}/g, esc(data.title))
+      .replace(/{{DESCRIPTION}}/g, escAttr(data.description || ''))
+      .replace(/{{CANONICAL}}/g, url)
+      .replace(/{{OG_IMAGE}}/g, escAttr(ogImage))
+      .replace(/{{EYEBROW}}/g, esc(data.eyebrow || 'Zum Vorlesen'))
+      .replace('{{INTRO}}', () => mdToHtml(intro))
+      .replace('{{KARTEN}}', () => treffer.map(karte).join('\n'))
+      .replace('{{NACH_KARTEN}}', () => mdToHtml(nachKarten))
+      .replace(/{{JSONLD}}/g, () => JSON.stringify(schema))
+      .replace(/{{YEAR}}/g, YEAR);
+    fs.writeFileSync(path.join(OUT_G, `${data.slug}.html`), html);
+    sammlungen.push({ url, date: data.date || new Date().toISOString().slice(0, 10) });
+    console.log(`✓ Sammelseite gebaut: ${data.slug}.html (${treffer.length} Geschichten)`);
+  }
 }
 
 // ---------- Sitemap ----------
@@ -495,6 +566,7 @@ const urls = [
   { loc: `${SITE}/`, lastmod: today, priority: '1.0' },
   { loc: `${SITE}/ratgeber/`, lastmod: today, priority: '0.8' },
   { loc: `${SITE}/geschichten/`, lastmod: today, priority: '0.9' },
+  ...sammlungen.map(s => ({ loc: s.url, lastmod: today, priority: '0.8' })),
   ...geschichten.map(g => ({ loc: g.url, lastmod: g.date, priority: '0.7' })),
   ...articles.map(a => ({ loc: a.url, lastmod: a.date, priority: '0.7' })),
   { loc: `${SITE}/impressum.html`, lastmod: today, priority: '0.3' },
