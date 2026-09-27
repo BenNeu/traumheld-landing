@@ -397,6 +397,41 @@ if (fs.existsSync(SRC_G)) {
       ? `<img class="hero-img" src="${escAttr(image)}" alt="${escAttr(data.imageAlt || data.title)}">`
       : `<div class="hero-grad"></div>`;
 
+    // Vorlese-Video von Opa Hinnerk (YouTube). Frontmatter: youtube (Video-ID),
+    // youtubeDate (JJJJ-MM-TT), youtubeBild (lokales Vorschaubild unter geschichten/images/).
+    // Zwei-Klick-Loesung: Bis zum Klick laedt die Seite nichts von YouTube,
+    // danach die youtube-nocookie-Variante. Siehe datenschutz.html#youtube.
+    let video = '';
+    const videoSchema = [];
+    if (data.youtube) {
+      const vid = String(data.youtube).trim();
+      const vbild = data.youtubeBild ? `/geschichten/${data.youtubeBild.replace(/^\/?geschichten\//, '')}` : image;
+      video = `    <section class="video-box" style="margin:28px 0;padding:22px;border-radius:18px;background:rgba(255,255,255,0.06)">
+      <h2 style="margin:0 0 6px">Lieber anhören?</h2>
+      <p style="margin:0 0 14px">Opa Hinnerk liest dir die Geschichte vor, oben im Leuchtturm am Traummeer.</p>
+      <button type="button" class="yt-lite" data-id="${escAttr(vid)}" aria-label="Video abspielen: ${escAttr(data.title)}"
+        style="position:relative;display:block;width:100%;aspect-ratio:16/9;padding:0;border:0;border-radius:14px;overflow:hidden;cursor:pointer;background:#0b1030">
+        <img src="${escAttr(vbild)}" alt="Opa Hinnerk liest: ${escAttr(data.title)}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block">
+        <span aria-hidden="true" style="position:absolute;left:50%;top:50%;width:76px;height:76px;margin:-38px 0 0 -38px;border-radius:50%;background:rgba(0,0,0,0.55);box-shadow:0 0 0 3px rgba(255,255,255,0.85)"></span>
+        <span aria-hidden="true" style="position:absolute;left:50%;top:50%;margin:-16px 0 0 -9px;border-style:solid;border-width:16px 0 16px 28px;border-color:transparent transparent transparent #fff"></span>
+      </button>
+      <p style="margin:10px 0 0;font-size:0.85em;opacity:0.75">Mit dem Klick wird das Video von YouTube geladen. Mehr dazu im <a href="/datenschutz.html#youtube">Datenschutz</a>.</p>
+      <script>document.querySelectorAll('.yt-lite').forEach(function(b){b.addEventListener('click',function(){var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1&rel=0';f.title=b.getAttribute('aria-label');f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;f.style.cssText='width:100%;aspect-ratio:16/9;border:0;border-radius:14px;display:block';b.replaceWith(f);});});</script>
+    </section>
+`;
+      videoSchema.push({
+        '@context': 'https://schema.org',
+        '@type': 'VideoObject',
+        name: `${data.title} | Opa Hinnerk liest vor`,
+        description: description,
+        thumbnailUrl: vbild ? (vbild.startsWith('http') ? vbild : SITE + vbild) : `${SITE}/logo.png`,
+        uploadDate: data.youtubeDate || date,
+        embedUrl: `https://www.youtube-nocookie.com/embed/${vid}`,
+        contentUrl: `https://www.youtube.com/watch?v=${vid}`,
+        inLanguage: 'de'
+      });
+    }
+
     const schema = [{
       '@context': 'https://schema.org',
       '@type': 'ShortStory',
@@ -422,7 +457,7 @@ if (fs.existsSync(SRC_G)) {
         { '@type': 'ListItem', position: 2, name: 'Gute-Nacht-Geschichten', item: `${SITE}/geschichten/` },
         { '@type': 'ListItem', position: 3, name: data.title, item: url }
       ]
-    }];
+    }, ...videoSchema];
 
     const html = storyTpl
       .replace(/{{TITLE}}/g, escAttr(data.title))
@@ -436,6 +471,7 @@ if (fs.existsSync(SRC_G)) {
       .replace(/{{VORLESEZEIT}}/g, escAttr(vorlesezeit))
       .replace(/{{JSONLD}}/g, JSON.stringify(schema))
       .replace(/{{HERO}}/g, hero)
+      .replace(/{{VIDEO}}\n\n/g, video ? video + '\n' : '')
       .replace(/{{ARTICLE_BODY}}/g, mdToHtml(body))
       .replace(/{{RATGEBER_LINK}}/g, escAttr(data.ratgeberLink || '/ratgeber/'))
       .replace(/{{RATGEBER_TEXT}}/g, esc(data.ratgeberText || 'Alle Ratgeber-Artikel'))
