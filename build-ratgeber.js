@@ -45,6 +45,15 @@ function fmtDate(iso) {
 }
 
 // ---------- Frontmatter ----------
+function isoDauer(angabe) {
+  // "4:01" oder "1:04:01" wird zu PT4M1S bzw. PT1H4M1S. Google listet die
+  // Dauer als empfohlenes Feld und zeigt sie am Vorschaubild in der Suche.
+  const teile = String(angabe).trim().split(':').map(Number);
+  if (teile.some(isNaN)) return undefined;
+  const [h, m, s] = teile.length === 3 ? teile : [0, teile[0] || 0, teile[1] || 0];
+  return 'PT' + (h ? h + 'H' : '') + (m ? m + 'M' : '') + (s ? s + 'S' : '');
+}
+
 function parseFrontmatter(raw) {
   const m = raw.match(/^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/);
   if (!m) return { data: {}, body: raw };
@@ -426,6 +435,7 @@ if (fs.existsSync(SRC_G)) {
         description: description,
         thumbnailUrl: vbild ? (vbild.startsWith('http') ? vbild : SITE + vbild) : `${SITE}/logo.png`,
         uploadDate: data.youtubeDate || date,
+        ...(data.youtubeDauer ? { duration: isoDauer(data.youtubeDauer) } : {}),
         embedUrl: `https://www.youtube-nocookie.com/embed/${vid}`,
         contentUrl: `https://www.youtube.com/watch?v=${vid}`,
         inLanguage: 'de'
@@ -470,7 +480,10 @@ if (fs.existsSync(SRC_G)) {
       .replace(/{{DATE_ISO}}/g, date)
       .replace(/{{VORLESEZEIT}}/g, escAttr(vorlesezeit))
       .replace(/{{JSONLD}}/g, JSON.stringify(schema))
-      .replace(/{{HERO}}/g, hero)
+      // Gibt es ein Video, faellt das Hero-Bild weg. Sonst stehen zwei fast
+      // gleiche Motive uebereinander, und Google sieht ein Bild statt eines
+      // Videos als Hauptinhalt der Seite.
+      .replace(/{{HERO}}/g, data.youtube ? '' : hero)
       .replace(/{{VIDEO}}\n\n/g, video ? video + '\n' : '')
       .replace(/{{ARTICLE_BODY}}/g, mdToHtml(body))
       .replace(/{{RATGEBER_LINK}}/g, escAttr(data.ratgeberLink || '/ratgeber/'))

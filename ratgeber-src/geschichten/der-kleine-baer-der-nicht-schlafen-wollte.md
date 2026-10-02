@@ -15,6 +15,7 @@ ratgeberLink2: /ratgeber/einschlafrituale-kinder.html
 ratgeberText2: "So baust du eine ruhige Abendroutine auf"
 youtube: eS_C3Y9FlRg
 youtubeDate: 2026-09-26
+youtubeDauer: 4:01
 youtubeBild: images/der-kleine-baer-der-nicht-schlafen-wollte-video.jpg
 ---
 
