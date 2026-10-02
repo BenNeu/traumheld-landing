@@ -1,6 +1,6 @@
 ---
 title: "Der Mond in der Pfütze"
-description: "Eine Gute-Nacht-Geschichte zum Vorlesen ab 3 Jahren: Auf dem Heimweg findet die kleine Ente Pia den Mond in einer Pfütze. Sie will ihn mit nach Hause nehmen."
+description: "Eine Gute-Nacht-Geschichte zum Vorlesen ab 3 Jahren: Auf dem Heimweg findet Pia den Mond in einer Pfütze. Sie will ihn mit nach Hause nehmen."
 slug: der-mond-in-der-pfuetze
 date: 2026-09-22
 author: Mein Traumheld
@@ -10,7 +10,7 @@ lesezeit: 2 Minuten
 ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
 ratgeberText: "Kurze Geschichten für Abende, an denen es schnell gehen muss"
 image: images/der-mond-in-der-pfuetze.jpg
-imageAlt: "Eine kleine Ente und ihre Oma schauen abends in eine Pfütze, in der sich der Vollmond spiegelt"
+imageAlt: "Ein Mädchen in Regenjacke und ihre Oma schauen abends in eine Pfütze, in der sich der Vollmond spiegelt"
 ---
 
 Pia und Oma waren auf dem Heimweg. Es hatte geregnet, und jetzt war es Abend.
@@ -25,11 +25,11 @@ Oma schaute in die Pfütze. „Tatsächlich", sagte sie.
 
 Pia beugte sich vor. Der Mond war rund und hell und lag ganz still da. Man hätte ihn einfach aufheben können.
 
-Pia streckte einen Flügel aus und tippte hinein.
+Pia streckte einen Finger aus und tippte hinein.
 
 Der Mond wackelte. Er zerfiel in viele kleine Stücke, die hin und her schwappten.
 
-Pia zog den Flügel schnell zurück.
+Pia zog den Finger schnell zurück.
 
 „Ich hab ihn kaputtgemacht."
 

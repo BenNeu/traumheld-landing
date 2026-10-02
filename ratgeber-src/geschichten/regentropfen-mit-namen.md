@@ -1,6 +1,6 @@
 ---
 title: "Regentropfen mit Namen"
-description: "Eine ruhige Einschlafgeschichte zum Vorlesen ab 3 Jahren: Draußen regnet es, und der kleine Fuchs Ronja gibt jedem Tropfen einen Namen. Eine Geschichte, die mit jedem Absatz langsamer wird."
+description: "Eine ruhige Einschlafgeschichte zum Vorlesen ab 3 Jahren: Draußen regnet es, und Ronja gibt jedem Tropfen einen Namen. Eine Geschichte, die mit jedem Absatz langsamer wird."
 slug: regentropfen-mit-namen
 date: 2026-09-22
 author: Mein Traumheld
@@ -10,7 +10,7 @@ lesezeit: 2 Minuten
 ratgeberLink: /ratgeber/einschlafgeschichten-zum-anhoeren.html
 ratgeberText: "Vorlesen oder anhören, was abends besser funktioniert"
 image: images/regentropfen-mit-namen.jpg
-imageAlt: "Ein kleiner Fuchs liegt im Bett und lauscht dem Regen am Fenster"
+imageAlt: "Ein Mädchen liegt im Bett und lauscht dem Regen am Fenster"
 ---
 
 Ronja lag im Bett, als es anfing zu regnen.

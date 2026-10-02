@@ -1,6 +1,6 @@
 ---
 title: "Der falsche Fuß"
-description: "Eine kurze lustige Gute-Nacht-Geschichte zum Vorlesen ab 3 Jahren: Der kleine Fuchs zieht seine Schuhe jeden Morgen verkehrt herum an. Bis er es einmal richtig macht."
+description: "Eine kurze lustige Gute-Nacht-Geschichte zum Vorlesen ab 3 Jahren: Emil zieht seine Schuhe jeden Morgen verkehrt herum an. Bis er es einmal richtig macht."
 slug: der-falsche-fuss
 date: 2026-09-16
 author: Mein Traumheld
@@ -10,14 +10,14 @@ lesezeit: 2 Minuten
 ratgeberLink: /ratgeber/abendroutine-kind.html
 ratgeberText: "Warum Kinder Dinge lieber selbst falsch machen"
 image: images/der-falsche-fuss.jpg
-imageAlt: "Ein kleiner Fuchs sitzt auf einer Treppenstufe und schaut auf seine verkehrt angezogenen Schuhe"
+imageAlt: "Ein Junge sitzt auf einer Treppenstufe und schaut auf seine verkehrt angezogenen Schuhe, der Vater steht in der Tür"
 ---
 
-Der kleine Fuchs zog seine Schuhe jeden Morgen verkehrt herum an. Den linken rechts. Den rechten links.
+Emil zog seine Schuhe jeden Morgen verkehrt herum an. Den linken rechts. Den rechten links.
 
-„Andersrum", sagte sein Vater dann.
+„Andersrum", sagte Papa dann.
 
-„Nein", sagte der kleine Fuchs.
+„Nein", sagte Emil.
 
 Und dann ging er los, mit den Schuhen, die nach außen zeigten wie zwei Enten.
 
@@ -31,18 +31,18 @@ Es fühlte sich komisch an.
 
 Er machte einen Schritt. Der Schritt war in Ordnung. Er machte noch einen. Auch in Ordnung. Aber irgendetwas fehlte.
 
-Der kleine Fuchs setzte sich wieder hin, zog beide Schuhe aus und tauschte sie.
+Emil setzte sich wieder hin, zog beide Schuhe aus und tauschte sie.
 
 Dann stand er auf und machte einen Schritt.
 
 „So", sagte er.
 
-Sein Vater stand in der Tür und hatte alles gesehen.
+Papa stand in der Tür und hatte alles gesehen.
 
 „Und?", fragte er.
 
-„Passt", sagte der kleine Fuchs.
+„Passt", sagte Emil.
 
-Sein Vater überlegte, ob er noch etwas sagen sollte. Er ließ es.
+Papa überlegte, ob er noch etwas sagen sollte. Er ließ es.
 
 Sie gingen zusammen los. Der eine mit den Schuhen richtig herum, der andere mit den Schuhen verkehrt herum, und beide kamen gleich schnell an.
