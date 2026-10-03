@@ -10,7 +10,7 @@ lesezeit: 3 Minuten
 ratgeberLink: /ratgeber/personalisierte-kindergeschichten.html
 ratgeberText: "Warum dein Kind seinen eigenen Namen in der Geschichte liebt"
 image: images/paul-und-die-gutenacht-sterne.jpg
-imageAlt: "Blick aus einem Kinderbett durch das Fenster auf sieben helle Sterne"
+imageAlt: "Ein Junge liegt im Bett unter dem Fenster und schaut zu sieben hellen Sternen hinauf"
 ratgeberLink2: /ratgeber/einschlafrituale-kinder.html
 ratgeberText2: "So baust du eine ruhige Abendroutine auf"
 ---

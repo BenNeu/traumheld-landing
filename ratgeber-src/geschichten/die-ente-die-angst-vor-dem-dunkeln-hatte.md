@@ -10,7 +10,7 @@ lesezeit: 4 Minuten
 ratgeberLink: /ratgeber/kind-angst-im-dunkeln.html
 ratgeberText: "Wenn dein Kind Angst im Dunkeln hat"
 image: images/die-ente-die-angst-vor-dem-dunkeln-hatte.jpg
-imageAlt: "Stiller Teich bei Nacht mit Schilf, eine kleine Ente am Wasserrand"
+imageAlt: "Ein kleines Entenküken sitzt mit einem Frosch am Ufer, über dem Teich steht der große Mond"
 ratgeberLink2: /ratgeber/einschlafrituale-kinder.html
 ratgeberText2: "So baust du eine ruhige Abendroutine auf"
 ---
