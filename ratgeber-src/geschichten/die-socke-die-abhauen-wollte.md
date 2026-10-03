@@ -15,6 +15,7 @@ ratgeberLink2: /ratgeber/abendroutine-kind.html
 ratgeberText2: "Schlafanzug, Zähne, Geschichte: die richtige Reihenfolge"
 youtube: AA6tasxHfug
 youtubeDate: 2026-10-03
+youtubeDauer: 4:01
 ---
 
 Es gibt eine Sache, die alle Erwachsenen falsch verstehen.
