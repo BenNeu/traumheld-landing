@@ -10,7 +10,7 @@ lesezeit: 3 Minuten
 ratgeberLink: /ratgeber/abendroutine-kind.html
 ratgeberText: "Der Abendablauf, der auch an schlechten Tagen hält"
 image: images/der-kleine-baer-der-nicht-schlafen-wollte.jpg
-imageAlt: "Beleuchtete Bärenhöhle am Rand eines verschneiten Kiefernwaldes unter einem großen gelben Mond"
+imageAlt: "Mama Bär und der kleine Bär liegen in ihrer Höhle und schauen hinaus in den verschneiten Wald"
 ratgeberLink2: /ratgeber/einschlafrituale-kinder.html
 ratgeberText2: "So baust du eine ruhige Abendroutine auf"
 youtube: eS_C3Y9FlRg

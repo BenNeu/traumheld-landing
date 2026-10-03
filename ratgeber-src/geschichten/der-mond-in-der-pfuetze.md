@@ -10,7 +10,7 @@ lesezeit: 2 Minuten
 ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
 ratgeberText: "Kurze Geschichten für Abende, an denen es schnell gehen muss"
 image: images/der-mond-in-der-pfuetze.jpg
-imageAlt: "Ein Mädchen in Regenjacke und ihre Oma schauen abends in eine Pfütze, in der sich der Vollmond spiegelt"
+imageAlt: "Ein Mädchen in gelber Regenjacke hockt mit seiner Oma vor einer Pfütze, in der sich der Vollmond spiegelt"
 ---
 
 Pia und Oma waren auf dem Heimweg. Es hatte geregnet, und jetzt war es Abend.

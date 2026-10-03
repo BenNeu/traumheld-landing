@@ -10,7 +10,7 @@ lesezeit: 2 Minuten
 ratgeberLink: /ratgeber/abendroutine-kind.html
 ratgeberText: "Wie ein Abendritual anfängt und wieder aufhört"
 image: images/oma-schnarcht.jpg
-imageAlt: "Ein Junge sitzt abends im Bett und lauscht an der Wand zum Nachbarzimmer"
+imageAlt: "Ein Junge sitzt im Bett und lauscht mit dem Ohr an der Wand zum Nachbarzimmer"
 ---
 
 Oma übernachtete im Zimmer neben Mats. Dazwischen war nur eine Wand, und die war dünn.

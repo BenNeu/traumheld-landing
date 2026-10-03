@@ -10,7 +10,7 @@ lesezeit: 2 Minuten
 ratgeberLink: /ratgeber/abendroutine-kind.html
 ratgeberText: "Wie ein Abendritual anfängt und wieder aufhört"
 image: images/drei-glaeser-wasser.jpg
-imageAlt: "Ein Mädchen liegt im Bett, auf dem Nachttisch stehen drei volle Wassergläser, der Vater sitzt auf der Bettkante"
+imageAlt: "Ein Mädchen liegt im Bett, auf dem Nachttisch stehen drei Wassergläser, der Vater sitzt auf der Bettkante"
 ---
 
 Nele lag im Bett.

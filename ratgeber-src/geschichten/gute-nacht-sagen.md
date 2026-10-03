@@ -10,7 +10,7 @@ lesezeit: 2 Minuten
 ratgeberLink: /ratgeber/einschlafgeschichten-zum-anhoeren.html
 ratgeberText: "Vorlesen oder anhören, was abends besser funktioniert"
 image: images/gute-nacht-sagen.jpg
-imageAlt: "Ein Junge sitzt auf der Bettkante in seinem vom Mond beschienenen Zimmer"
+imageAlt: "Ein Junge sitzt auf der Bettkante und winkt ins mondbeschienene Zimmer"
 ---
 
 Theo konnte erst schlafen, wenn er allen Gute Nacht gesagt hatte.

@@ -10,7 +10,7 @@ lesezeit: 2 Minuten
 ratgeberLink: /ratgeber/einschlafgeschichten-zum-anhoeren.html
 ratgeberText: "Vorlesen oder anhören, was abends besser funktioniert"
 image: images/das-loch-im-schlafanzug.jpg
-imageAlt: "Ein Mädchen hält im Bett den Arm hoch und schaut durch ein kleines Loch im Ärmel"
+imageAlt: "Ein Mädchen hält im Bett den Arm hoch und schaut durch ein Loch im Ärmel, die Mutter sitzt daneben"
 ---
 
 Lottes Schlafanzug hatte ein Loch. Es war am Ellbogen, und es war ungefähr so groß wie eine Erbse.

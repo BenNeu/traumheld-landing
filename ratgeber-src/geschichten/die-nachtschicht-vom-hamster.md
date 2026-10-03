@@ -10,7 +10,7 @@ lesezeit: 3 Minuten
 ratgeberLink: /ratgeber/abendroutine-kind.html
 ratgeberText: "Wie ein Abendritual anfängt und wieder aufhört"
 image: images/die-nachtschicht-vom-hamster.jpg
-imageAlt: "Ein Hamster sitzt nachts in seinem Laufrad und schaut zu einem Mädchen im Bett hinüber"
+imageAlt: "Ein Mädchen liegt im Bett und schaut zum Hamsterkäfig auf der Kommode"
 ---
 
 Juna lag im Bett. Das Licht war aus.

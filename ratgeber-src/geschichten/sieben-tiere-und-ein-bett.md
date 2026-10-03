@@ -10,7 +10,7 @@ lesezeit: 2 Minuten
 ratgeberLink: /ratgeber/abendroutine-kind.html
 ratgeberText: "Wie ein Abendritual anfängt und wieder aufhört"
 image: images/sieben-tiere-und-ein-bett.jpg
-imageAlt: "Ein Kind liegt quer im Bett, um sich herum sieben Kuscheltiere"
+imageAlt: "Ein Mädchen schläft quer im Bett, um sich herum sieben Kuscheltiere"
 ---
 
 Lotta hatte sieben Kuscheltiere. Alle sieben schliefen in ihrem Bett.

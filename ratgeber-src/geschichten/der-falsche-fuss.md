@@ -10,7 +10,7 @@ lesezeit: 2 Minuten
 ratgeberLink: /ratgeber/abendroutine-kind.html
 ratgeberText: "Warum Kinder Dinge lieber selbst falsch machen"
 image: images/der-falsche-fuss.jpg
-imageAlt: "Ein Junge sitzt auf einer Treppenstufe und schaut auf seine verkehrt angezogenen Schuhe, der Vater steht in der Tür"
+imageAlt: "Ein Junge sitzt auf der Treppenstufe und schaut auf seine verkehrt angezogenen Schuhe, der Vater steht in der Tür"
 ---
 
 Emil zog seine Schuhe jeden Morgen verkehrt herum an. Den linken rechts. Den rechten links.
