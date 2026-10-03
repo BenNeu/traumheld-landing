@@ -13,6 +13,8 @@ image: images/die-socke-die-abhauen-wollte.jpg
 imageAlt: "Gestreifte Socke als Nest hoch in einem Baum, darin drei kleine Eier"
 ratgeberLink2: /ratgeber/abendroutine-kind.html
 ratgeberText2: "Schlafanzug, Zähne, Geschichte: die richtige Reihenfolge"
+youtube: AA6tasxHfug
+youtubeDate: 2026-10-03
 ---
 
 Es gibt eine Sache, die alle Erwachsenen falsch verstehen.
