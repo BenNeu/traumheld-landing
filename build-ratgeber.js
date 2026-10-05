@@ -45,6 +45,20 @@ function fmtDate(iso) {
 }
 
 // ---------- Frontmatter ----------
+// Google will beim uploadDate eines Videos Uhrzeit und Zeitzone, ein nacktes
+// Datum meldet die Search Console als Fehler. Aus "2026-09-26" wird deshalb
+// "2026-09-26T12:00:00+02:00", die Zeitzone passend zur deutschen Sommer- oder
+// Winterzeit an diesem Tag. Steht schon eine Uhrzeit drin, bleibt der Wert.
+function mitZeitzone(wert) {
+  const roh = wert instanceof Date ? wert.toISOString().slice(0, 10) : String(wert || '').trim();
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(roh)) return roh;
+  const mittag = new Date(`${roh}T12:00:00Z`);
+  const teil = new Intl.DateTimeFormat('en-US', { timeZone: 'Europe/Berlin', timeZoneName: 'longOffset' })
+    .formatToParts(mittag).find(p => p.type === 'timeZoneName');
+  const offset = (teil && teil.value.replace('GMT', '')) || '+01:00';
+  return `${roh}T12:00:00${offset === '' ? '+00:00' : offset}`;
+}
+
 function isoDauer(angabe) {
   // "4:01" oder "1:04:01" wird zu PT4M1S bzw. PT1H4M1S. Google listet die
   // Dauer als empfohlenes Feld und zeigt sie am Vorschaubild in der Suche.
@@ -434,7 +448,7 @@ if (fs.existsSync(SRC_G)) {
         name: `${data.title} | Opa Hinnerk liest vor`,
         description: description,
         thumbnailUrl: vbild ? (vbild.startsWith('http') ? vbild : SITE + vbild) : `${SITE}/logo.png`,
-        uploadDate: data.youtubeDate || date,
+        uploadDate: mitZeitzone(data.youtubeDate || date),
         ...(data.youtubeDauer ? { duration: isoDauer(data.youtubeDauer) } : {}),
         embedUrl: `https://www.youtube-nocookie.com/embed/${vid}`,
         contentUrl: `https://www.youtube.com/watch?v=${vid}`,
