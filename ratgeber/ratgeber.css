@@ -280,3 +280,6 @@ footer a:hover { color: var(--gold); }
   .buch-box { flex-direction: column; align-items: center; text-align: center; }
   .buch-preis { display: block; margin: 12px 0 0; }
 }
+
+/* PERSONALISIERTES BUCH bei Etsy (ab 15.10.2026) */
+.etsy-box { border-color: #6b5a2e; }

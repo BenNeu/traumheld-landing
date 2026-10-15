@@ -33,6 +33,36 @@ function esc(s) {
 function escAttr(s) {
   return esc(s).replace(/"/g, '&quot;');
 }
+// Personalisiertes Buch bei Etsy (seit 15.10.2026). Zehn der zwoelf Buchgeschichten
+// stehen auch hier als Gratisgeschichte. Unter genau diesen Seiten steht der Hinweis.
+const ETSY_URL = 'https://www.etsy.com/de/listing/4587121258';
+const ETSY_SLUGS = new Set([
+  'der-mond-in-der-pfuetze', 'das-loch-im-schlafanzug', 'der-falsche-fuss',
+  'drei-glaeser-wasser', 'die-nachtschicht-vom-hamster', 'der-hase-im-auto',
+  'oma-schnarcht', 'regentropfen-mit-namen', 'sieben-tiere-und-ein-bett',
+  'gute-nacht-sagen'
+]);
+function etsyBox(slug, title) {
+  if (!ETSY_SLUGS.has(slug)) return '';
+  return `    <div class="buch-box etsy-box">
+      <a class="buch-bild" href="${ETSY_URL}" target="_blank" rel="noopener">
+        <img src="/buch-personalisiert.jpg" width="160" height="213" loading="lazy"
+             alt="Personalisiertes Buch Gute Nacht, Emma mit Mond und Mädchen auf dem Cover">
+      </a>
+      <div class="buch-text">
+        <h3>Diese Geschichte gibt es auch als Buch mit dem Namen deines Kindes</h3>
+        <p>„${esc(title)}“ ist eine von zwölf Geschichten in unserem Hardcover
+        „Gute Nacht, [Name]“. Im Buch heißt die Hauptfigur wie dein Kind, das
+        Kuscheltier hat seinen echten Namen, und auf der ersten Seite steht deine
+        Widmung. Jedes Buch wird einzeln gedruckt.</p>
+        <a class="cta-btn" href="${ETSY_URL}" target="_blank" rel="noopener">Bei Etsy ansehen</a>
+        <span class="buch-preis">39,90 €, Versand kostenlos</span>
+      </div>
+    </div>
+
+`;
+}
+
 function slugify(s) {
   return String(s).toLowerCase()
     .replace(/ä/g,'ae').replace(/ö/g,'oe').replace(/ü/g,'ue').replace(/ß/g,'ss')
@@ -504,6 +534,7 @@ if (fs.existsSync(SRC_G)) {
       .replace(/{{RATGEBER_TEXT}}/g, esc(data.ratgeberText || 'Alle Ratgeber-Artikel'))
       .replace(/{{RATGEBER_LINK_2}}/g, escAttr(data.ratgeberLink2 || '/ratgeber/'))
       .replace(/{{RATGEBER_TEXT_2}}/g, esc(data.ratgeberText2 || 'Alle Ratgeber-Artikel'))
+      .replace(/{{ETSY_BOX}}/g, etsyBox(slug, data.title))
       .replace(/{{YEAR}}/g, YEAR);
 
     fs.writeFileSync(path.join(OUT_G, `${slug}.html`), html);
