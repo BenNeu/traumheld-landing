@@ -27,7 +27,7 @@ Am Mittag hatte der Bauer sein Brot auf dem Kotflügel abgestellt. Es hatte nach
 
 Am Nachmittag war das kleine Mädchen gekommen. Sie hatte auf dem Sitz gesessen und das Lenkrad gedreht, obwohl der Motor gar nicht lief.
 
-„Brumm", hatte sie gesagt. „Brumm, brumm."
+„Brumm“, hatte sie gesagt. „Brumm, brumm.“
 
 Fritz hatte nichts gesagt. Traktoren sagen nie viel. Aber er hatte sich sehr gefreut.
 
@@ -37,15 +37,15 @@ Fritz seufzte. Es klang wie ein Ventil, das Luft ablässt.
 
 In der Ecke raschelte es. Die Maus war aufgewacht.
 
-„Schläfst du schon?", fragte die Maus.
+„Schläfst du schon?“, fragte die Maus.
 
-„Traktoren schlafen nicht", sagte Fritz. „Traktoren stehen."
+„Traktoren schlafen nicht“, sagte Fritz. „Traktoren stehen.“
 
-„Und was machst du dann die ganze Nacht?"
+„Und was machst du dann die ganze Nacht?“
 
 Fritz überlegte.
 
-„Ich denke an das Feld", sagte er.
+„Ich denke an das Feld“, sagte er.
 
 Die Maus nickte. Dann kroch sie zurück in ihr Loch.
 

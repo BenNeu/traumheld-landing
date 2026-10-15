@@ -15,57 +15,57 @@ imageAlt: "Ein Mädchen liegt im Bett, auf dem Nachttisch stehen drei Wasserglä
 
 Nele lag im Bett.
 
-„Papa?"
+„Papa?“
 
-„Ja?"
+„Ja?“
 
-„Ich brauche noch ein Glas Wasser."
+„Ich brauche noch ein Glas Wasser.“
 
 Papa ging in die Küche und holte ein Glas Wasser. Nele trank einen Schluck und stellte es auf den Nachttisch.
 
-„Gute Nacht", sagte Papa und machte die Tür zu.
+„Gute Nacht“, sagte Papa und machte die Tür zu.
 
-„Papa?"
+„Papa?“
 
 Die Tür ging wieder auf.
 
-„Das Wasser ist zu kalt."
+„Das Wasser ist zu kalt.“
 
 Papa holte ein wärmeres. Nele trank einen Schluck.
 
-„Gute Nacht."
+„Gute Nacht.“
 
 Die Tür ging zu.
 
-„Papa?"
+„Papa?“
 
 Die Tür ging auf.
 
-„Jetzt ist es zu warm."
+„Jetzt ist es zu warm.“
 
 Papa schaute das Glas an. Dann schaute er Nele an. Dann holte er ein drittes, nicht zu kalt und nicht zu warm.
 
 Nele trank keinen Schluck.
 
-„Trinkst du nicht?"
+„Trinkst du nicht?“
 
-„Nein."
+„Nein.“
 
-„Warum wolltest du dann Wasser?"
+„Warum wolltest du dann Wasser?“
 
 Nele überlegte. Auf dem Nachttisch standen jetzt drei Gläser.
 
-„Weiß ich nicht", sagte sie.
+„Weiß ich nicht“, sagte sie.
 
 Papa setzte sich auf die Bettkante. Er sagte nichts. Nele sagte auch nichts. Draußen war es dunkel, und im Flur tickte die Uhr.
 
-Nach einer Weile sagte Nele: „Papa?"
+Nach einer Weile sagte Nele: „Papa?“
 
-„Ja?"
+„Ja?“
 
-„Du kannst hier sitzen bleiben."
+„Du kannst hier sitzen bleiben.“
 
-„Okay", sagte Papa.
+„Okay“, sagte Papa.
 
 Dann saß er da, bis Nele eingeschlafen war.
 

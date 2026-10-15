@@ -23,19 +23,19 @@ So machen das Krokodile und Vögel. Seit immer schon.
 
 Aber dieses Krokodil hieß Egon, und Egon hatte keine Lust mehr.
 
-„Heute nicht", sagte Egon und machte das Maul zu.
+„Heute nicht“, sagte Egon und machte das Maul zu.
 
-Der Vogel setzte sich auf Egons Nase. „Wie bitte?"
+Der Vogel setzte sich auf Egons Nase. „Wie bitte?“
 
-„Ich mag das nicht. Es kitzelt."
+„Ich mag das nicht. Es kitzelt.“
 
-„Es kitzelt seit vier Jahren", sagte der Vogel. „Und seit vier Jahren mache ich das."
+„Es kitzelt seit vier Jahren“, sagte der Vogel. „Und seit vier Jahren mache ich das.“
 
-„Genau. Vier Jahre reichen."
+„Genau. Vier Jahre reichen.“
 
 Der Vogel verschränkte die Flügel, so gut ein Vogel das kann.
 
-„Gut", sagte er. „Dann eben nicht."
+„Gut“, sagte er. „Dann eben nicht.“
 
 Und er flog weg.
 
@@ -55,7 +55,7 @@ Am siebten Abend saß Egon allein am Ufer und war sehr unglücklich.
 
 Da landete der kleine Vogel neben ihm.
 
-„Na?", sagte der Vogel.
+„Na?“, sagte der Vogel.
 
 Egon sagte nichts. Er machte nur langsam das Maul auf.
 
@@ -65,12 +65,12 @@ Es kitzelte immer noch.
 
 Aber diesmal hielt Egon ganz still, und als der Vogel bei Zahn 68 angekommen war, sagte Egon etwas, das Krokodile fast nie sagen.
 
-„Danke."
+„Danke.“
 
 Der Vogel setzte sich auf Egons Nase.
 
-„Morgen wieder?"
+„Morgen wieder?“
 
-„Morgen wieder", sagte Egon.
+„Morgen wieder“, sagte Egon.
 
 Und dann schliefen beide ein, der eine im Schlamm und der andere auf einer Nase, was ziemlich ungemütlich klingt, für einen Vogel aber völlig in Ordnung ist.

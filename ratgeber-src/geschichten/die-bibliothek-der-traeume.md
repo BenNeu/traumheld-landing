@@ -1,6 +1,6 @@
 ---
 title: "Die Bibliothek der Träume"
-description: "Gute-Nacht-Geschichte zum Vorlesen: Tief im Wald steht eine Bibliothek, in der jedes Buch einen Traum enthält – und heute fehlt eines."
+description: "Gute-Nacht-Geschichte zum Vorlesen: Tief im Wald steht eine Bibliothek, in der jedes Buch einen Traum enthält, und heute fehlt eines."
 slug: die-bibliothek-der-traeume
 date: 2026-08-22
 author: Mein Traumheld

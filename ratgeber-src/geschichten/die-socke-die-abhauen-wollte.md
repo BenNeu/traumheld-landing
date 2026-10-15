@@ -28,25 +28,25 @@ Es fing an mit einer gestreiften Socke, die hieß Hilde. Hilde gehörte zu einem
 
 Hilde lag im Wäschekorb und hatte genug.
 
-„Ich hab genug", sagte sie.
+„Ich hab genug“, sagte sie.
 
-„Wovon?", fragte die andere Hilde.
+„Wovon?“, fragte die andere Hilde.
 
-„Von Füßen."
+„Von Füßen.“
 
-Die andere Hilde dachte nach. „Füße sind aber unser Beruf."
+Die andere Hilde dachte nach. „Füße sind aber unser Beruf.“
 
-„Ich will was anderes machen."
+„Ich will was anderes machen.“
 
-„Was denn?"
+„Was denn?“
 
-Hilde schaute zur Decke. „Etwas mit Reisen."
+Hilde schaute zur Decke. „Etwas mit Reisen.“
 
 Als die Waschmaschine anging, wartete Hilde bis zum Schleudern. Beim Schleudern passt niemand richtig auf. Dann schob sie sich in die kleine Ritze bei der Gummidichtung, wo die Wäsche immer hängen bleibt.
 
 Und dann war sie weg.
 
-Die Erwachsenen suchten. Sie schauten hinter der Waschmaschine nach. Sie schauten unter dem Bett nach. Sie sagten: „Das gibt es doch nicht."
+Die Erwachsenen suchten. Sie schauten hinter der Waschmaschine nach. Sie schauten unter dem Bett nach. Sie sagten: „Das gibt es doch nicht.“
 
 Aber Hilde war längst unterwegs.
 
@@ -62,7 +62,7 @@ Und dann, irgendwann, fand ein Vogel sie und baute sie in sein Nest ein.
 
 Heute liegen dort drei Eier auf einer gestreiften Socke.
 
-Und wenn deine Mama das nächste Mal sagt: „Wo ist denn die zweite Socke schon wieder hin?"
+Und wenn deine Mama das nächste Mal sagt: „Wo ist denn die zweite Socke schon wieder hin?“
 
 Dann weißt du es.
 

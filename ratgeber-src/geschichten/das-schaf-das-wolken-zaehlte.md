@@ -21,43 +21,43 @@ Was aber fast niemand weiß: Schafe können auch nicht immer einschlafen.
 
 Auf einer Wiese in der Nähe von irgendwo lag ein Schaf namens Wolke. Es hieß Wolke, weil es so aussah. Und Wolke lag wach.
 
-„Eins", sagte Wolke und schaute nach oben. Über ihm zog eine Wolke vorbei.
+„Eins“, sagte Wolke und schaute nach oben. Über ihm zog eine Wolke vorbei.
 
-„Zwei." Noch eine.
+„Zwei.“ Noch eine.
 
-„Drei." Diese sah aus wie ein Schuh.
+„Drei.“ Diese sah aus wie ein Schuh.
 
 Wolke zählte bis siebzehn. Dann waren die Wolken alle. Der Himmel war leer und schwarz und voller Sterne.
 
-„Mist", sagte Wolke.
+„Mist“, sagte Wolke.
 
 Neben ihm hob ein anderes Schaf den Kopf. Es hieß Kevin.
 
-„Was machst du da?", fragte Kevin.
+„Was machst du da?“, fragte Kevin.
 
-„Ich zähle Wolken. Damit ich einschlafen kann."
+„Ich zähle Wolken. Damit ich einschlafen kann.“
 
 Kevin dachte nach. Das dauerte bei Kevin immer ein bisschen.
 
-„Und? Funktioniert das?"
+„Und? Funktioniert das?“
 
-„Nein", sagte Wolke. „Die Wolken sind alle."
+„Nein“, sagte Wolke. „Die Wolken sind alle.“
 
-„Dann zähl doch Menschen", sagte Kevin.
+„Dann zähl doch Menschen“, sagte Kevin.
 
-Wolke drehte den Kopf. „Menschen?"
+Wolke drehte den Kopf. „Menschen?“
 
-„Klar. Die Menschen zählen uns doch auch."
+„Klar. Die Menschen zählen uns doch auch.“
 
 Wolke schaute wieder nach oben. Dann schaute es hinüber zum Bauernhof. Dort brannte noch ein Licht in einem kleinen Fenster.
 
-„Eins", sagte Wolke.
+„Eins“, sagte Wolke.
 
 Das Licht ging aus.
 
-„Null", sagte Wolke.
+„Null“, sagte Wolke.
 
-„Siehst du", sagte Kevin zufrieden. „Geht doch schnell."
+„Siehst du“, sagte Kevin zufrieden. „Geht doch schnell.“
 
 Und weil Zählen bis eins wirklich sehr schnell geht, schlief Wolke ein, noch bevor es sich darüber wundern konnte.
 

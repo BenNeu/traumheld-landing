@@ -15,9 +15,9 @@ imageAlt: "Ein Junge sitzt auf der Treppenstufe und schaut auf seine verkehrt an
 
 Emil zog seine Schuhe jeden Morgen verkehrt herum an. Den linken rechts. Den rechten links.
 
-„Andersrum", sagte Papa dann.
+„Andersrum“, sagte Papa dann.
 
-„Nein", sagte Emil.
+„Nein“, sagte Emil.
 
 Und dann ging er los, mit den Schuhen, die nach außen zeigten wie zwei Enten.
 
@@ -35,13 +35,13 @@ Emil setzte sich wieder hin, zog beide Schuhe aus und tauschte sie.
 
 Dann stand er auf und machte einen Schritt.
 
-„So", sagte er.
+„So“, sagte er.
 
 Papa stand in der Tür und hatte alles gesehen.
 
-„Und?", fragte er.
+„Und?“, fragte er.
 
-„Passt", sagte Emil.
+„Passt“, sagte Emil.
 
 Papa überlegte, ob er noch etwas sagen sollte. Er ließ es.
 

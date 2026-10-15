@@ -1,6 +1,6 @@
 ---
 title: "Das Schloss des Mondkönigs"
-description: "Gute-Nacht-Geschichte zum Vorlesen: Hoch über den Wolken schwebt das Schloss des Mondkönigs – und heute Nacht steht seine Tür offen."
+description: "Gute-Nacht-Geschichte zum Vorlesen: Hoch über den Wolken schwebt das Schloss des Mondkönigs, und heute Nacht steht seine Tür offen."
 slug: das-schloss-des-mondkoenigs
 date: 2026-08-23
 author: Mein Traumheld

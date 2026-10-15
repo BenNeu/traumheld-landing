@@ -1,6 +1,6 @@
 ---
 title: "Der Berg aus Kristall"
-description: "Gute-Nacht-Geschichte zum Vorlesen: Jede Nacht leuchtet ein Berg aus Kristall in allen Farben – doch diesmal bleibt er dunkel."
+description: "Gute-Nacht-Geschichte zum Vorlesen: Jede Nacht leuchtet ein Berg aus Kristall in allen Farben, doch diesmal bleibt er dunkel."
 slug: der-berg-aus-kristall
 date: 2026-08-21
 author: Mein Traumheld

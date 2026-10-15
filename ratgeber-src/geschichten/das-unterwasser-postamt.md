@@ -1,6 +1,6 @@
 ---
 title: "Das Unterwasser-Postamt"
-description: "Gute-Nacht-Geschichte zum Vorlesen: Tief im Ozean liegt ein Postamt, das die Briefe der Meeresbewohner sortiert – heute ist einer verloren gegangen."
+description: "Gute-Nacht-Geschichte zum Vorlesen: Tief im Ozean liegt ein Postamt, das die Briefe der Meeresbewohner sortiert. Heute ist einer verloren gegangen."
 slug: das-unterwasser-postamt
 date: 2026-08-17
 author: Mein Traumheld

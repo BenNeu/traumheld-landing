@@ -19,9 +19,9 @@ Auf dem Gehweg lag eine Pfütze. Pia blieb stehen.
 
 In der Pfütze lag der Mond.
 
-„Oma", sagte Pia. „Der Mond ist runtergefallen."
+„Oma“, sagte Pia. „Der Mond ist runtergefallen.“
 
-Oma schaute in die Pfütze. „Tatsächlich", sagte sie.
+Oma schaute in die Pfütze. „Tatsächlich“, sagte sie.
 
 Pia beugte sich vor. Der Mond war rund und hell und lag ganz still da. Man hätte ihn einfach aufheben können.
 
@@ -31,15 +31,15 @@ Der Mond wackelte. Er zerfiel in viele kleine Stücke, die hin und her schwappte
 
 Pia zog den Finger schnell zurück.
 
-„Ich hab ihn kaputtgemacht."
+„Ich hab ihn kaputtgemacht.“
 
-„Warte mal", sagte Oma.
+„Warte mal“, sagte Oma.
 
 Sie warteten. Die Stücke wurden ruhiger. Sie schwammen zusammen, eins nach dem anderen, und dann lag der Mond wieder da, rund und ganz.
 
-„Er repariert sich selbst", sagte Pia.
+„Er repariert sich selbst“, sagte Pia.
 
-„Das kann er gut", sagte Oma.
+„Das kann er gut“, sagte Oma.
 
 Pia überlegte, ob man ihn in einem Eimer mitnehmen könnte. Aber sie hatten keinen Eimer. Und Oma sagte, der Mond sei es gewohnt, draußen zu schlafen.
 
@@ -49,10 +49,10 @@ Zu Hause, als sie im Bett lag, schaute sie aus dem Fenster.
 
 Da war er. Rund und hell, genau über dem Dach vom Nachbarn.
 
-„Oma", rief Pia. „Er ist mitgekommen!"
+„Oma“, rief Pia. „Er ist mitgekommen!“
 
 Oma kam ins Zimmer und schaute hinaus.
 
-„Tatsächlich", sagte sie.
+„Tatsächlich“, sagte sie.
 
 Und sie sagte nichts, was dagegen gesprochen hätte.

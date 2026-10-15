@@ -53,6 +53,6 @@ Nummer neunzehn hörte er nicht mehr.
 
 Am nächsten Morgen saß Oma am Frühstückstisch und rührte in ihrem Kaffee.
 
-„Ich habe kein Auge zugetan", sagte sie.
+„Ich habe kein Auge zugetan“, sagte sie.
 
 Mats sagte nichts. Er aß sein Brot und dachte an den Bären.

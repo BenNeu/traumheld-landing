@@ -1,6 +1,6 @@
 ---
 title: "Das Labyrinth der Jahreszeiten"
-description: "Gute-Nacht-Geschichte zum Vorlesen: Tief unter der Erde wird das Wetter gemacht – doch heute hat jemand die Türschilder vertauscht."
+description: "Gute-Nacht-Geschichte zum Vorlesen: Tief unter der Erde wird das Wetter gemacht, doch heute hat jemand die Türschilder vertauscht."
 slug: das-labyrinth-der-jahreszeiten
 date: 2026-08-13
 author: Mein Traumheld

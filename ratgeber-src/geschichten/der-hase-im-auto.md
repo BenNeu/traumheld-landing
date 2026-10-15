@@ -15,7 +15,7 @@ imageAlt: "Ein Vater hält nachts unter einer Straßenlaterne einen grauen Stoff
 
 Ole lag schon im Bett, als es ihm einfiel.
 
-„Hoppel ist im Auto."
+„Hoppel ist im Auto.“
 
 Hoppel war ein Hase aus Stoff. Er hatte ein Ohr, das nach oben stand, und eins, das umgeklappt war, seit Ole ein Baby war.
 
@@ -39,12 +39,12 @@ Das Auto blinkte noch mal. Die Haustür ging zu. Auf der Treppe knarzte die vier
 
 Ole lag schon wieder im Bett, als Papa hereinkam.
 
-„Er lag unter dem Sitz", sagte Papa. „Er hat sich versteckt."
+„Er lag unter dem Sitz“, sagte Papa. „Er hat sich versteckt.“
 
 Hoppel war kalt vom Auto. Ole steckte ihn unter die Decke, an den Bauch, bis er warm war.
 
-„Danke", sagte Ole.
+„Danke“, sagte Ole.
 
-„Gute Nacht", sagte Papa.
+„Gute Nacht“, sagte Papa.
 
 Der Hase schlief zuerst ein. Ole ein kleines bisschen später.

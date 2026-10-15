@@ -21,31 +21,31 @@ Am Tag war alles gut. Am Tag war der Teich blau und die Schilfhalme waren grün 
 
 Aber wenn die Sonne unterging, wurde der Teich schwarz. Und im Schwarzen konnte alles sein.
 
-„Da ist nichts", sagte Mama Ente jeden Abend.
+„Da ist nichts“, sagte Mama Ente jeden Abend.
 
-„Aber ich sehe es nicht", sagte Piet. „Wie kannst du wissen, dass da nichts ist, wenn man es nicht sieht?"
+„Aber ich sehe es nicht“, sagte Piet. „Wie kannst du wissen, dass da nichts ist, wenn man es nicht sieht?“
 
 Darauf wusste Mama Ente keine Antwort.
 
 Eines Abends saß Piet am Ufer und traute sich nicht ins Wasser. Da kam ein Frosch vorbei.
 
-„Warum sitzt du hier?", fragte der Frosch.
+„Warum sitzt du hier?“, fragte der Frosch.
 
-„Weil es dunkel ist."
+„Weil es dunkel ist.“
 
-Der Frosch setzte sich neben Piet. „Kann ich dir was zeigen?"
+Der Frosch setzte sich neben Piet. „Kann ich dir was zeigen?“
 
 Piet nickte, obwohl er sich nicht sicher war.
 
-„Mach die Augen zu", sagte der Frosch.
+„Mach die Augen zu“, sagte der Frosch.
 
-„Aber dann ist es noch dunkler!"
+„Aber dann ist es noch dunkler!“
 
-„Genau. Mach zu."
+„Genau. Mach zu.“
 
 Piet machte die Augen zu. Es war schwarz. Ganz schwarz.
 
-„Und jetzt hör hin", sagte der Frosch.
+„Und jetzt hör hin“, sagte der Frosch.
 
 Piet hörte hin.
 
@@ -57,11 +57,11 @@ Er hörte weit weg eine Eule rufen, zweimal.
 
 Und er hörte Mama Ente atmen, ein paar Schritte hinter ihm.
 
-„Was hörst du?", fragte der Frosch.
+„Was hörst du?“, fragte der Frosch.
 
-„Den Teich", sagte Piet. „Und das Schilf. Und Mama."
+„Den Teich“, sagte Piet. „Und das Schilf. Und Mama.“
 
-„Genau", sagte der Frosch. „Und das sind alles Sachen, die auch am Tag da sind. Sie sind nicht weg. Sie sind nur unsichtbar geworden."
+„Genau“, sagte der Frosch. „Und das sind alles Sachen, die auch am Tag da sind. Sie sind nicht weg. Sie sind nur unsichtbar geworden.“
 
 Piet machte die Augen auf. Der Teich war immer noch schwarz.
 
@@ -71,7 +71,7 @@ Da war das Wasser, das ans Ufer schwappte. Da war das Schilf. Da war die Eule, z
 
 Piet stand auf und watschelte ins Wasser. Es war warm vom Tag.
 
-„Danke", sagte er zum Frosch.
+„Danke“, sagte er zum Frosch.
 
 Aber der Frosch war schon weg. Man hörte ihn nur noch, irgendwo im Schilf.
 

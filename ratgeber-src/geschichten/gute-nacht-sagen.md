@@ -17,27 +17,27 @@ Theo konnte erst schlafen, wenn er allen Gute Nacht gesagt hatte.
 
 Das dauerte.
 
-„Gute Nacht, Lampe."
+„Gute Nacht, Lampe.“
 
 Die Lampe war schon aus.
 
-„Gute Nacht, Stuhl."
+„Gute Nacht, Stuhl.“
 
 Auf dem Stuhl lag die Hose von heute.
 
-„Gute Nacht, Hose."
+„Gute Nacht, Hose.“
 
 Theo überlegte, ob die Hose dazugehörte oder ob der Stuhl reichte. Er entschied sich für beides.
 
-„Gute Nacht, Fenster. Gute Nacht, Vorhang. Gute Nacht, der Fleck an der Decke, der aussieht wie ein Schiff."
+„Gute Nacht, Fenster. Gute Nacht, Vorhang. Gute Nacht, der Fleck an der Decke, der aussieht wie ein Schiff.“
 
 Der Fleck sah schon lange aus wie ein Schiff. Niemand wusste, woher er kam.
 
-„Gute Nacht, Schuh."
+„Gute Nacht, Schuh.“
 
 Der zweite Schuh war nicht da. Der zweite Schuh war nie da.
 
-„Gute Nacht, anderer Schuh, wo immer du bist."
+„Gute Nacht, anderer Schuh, wo immer du bist.“
 
 Draußen war es still. Drinnen auch.
 
@@ -45,9 +45,9 @@ Theo legte sich hin und zog die Decke hoch.
 
 Dann fiel ihr ein, dass sie noch jemanden vergessen hatte.
 
-„Gute Nacht, ich", sagte er.
+„Gute Nacht, ich“, sagte er.
 
-Und irgendwo im Zimmer, ganz leise, sagte etwas zurück: „Gute Nacht."
+Und irgendwo im Zimmer, ganz leise, sagte etwas zurück: „Gute Nacht.“
 
 Theo machte die Augen nicht mehr auf. Er wusste, dass er am Morgen nachschauen konnte.
 

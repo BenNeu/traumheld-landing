@@ -25,49 +25,49 @@ Da blinkte einer.
 
 Paul setzte sich auf. Der Stern blinkte wieder, zweimal kurz.
 
-„Meinst du mich?", flüsterte Paul.
+„Meinst du mich?“, flüsterte Paul.
 
 Der Stern blinkte dreimal.
 
 Paul verstand nicht, was das heißen sollte. Aber dann fiel es ihm ein: Vielleicht war das gar keine Sprache. Vielleicht war das eine Frage.
 
-„Ich weiß nicht, wie ihr heißt", sagte Paul.
+„Ich weiß nicht, wie ihr heißt“, sagte Paul.
 
 Alle sieben Sterne blinkten gleichzeitig.
 
-„Soll ich euch Namen geben?"
+„Soll ich euch Namen geben?“
 
 Sieben Sterne, sieben Blinken.
 
 Paul legte sich zurück. Er schaute den ersten Stern an, den ganz links.
 
-„Du heißt Otto", sagte er.
+„Du heißt Otto“, sagte er.
 
 Otto blinkte einmal. Das hieß wohl ja.
 
-„Und du daneben, du heißt Marla."
+„Und du daneben, du heißt Marla.“
 
 Marla blinkte.
 
-„Du bist Bimbo." Paul kicherte. „Tut mir leid. Aber du siehst aus wie ein Bimbo."
+„Du bist Bimbo.“ Paul kicherte. „Tut mir leid. Aber du siehst aus wie ein Bimbo.“
 
 Der Stern blinkte trotzdem.
 
-„Du heißt Frau Schneider, wie meine Erzieherin. Und du heißt Kartoffel."
+„Du heißt Frau Schneider, wie meine Erzieherin. Und du heißt Kartoffel.“
 
 Paul gähnte.
 
-„Du heißt … du heißt …"
+„Du heißt … du heißt …“
 
 Der sechste Stern wartete geduldig.
 
-„Du heißt Schlaf", sagte Paul.
+„Du heißt Schlaf“, sagte Paul.
 
 Und der siebte, ganz rechts, ganz klein?
 
 Paul schaute ihn an. Er wollte etwas sagen, aber die Augen wurden ihm schwer, und der Stern verschwamm zu einem kleinen weichen Fleck.
 
-„Du heißt …", murmelte Paul.
+„Du heißt …“, murmelte Paul.
 
 Dann schlief er ein.
 

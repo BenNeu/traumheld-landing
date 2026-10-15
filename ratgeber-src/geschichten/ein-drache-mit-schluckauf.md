@@ -35,7 +35,7 @@ Am Donnerstag beschloss Hicks, etwas zu unternehmen.
 
 Er ging zur Eule, weil Eulen klug sind.
 
-„Trink Wasser", sagte die Eule. „Rückwärts."
+„Trink Wasser“, sagte die Eule. „Rückwärts.“
 
 Hicks trank Wasser rückwärts. Das ging sehr schlecht, und er musste husten, und dabei verbrannte er einen Ast.
 
@@ -43,11 +43,11 @@ Die Eule zog um.
 
 Er ging zum Bären.
 
-„Man muss dich erschrecken", sagte der Bär. „Bei Schluckauf hilft Erschrecken."
+„Man muss dich erschrecken“, sagte der Bär. „Bei Schluckauf hilft Erschrecken.“
 
-„Und wie willst du einen Drachen erschrecken?"
+„Und wie willst du einen Drachen erschrecken?“
 
-Der Bär überlegte lange. Dann sagte er: „Buh."
+Der Bär überlegte lange. Dann sagte er: „Buh.“
 
 Hicks machte hicks. Der Bär hatte danach keine Augenbrauen mehr.
 
@@ -55,17 +55,17 @@ Am Freitag saß Hicks allein auf seinem Felsen und war traurig.
 
 Da kam ein kleines Mädchen den Weg herauf. Sie blieb vor ihm stehen und schaute ihn an.
 
-„Du bist der Drache mit dem Schluckauf", sagte sie.
+„Du bist der Drache mit dem Schluckauf“, sagte sie.
 
-„Hicks", sagte Hicks. Ein kleines Feuer ging in die Luft.
+„Hicks“, sagte Hicks. Ein kleines Feuer ging in die Luft.
 
 Das Mädchen setzte sich neben ihn.
 
-„Weißt du", sagte sie, „bei mir geht Schluckauf immer weg, wenn ich ihn vergesse."
+„Weißt du“, sagte sie, „bei mir geht Schluckauf immer weg, wenn ich ihn vergesse.“
 
-„Wie soll ich ihn denn vergessen?"
+„Wie soll ich ihn denn vergessen?“
 
-„Erzähl mir was", sagte das Mädchen. „Was ganz Langes."
+„Erzähl mir was“, sagte das Mädchen. „Was ganz Langes.“
 
 Und Hicks fing an zu erzählen. Von seiner Großmutter, die eine Burg bewacht hatte. Von dem Sommer, in dem es so heiß war, dass er nicht mal atmen durfte. Von dem Fluss, in dem er als Kind schwimmen gelernt hatte.
 

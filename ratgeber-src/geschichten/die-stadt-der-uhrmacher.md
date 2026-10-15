@@ -1,6 +1,6 @@
 ---
 title: "Die Stadt der Uhrmacher"
-description: "Gute-Nacht-Geschichte zum Vorlesen: In einer Stadt am Rand der Zeit hüten die Uhrmacher jede Stunde der Nacht – bis eine Uhr stehen bleibt."
+description: "Gute-Nacht-Geschichte zum Vorlesen: In einer Stadt am Rand der Zeit hüten die Uhrmacher jede Stunde der Nacht, bis eine Uhr stehen bleibt."
 slug: die-stadt-der-uhrmacher
 date: 2026-08-25
 author: Mein Traumheld

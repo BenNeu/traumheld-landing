@@ -1,6 +1,6 @@
 ---
 title: "Das Nordlicht und die Lichtknüpfer"
-description: "Gute-Nacht-Geschichte zum Vorlesen: Hoch im Norden weben die Lichtknüpfer jede Nacht das Nordlicht – bis eines Abends ein Faden reißt."
+description: "Gute-Nacht-Geschichte zum Vorlesen: Hoch im Norden weben die Lichtknüpfer jede Nacht das Nordlicht, bis eines Abends ein Faden reißt."
 slug: das-nordlicht-und-die-lichtknuepfer
 date: 2026-08-14
 author: Mein Traumheld
@@ -39,6 +39,6 @@ Unter dieser himmlischen Decke kehrt Ruhe ein. Die Kälte, die zuvor beißend un
 
 Die Tiere des Nordens, die in ihren Behausungen Schutz gefunden haben, treten aus ihren Verstecken, um das Wunder dieses Lichts zu bestaunen. Füchse, Eulen und sogar das tapfere Rentier wagen einen Blick auf das Leuchten, das nun den Himmel mit Hoffnung und Magie füllt. Es ist, als ob die ganze Welt einen erleichterten Seufzer ausstößt, als die Dunkelheit erneut weichen muss.
 
-Unser kleiner Held steht unter dem funkelnden Baldachin, das Herz voller Stolz und Dankbarkeit. Die Nacht hat ihre Magie zurück, und die Lichtknüpfer setzen ihre Arbeit fort, die Harmonie des Himmels zu bewahren. Das Kind weiß, dass dies einer der Momente ist, die man nie vergisst – ein Moment des Triumphs und der stillen Freude, geteilt mit einem Freund.
+Unser kleiner Held steht unter dem funkelnden Baldachin, das Herz voller Stolz und Dankbarkeit. Die Nacht hat ihre Magie zurück, und die Lichtknüpfer setzen ihre Arbeit fort, die Harmonie des Himmels zu bewahren. Das Kind weiß, dass dies einer der Momente ist, die man nie vergisst: ein Moment des Triumphs und der stillen Freude, geteilt mit einem Freund.
 
 Langsam neigt sich die Nacht dem Ende zu, und die Farben des Nordlichts beginnen, sich mit dem ersten Hauch des Morgens zu vermischen. Die Welt scheint unter dem Schutz des schimmernden Lichts in einen tiefen, erholsamen Schlaf zu sinken. Das Abenteuer ist vorbei, und es ist Zeit, nach Hause zurückzukehren, mit dem Wissen, dass die wahre Magie in der Freundschaft und dem Mut liegt, den Herausforderungen des Lebens entgegenzutreten. Theo trat den Heimweg an, das Herz voller Abenteuerlust und die Gedanken noch bei den Farben, die er reichlich über den Himmel verteilt hatte. Bald lag er in seinem Bett, seine Augen wurden schwer und die Müdigkeit des Abends überkam er. Der Gedanke an das Nordlicht und die errungene Freundschaft ließ er sanft einschlafen. Nun bereit für neue Träume, schloss Theo die Augen, zufrieden und geborgen unter der Decke des strahlenden Himmels.

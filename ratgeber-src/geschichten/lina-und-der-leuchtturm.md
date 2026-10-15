@@ -17,7 +17,7 @@ ratgeberText2: "Welche Gute-Nacht-App passt zu euch?"
 
 Der Leuchtturm stand auf einem Felsen, und der Felsen stand im Meer, und hinter dem Meer kam nichts mehr. Jedenfalls sagte Linas Großvater das immer.
 
-„Da ist das Ende der Welt", sagte er und zeigte hinaus. „Gleich hinter dem Horizont."
+„Da ist das Ende der Welt“, sagte er und zeigte hinaus. „Gleich hinter dem Horizont.“
 
 Lina war acht und wusste, dass die Welt rund ist. Aber sie sagte nichts, weil es ihr so besser gefiel.
 
@@ -27,9 +27,9 @@ Oben war die Lampe.
 
 Sie war größer als Lina. Sie drehte sich langsam, immer im Kreis, und schickte ihren Strahl über das Wasser. Drei Sekunden Licht. Sechs Sekunden dunkel. Drei Sekunden Licht.
 
-„Warum drei und sechs?", fragte Lina am ersten Abend.
+„Warum drei und sechs?“, fragte Lina am ersten Abend.
 
-„Damit die Schiffe wissen, wer wir sind", sagte Großvater. „Jeder Leuchtturm blinkt anders. Wenn du auf einem Schiff bist und dieses Muster siehst, weißt du genau, wo du bist."
+„Damit die Schiffe wissen, wer wir sind“, sagte Großvater. „Jeder Leuchtturm blinkt anders. Wenn du auf einem Schiff bist und dieses Muster siehst, weißt du genau, wo du bist.“
 
 Am dritten Abend war Sturm.
 
@@ -39,39 +39,39 @@ Sie ging die 142 Stufen hinauf.
 
 Großvater saß oben in seinem Sessel und schaute hinaus. Er war nicht überrascht, sie zu sehen.
 
-„Setz dich", sagte er.
+„Setz dich“, sagte er.
 
 Sie schauten zusammen ins Dunkle. Drei Sekunden Licht. Man sah die Wellen, weiß und riesig. Sechs Sekunden dunkel. Man sah nichts.
 
-„Großvater?"
+„Großvater?“
 
-„Hm?"
+„Hm?“
 
-„Ist da draußen jemand?"
+„Ist da draußen jemand?“
 
 Er antwortete nicht sofort.
 
-„Ich weiß es nicht", sagte er dann. „Meistens ist niemand da. In dreißig Jahren habe ich vielleicht zwanzig Schiffe gesehen, die in einer Sturmnacht vorbeikamen."
+„Ich weiß es nicht“, sagte er dann. „Meistens ist niemand da. In dreißig Jahren habe ich vielleicht zwanzig Schiffe gesehen, die in einer Sturmnacht vorbeikamen.“
 
-Lina rechnete. „Aber du machst das Licht jede Nacht an."
+Lina rechnete. „Aber du machst das Licht jede Nacht an.“
 
-„Jede Nacht."
+„Jede Nacht.“
 
-„Auch wenn niemand kommt?"
+„Auch wenn niemand kommt?“
 
-„Auch dann."
+„Auch dann.“
 
-„Warum?"
+„Warum?“
 
 Großvater lehnte sich zurück.
 
-„Weil ich es nicht vorher weiß", sagte er. „Wenn ich das Licht nur anmache, wenn jemand kommt, dann kommt irgendwann jemand, und das Licht ist aus. Und dann war alles umsonst, alle dreißig Jahre."
+„Weil ich es nicht vorher weiß“, sagte er. „Wenn ich das Licht nur anmache, wenn jemand kommt, dann kommt irgendwann jemand, und das Licht ist aus. Und dann war alles umsonst, alle dreißig Jahre.“
 
 Lina dachte darüber nach. Sie dachte lange darüber nach.
 
-„Das ist ganz schön viel Arbeit für einen, der vielleicht nie kommt", sagte sie.
+„Das ist ganz schön viel Arbeit für einen, der vielleicht nie kommt“, sagte sie.
 
-„Ja", sagte Großvater. „Aber stell dir vor, er kommt."
+„Ja“, sagte Großvater. „Aber stell dir vor, er kommt.“
 
 Sie saßen noch eine Weile zusammen.
 
@@ -79,12 +79,12 @@ Draußen tobte der Sturm, und die Lampe drehte sich, drei Sekunden Licht, sechs 
 
 Als sie am Morgen aufwachte, lag sie in ihrem Bett, und sie wusste nicht, wie sie dorthin gekommen war.
 
-Beim Frühstück fragte sie: „Ist heute Nacht ein Schiff gekommen?"
+Beim Frühstück fragte sie: „Ist heute Nacht ein Schiff gekommen?“
 
 Großvater rührte in seinem Kaffee.
 
-„Nein", sagte er. „Heute Nacht nicht."
+„Nein“, sagte er. „Heute Nacht nicht.“
 
-Und dann lächelte er, so wie er immer lächelte, und sagte: „Aber heute Abend gehen wir wieder hoch."
+Und dann lächelte er, so wie er immer lächelte, und sagte: „Aber heute Abend gehen wir wieder hoch.“
 
 Und das taten sie. 142 Stufen. Wie immer.

@@ -57,7 +57,7 @@ Noch ein Haus. Diesmal zwei Fenster mit Licht.
 
 Zwei Geschichten also. Mindestens.
 
-„Gute Nacht", flüsterte Nele in die Richtung, obwohl das Haus schon nicht mehr da war.
+„Gute Nacht“, flüsterte Nele in die Richtung, obwohl das Haus schon nicht mehr da war.
 
 Der Zug fuhr weiter durch die Dunkelheit, an Häusern vorbei und an Bahnübergängen und an Flüssen mit halben Monden darin.
 

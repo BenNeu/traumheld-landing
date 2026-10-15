@@ -25,11 +25,11 @@ Sie lagen einfach so da. Kreuz und quer. Ohne jedes System.
 
 Tom fand das furchtbar.
 
-„Die müsste mal jemand ordnen", sagte er.
+„Die müsste mal jemand ordnen“, sagte er.
 
-„Wer soll das denn machen?", fragte seine Mutter.
+„Wer soll das denn machen?“, fragte seine Mutter.
 
-„Ich", sagte Tom.
+„Ich“, sagte Tom.
 
 Also holte er ein Blatt Papier und einen Stift und fing an.
 
@@ -49,29 +49,29 @@ Aber in der nächsten Nacht standen sie woanders.
 
 Tom saß am Fenster und war sehr frustriert.
 
-„Sie halten nicht still", sagte er zu seinem Vater.
+„Sie halten nicht still“, sagte er zu seinem Vater.
 
 Sein Vater setzte sich neben ihn.
 
-„Weißt du, was die Menschen früher gemacht haben?", fragte er.
+„Weißt du, was die Menschen früher gemacht haben?“, fragte er.
 
 Tom schüttelte den Kopf.
 
-„Die haben es auch versucht. Tausende Jahre lang. Und dann haben sie irgendwann aufgehört zu sortieren und angefangen, Bilder zu malen."
+„Die haben es auch versucht. Tausende Jahre lang. Und dann haben sie irgendwann aufgehört zu sortieren und angefangen, Bilder zu malen.“
 
-„Bilder?"
+„Bilder?“
 
-„Schau mal dahin." Sein Vater zeigte nach oben. „Die sieben Sterne da. Was siehst du?"
+„Schau mal dahin.“ Sein Vater zeigte nach oben. „Die sieben Sterne da. Was siehst du?“
 
-Tom schaute. „Punkte."
+Tom schaute. „Punkte.“
 
-„Verbinde sie."
+„Verbinde sie.“
 
 Tom kniff die Augen zusammen. Er zog in Gedanken Linien.
 
-„Ein Topf", sagte er. „Mit einem Griff."
+„Ein Topf“, sagte er. „Mit einem Griff.“
 
-„Genau. Das nennt man den Großen Wagen. Den sehen die Menschen seit dreitausend Jahren."
+„Genau. Das nennt man den Großen Wagen. Den sehen die Menschen seit dreitausend Jahren.“
 
 Tom schaute weiter. Er fand ein W. Er fand etwas, das aussah wie ein Drachen, so einer zum Steigenlassen.
 
@@ -81,7 +81,7 @@ Die Sterne waren immer noch unordentlich. Kein bisschen sortiert. Sie standen ge
 
 Aber es störte ihn nicht mehr.
 
-„Das ist eine andere Art von Ordnung", sagte sein Vater.
+„Das ist eine andere Art von Ordnung“, sagte sein Vater.
 
 Tom nickte langsam.
 

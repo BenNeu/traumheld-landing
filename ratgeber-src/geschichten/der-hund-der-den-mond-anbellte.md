@@ -19,11 +19,11 @@ Bruno war ein Hund, und Bruno hatte eine Aufgabe.
 
 Jede Nacht, wenn der Mond aufging, stellte Bruno sich in den Garten und bellte ihn an.
 
-„Wuff!", machte Bruno.
+„Wuff!“, machte Bruno.
 
 Der Mond sagte nichts.
 
-„Wuff! Wuff!"
+„Wuff! Wuff!“
 
 Der Mond sagte immer noch nichts.
 
@@ -35,31 +35,31 @@ Und dann kam diese eine Nacht.
 
 Bruno stellte sich in den Garten. Der Mond stand groß und weiß über dem Dach.
 
-„Wuff!", machte Bruno.
+„Wuff!“, machte Bruno.
 
-Und der Mond machte: „Wuff."
+Und der Mond machte: „Wuff.“
 
 Bruno erschrak so sehr, dass er sich hinsetzte.
 
-„Wuff?", fragte er vorsichtig.
+„Wuff?“, fragte er vorsichtig.
 
-„Wuff", sagte der Mond.
+„Wuff“, sagte der Mond.
 
-Bruno legte den Kopf schief. „Du kannst ja sprechen!"
+Bruno legte den Kopf schief. „Du kannst ja sprechen!“
 
-„Ich kann nur das eine Wort", sagte der Mond. „Ich habe es von dir gelernt. Du sagst es jede Nacht."
+„Ich kann nur das eine Wort“, sagte der Mond. „Ich habe es von dir gelernt. Du sagst es jede Nacht.“
 
 Bruno wusste nicht, was er antworten sollte.
 
-„Warum bellst du mich eigentlich an?", fragte der Mond.
+„Warum bellst du mich eigentlich an?“, fragte der Mond.
 
 Bruno überlegte lange.
 
-„Damit du nicht so allein bist", sagte er schließlich.
+„Damit du nicht so allein bist“, sagte er schließlich.
 
 Der Mond war eine Weile still.
 
-„Oh", sagte er dann.
+„Oh“, sagte er dann.
 
 Und weil Monde nicht weinen können und Hunde nicht gut trösten können, saßen die beiden einfach zusammen da, der eine im Garten und der andere am Himmel, bis Bruno umkippte und einschlief.
 
