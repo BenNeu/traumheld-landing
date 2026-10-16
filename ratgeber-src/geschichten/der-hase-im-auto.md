@@ -11,6 +11,8 @@ ratgeberLink: /ratgeber/abendroutine-kind.html
 ratgeberText: "Wie ein Abendritual anfängt und wieder aufhört"
 image: images/der-hase-im-auto.jpg
 imageAlt: "Ein Vater hält nachts unter einer Straßenlaterne einen grauen Stoffhasen hoch, oben am Fenster winkt sein Sohn im Schlafanzug"
+sammlungSatz: "Mehr Geschichten aus Kinderzimmer und Einfahrt findet ihr bei den [Gute-Nacht-Geschichten für 3- bis 5-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: sieben-tiere-und-ein-bett, gute-nacht-sagen, der-mond-in-der-pfuetze
 ---
 
 Ole lag schon im Bett, als es ihm einfiel.

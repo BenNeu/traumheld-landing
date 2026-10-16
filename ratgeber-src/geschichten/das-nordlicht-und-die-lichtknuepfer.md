@@ -13,6 +13,8 @@ image: images/das-nordlicht-und-die-lichtknuepfer.jpg
 imageAlt: "Nordlicht wie leuchtende Fäden über einem arktischen Himmel, darunter Eistürme"
 ratgeberLink2: /ratgeber/weihnachtsgeschichten-fuer-kinder-kurz.html
 ratgeberText2: "Geschichten für die dunklen Abende im Advent"
+sammlungSatz: "Für jüngere Geschwister: [Gute-Nacht-Geschichten für 3- bis 5-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html), kurz und mit ruhigem Ende."
+verwandt: der-laternenwald, der-berg-aus-kristall, der-junge-der-die-sterne-sortierte
 ---
 
 Hoch im Norden erhebt sich eine geheimnisvolle Welt, in der der Himmel in magischen Farben tanzt. Hier oben, wo die Sterne in unendlicher Weite funkeln, gibt es die Lichtknüpfer. Diese weisen Gestalten haben es sich zur Aufgabe gemacht, das Nordlicht, auch Aurora genannt, mit Fäden aus Sternenstaub und Mondschein zu weben. Jede Nacht steigen sie auf ihre eisigen Türme, um das Himmelszelt in ein brillantes Farbenspiel aus Grün, Violett und Blau zu verwandeln. Das Nordlicht erhellt die dunklen, frostigen Nächte und hüllt die Welt in eine Decke aus leuchtendem Licht.

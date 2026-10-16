@@ -11,6 +11,8 @@ ratgeberLink: /ratgeber/einschlafgeschichten-zum-anhoeren.html
 ratgeberText: "Vorlesen oder anhören, was abends besser funktioniert"
 image: images/das-loch-im-schlafanzug.jpg
 imageAlt: "Ein Mädchen hält im Bett den Arm hoch und schaut durch ein Loch im Ärmel, die Mutter sitzt daneben"
+sammlungSatz: "Noch eine für heute Abend? Alle [Gute-Nacht-Geschichten für 4-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html) stehen auf einer Seite."
+verwandt: paul-und-die-gutenacht-sterne, gute-nacht-sagen, regentropfen-mit-namen
 ---
 
 Lottes Schlafanzug hatte ein Loch. Es war am Ellbogen, und es war ungefähr so groß wie eine Erbse.

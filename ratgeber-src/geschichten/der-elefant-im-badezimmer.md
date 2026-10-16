@@ -13,6 +13,8 @@ image: images/der-elefant-im-badezimmer.jpg
 imageAlt: "Ein großer freundlicher Elefant sitzt in einer Badewanne voller Schaum"
 ratgeberLink2: /ratgeber/gute-nacht-geschichten-app-vergleich.html
 ratgeberText2: "Welche Gute-Nacht-App passt zu euch?"
+sammlungSatz: "Diese Geschichte gehört zu unseren [lustigen Gute-Nacht-Geschichten zum Vorlesen](/geschichten/lustige-gute-nacht-geschichten.html)."
+verwandt: das-krokodil-das-nicht-zaehne-putzen-wollte, die-socke-die-abhauen-wollte, ein-drache-mit-schluckauf
 ---
 
 Als Jonas ins Badezimmer kam, saß da ein Elefant in der Badewanne.

@@ -12,7 +12,7 @@ imageAlt: "Mädchen im Bett hört einer Geschichte zu, auf dem Nachttisch brennt
 
 Der Adventskranz steht auf dem Tisch, eine Kerze brennt, und dein Kind fragt: "Liest du mir heute eine Adventsgeschichte vor?" Du willst nicht lange suchen. Du willst eine, die zum Sonntag passt, nicht zu lang ist und am Ende leise ausklingt.
 
-Hier sind **vier Adventsgeschichten für Kinder**, eine für jeden Adventssonntag. Komplett, kostenlos und mit Vorlesezeit und Altersangabe, damit du schon vorher weißt, worauf du dich einlässt. Wenn du lieber jeden Abend ein kurzes Türchen möchtest, gibt es dafür unseren [Vorlese-Adventskalender mit 24 Geschichten](/ratgeber/adventskalender-geschichten-24-tuerchen.html).
+Hier sind **vier Adventsgeschichten für Kinder**, eine für jeden Adventssonntag. Komplett, kostenlos und mit Vorlesezeit und Altersangabe, damit du schon vorher weißt, worauf du dich einlässt. Wenn du lieber jeden Abend ein kurzes Türchen möchtest, gibt es dafür unseren [Vorlese-Adventskalender mit 24 Geschichten](/ratgeber/adventskalender-geschichten-24-tuerchen.html). Vor dem Advent kommt Martin: unsere [Sankt-Martin-Geschichte](/ratgeber/sankt-martin-geschichte-kinder.html).
 
 ## Eine Geschichte pro Sonntag: so liest du sie vor
 
@@ -142,6 +142,8 @@ Als es dämmerte, flatterte die Krähe herunter und legte die Mütze vor seine F
 "Gern geschehen", sagte Pipo und setzte sie auf. Er hatte den ganzen Tag ohne sie gefroren, und trotzdem fühlte sie sich besser an als je zuvor.
 
 Am nächsten Tag besuchte er den Schneemann und schüttelte ihm die Hand. Der Hase lud ihn zum Tee in sein Zelt ein. Und seit diesem Winter bekommt Pipo im Dezember ein bisschen mehr Besuch als sonst.
+
+Wenn ihr bei Pipo gelacht habt, findet ihr [mehr lustige Geschichten](/geschichten/lustige-gute-nacht-geschichten.html) für den Rest des Jahres.
 
 ## 3. Advent: Die Kiste auf dem Dachboden
 

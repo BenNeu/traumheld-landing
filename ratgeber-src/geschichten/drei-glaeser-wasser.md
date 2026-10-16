@@ -11,6 +11,8 @@ ratgeberLink: /ratgeber/abendroutine-kind.html
 ratgeberText: "Wie ein Abendritual anfängt und wieder aufhört"
 image: images/drei-glaeser-wasser.jpg
 imageAlt: "Ein Mädchen liegt im Bett, auf dem Nachttisch stehen drei Wassergläser, der Vater sitzt auf der Bettkante"
+sammlungSatz: "Diese Geschichte gehört zu unseren [kurzen Geschichten für 4-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html) und zu den [Gute-Nacht-Geschichten zum Lachen](/geschichten/lustige-gute-nacht-geschichten.html)."
+verwandt: sieben-tiere-und-ein-bett, die-nachtschicht-vom-hamster, der-falsche-fuss
 ---
 
 Nele lag im Bett.

@@ -82,7 +82,7 @@ Der einfachste Test: Schreib dem Anbieter eine kurze Mail und frag, wo die Daten
 
 Nutze diese sechs Punkte als Checkliste, am besten an einer kostenlosen Probegeschichte.
 
-1. **Die Sprache passt zum Alter.** Kurze Sätze für Dreijährige, mehr Handlung für Sechsjährige. Wenn dieselbe Sprache für alle Altersstufen kommt, wurde nur der Name getauscht.
+1. **Die Sprache passt zum Alter.** Kurze Sätze für Dreijährige, mehr Handlung für Sechsjährige. Wenn dieselbe Sprache für alle Altersstufen kommt, wurde nur der Name getauscht. Wie das klingt, zeigen unsere [kurzen Geschichten für Dreijährige und Vierjährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html).
 2. **Die Geschichte endet ruhig und aufgelöst.** Kein Cliffhanger, keine offene Bedrohung. Am Ende ist alles gut.
 3. **Es gibt keine Angstbilder.** Kein echter Schrecken, keine Bedrohung von Eltern, keine Dunkelheit als Gefahr. Ein kleines Abenteuer ja, Furcht nein.
 4. **Jemand hat redaktionell nachgedacht.** Erkennbar an Aufbau, Rhythmus und einem Schluss, der zur Ruhe führt statt einfach aufzuhören.

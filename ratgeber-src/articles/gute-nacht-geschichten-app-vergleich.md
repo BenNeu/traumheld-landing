@@ -85,7 +85,7 @@ Egal für welche App du dich entscheidest, diese vier Punkte solltest du prüfen
 Die meisten Apps arbeiten mit Abos zwischen etwa 5 und 45 Euro im Monat, je nach Umfang. Fast alle bieten eine Gratis-Phase. Nutze sie und schau, ob dein Kind die Geschichten wirklich liebt, bevor du zahlst.
 
 **Ab welchem Alter sind Geschichten-Apps sinnvoll?**
-Hörgeschichten funktionieren ab etwa 3 Jahren gut, wenn Kinder einer erzählten Handlung folgen können. Für Jüngere sind kurze, einfache Geschichten und viel Nähe wichtiger als Technik.
+Hörgeschichten funktionieren ab etwa 3 Jahren gut, wenn Kinder einer erzählten Handlung folgen können. Für Jüngere sind kurze, einfache Geschichten und viel Nähe wichtiger als Technik. Kostenlose Beispiele: [kurze Gute-Nacht-Geschichten ab 3 Jahren](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html).
 
 **Ersetzt eine App das Vorlesen?**
 Nein, und das soll sie auch nicht. Vorlesen aus Büchern bleibt wertvoll für Sprache und Bindung. Eine App ist die Ergänzung für die Abende, an denen die eigenen Ideen aufgebraucht sind, oder das tägliche Extra-Ritual, auf das sich dein Kind freut. Warum dein Kind Geschichten mit dem eigenen Namen so sehr liebt, erfährst du im Ratgeber zu [personalisierten Kindergeschichten](personalisierte-kindergeschichten.html).

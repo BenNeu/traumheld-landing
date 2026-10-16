@@ -13,6 +13,8 @@ image: images/das-schloss-des-mondkoenigs.jpg
 imageAlt: "Silbernes Schloss hoch über den Wolken, eine Brücke aus Mondlicht führt zum Tor"
 ratgeberLink2: /ratgeber/kind-angst-im-dunkeln.html
 ratgeberText2: "Sätze und Rituale, die gegen die Angst im Dunkeln helfen"
+sammlungSatz: "Für die Kleineren in der Familie stehen [kurze Gute-Nacht-Geschichten für 4-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html) bereit."
+verwandt: der-garten-auf-der-rueckseite-des-mondes, der-bahnhof-am-rand-des-universums, der-junge-der-die-sterne-sortierte
 ---
 
 Hoch oben am Himmel, jenseits der höchsten Wolken, schwebte das prächtige Schloss des Mondkönigs. Es war ein wundersamer Anblick, wie es dort majestätisch in der Nacht funkelte, erbaut aus gefrorenem Mondlicht und weichem Abendnebel. Die Türme erhoben sich wie silberne Pfeile gen Himmel, und in den Hallen hallte das sanfte Murmeln der schlafenden Träume wider. Dieses Schloss war kein gewöhnliches Bauwerk, es war ein Ort, an dem sich Magie und Träume trafen und vereinten.

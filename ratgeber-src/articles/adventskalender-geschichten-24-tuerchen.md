@@ -22,7 +22,7 @@ Der Ablauf ist bewusst klein gehalten, damit er auch an einem müden Dienstag kl
 2. **Vorlesen, wenn dein Kind schon im Bett liegt.** Die Geschichten sind für den Moment direkt vor dem Einschlafen geschrieben. Sie enden alle leise.
 3. **Kurz sitzen bleiben.** Nach dem letzten Satz noch zehn Sekunden still sein. Dann Licht aus.
 
-Die Geschichten sind für Kinder ab 3 Jahren geschrieben. Jüngere Kinder hören oft trotzdem gern zu, dann lies langsamer und zeig mit dem Finger auf das, was passiert.
+Die Geschichten sind für Kinder ab 3 Jahren geschrieben. Jüngere Kinder hören oft trotzdem gern zu, dann lies langsamer und zeig mit dem Finger auf das, was passiert. Für die Zeit nach dem 24. gibt es unsere [Gute-Nacht-Geschichten für Dreijährige bis Fünfjährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html).
 
 Vier Türchen hängen am Datum: Türchen 4 (Barbaratag, 4. Dezember), Türchen 6 (Nikolaus), Türchen 21 (längste Nacht des Jahres) und Türchen 24 (Heiligabend). Wenn du später einsteigst oder einen Tag auslässt, lies diese vier an ihrem Tag und fülle die anderen Abende mit den übrigen Türchen auf.
 

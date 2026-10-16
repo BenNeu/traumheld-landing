@@ -13,6 +13,8 @@ image: images/die-reise-mit-dem-nachtzug.jpg
 imageAlt: "Blick aus dem Fenster eines Nachtzugs auf dunkle Felder und ein erleuchtetes Haus"
 ratgeberLink2: /ratgeber/toniebox-alternative-app.html
 ratgeberText2: "Geschichten hören ohne Box im Gepäck"
+sammlungSatz: "Für jüngere Geschwister stehen [kurze Geschichten für Kinder ab 3 Jahren](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html) bereit."
+verwandt: der-zug-der-die-traeume-bringt, der-bahnhof-am-rand-des-universums, lina-und-der-leuchtturm
 ---
 
 Der Zug fuhr los, als es schon dunkel war.

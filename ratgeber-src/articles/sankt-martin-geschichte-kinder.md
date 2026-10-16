@@ -161,7 +161,7 @@ Hör zu, ohne zu bewerten. Ein Kind, das sagt "Ich hätte meinen Mantel behalten
 
 Manche Kinder lieben den Laternenumzug, andere finden ihn unheimlich: die Dunkelheit, die vielen Menschen, das Feuer am Ende. Das ist normal. Lass dein Kind die Laterne selbst tragen, geh nah neben ihm und erzähl vorher, was passiert. Wenn dein Kind grundsätzlich Angst im Dunkeln hat, helfen die Tipps aus unserem Artikel [Angst im Dunkeln](/ratgeber/kind-angst-im-dunkeln.html).
 
-Eine Geschichte, die dazu passt, ist unser [Laternenwald](/geschichten/der-laternenwald.html): Ein ganzer Wald voller Laternen, in dem jedes Licht einen Wunsch trägt. Sie ist für etwas ältere Kinder geschrieben.
+Eine Geschichte, die dazu passt, ist unser [Laternenwald](/geschichten/der-laternenwald.html): Ein ganzer Wald voller Laternen, in dem jedes Licht einen Wunsch trägt. Sie ist für etwas ältere Kinder geschrieben. Für Jüngere passen die [kurzen lustigen Geschichten zum Vorlesen](/geschichten/lustige-gute-nacht-geschichten.html) besser.
 
 ## Häufige Fragen
 

@@ -46,7 +46,7 @@ Beginne die Ruhe nicht erst im Bett, sondern eine halbe Stunde vorher. Licht dim
 
 ### Ein fester Ablauf gibt Halt
 
-Die immer gleiche Reihenfolge aus Waschen, Schlafanzug, Vorlesen und Abschiedssatz trägt das Kind von selbst in den Schlaf. Wie du so eine Routine aufbaust, liest du ausführlich in unserem Ratgeber zu [Einschlafritualen für Kinder](/ratgeber/einschlafrituale-kinder.html).
+Die immer gleiche Reihenfolge aus Waschen, Schlafanzug, Vorlesen und Abschiedssatz trägt das Kind von selbst in den Schlaf. Wie du so eine Routine aufbaust, liest du ausführlich in unserem Ratgeber zu [Einschlafritualen für Kinder](/ratgeber/einschlafrituale-kinder.html). Wenn dein Kind den Tag erst abschütteln muss, hilft oft ein Lacher: [lustige Gute-Nacht-Geschichten mit ruhigem Ende](/geschichten/lustige-gute-nacht-geschichten.html).
 
 ### Den Kopf zur Ruhe bringen
 

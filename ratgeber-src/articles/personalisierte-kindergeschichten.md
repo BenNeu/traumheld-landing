@@ -72,7 +72,7 @@ Ein ehrlicher Hinweis: Das personalisierte Buch und die Hörgeschichte konkurrie
 
 ## Ab welchem Alter personalisierte Geschichten wirken
 
-**Ab etwa 2 Jahren** erkennen Kinder ihren Namen zuverlässig und reagieren darauf. Die Geschichte selbst sollte dann noch sehr kurz und einfach sein, wenige Minuten reichen.
+**Ab etwa 2 Jahren** erkennen Kinder ihren Namen zuverlässig und reagieren darauf. Die Geschichte selbst sollte dann noch sehr kurz und einfach sein, wenige Minuten reichen. Beispiele in dieser Länge findest du bei den [Geschichten für 4-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html).
 
 **Zwischen 3 und 6 Jahren** liegt die Kernzeit. Kinder können einer Handlung folgen, verstehen Ursache und Wirkung und tauchen tief in Fantasiewelten ein. In diesem Alter ist der Effekt am größten.
 

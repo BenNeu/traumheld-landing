@@ -69,7 +69,7 @@ Genau darauf sind die Geschichten von Mein Traumheld gebaut: Dein Kind erlebt si
 
 ## Alter für Alter: So verändert sich die Angst
 
-**3 bis 4 Jahre.** Die Angst ist diffus und fantasiegetrieben: Monster, Geister, das Dunkel selbst. Hilfreich: viel Nähe, Nachtlicht, Kuscheltier-Beschützer, kurze und sehr ruhige Abende. Diskussionen bringen in diesem Alter wenig.
+**3 bis 4 Jahre.** Die Angst ist diffus und fantasiegetrieben: Monster, Geister, das Dunkel selbst. Hilfreich: viel Nähe, Nachtlicht, Kuscheltier-Beschützer, kurze und sehr ruhige Abende. Diskussionen bringen in diesem Alter wenig. Eine Geschichte genau dazu ist [Die Ente, die Angst vor dem Dunkeln hatte](/geschichten/die-ente-die-angst-vor-dem-dunkeln-hatte.html). Weitere [ruhige Geschichten für 3- und 4-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html) stehen gesammelt auf einer Seite.
 
 **5 bis 6 Jahre.** Das Kind kann über seine Angst sprechen. Jetzt wirken die Mutsätze, gemeinsame Rundgänge und Heldengeschichten am stärksten. Das Kind will sich als groß erleben, gib ihm die Gelegenheit dazu.
 
@@ -88,7 +88,7 @@ Wenn es deinem Kind hilft: ja. Ein Spalt offene Tür und Geräusche aus dem Wohn
 Das entscheidet ihr, nicht ein Ratgeber. Kurzfristig spricht nichts dagegen. Wenn du möchtest, dass dein Kind im eigenen Bett schläft, begleite es dorthin zurück und bleib, bis es ruhig ist. So lernt es: Mein Bett ist sicher.
 
 **Ist ein Nachtlicht schädlich für den Schlaf?**
-Ein gedimmtes, warmes Licht ist unproblematisch. Nur helles oder bläuliches Licht stört das Müdewerden. Im Zweifel gilt: Ein Kind, das mit Nachtlicht friedlich schläft, schläft besser als eins, das im Dunkeln wach liegt. Mehr zu den Ursachen von Einschlafproblemen findest du [hier](kind-schlaeft-nicht-ein.html).
+Ein gedimmtes, warmes Licht ist unproblematisch. Nur helles oder bläuliches Licht stört das Müdewerden. Im Zweifel gilt: Ein Kind, das mit Nachtlicht friedlich schläft, schläft besser als eins, das im Dunkeln wach liegt. Mehr zu den Ursachen von Einschlafproblemen steht im Artikel darüber, [was hilft, wenn dein Kind nicht einschläft](kind-schlaeft-nicht-ein.html).
 
 ## Fazit
 

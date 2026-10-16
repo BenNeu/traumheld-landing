@@ -13,6 +13,8 @@ image: images/der-traktor-der-traeumte.jpg
 imageAlt: "Alter grüner Traktor allein in einer Scheune, Mondlicht fällt durch die Bretterritzen"
 ratgeberLink2: /ratgeber/gute-nacht-geschichten-app-vergleich.html
 ratgeberText2: "Welche Gute-Nacht-App passt zu euch?"
+sammlungSatz: "Mehr für kleine Fahrzeug-Fans steht bei den [kurzen Gute-Nacht-Geschichten für 4-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: der-bagger-passt-nicht-in-die-garage, der-kleine-baer-der-nicht-schlafen-wollte, das-schaf-das-wolken-zaehlte
 ---
 
 In der Scheune stand ein Traktor. Er war grün, er war alt, und er hieß Fritz.

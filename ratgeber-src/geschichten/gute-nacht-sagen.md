@@ -11,6 +11,8 @@ ratgeberLink: /ratgeber/einschlafgeschichten-zum-anhoeren.html
 ratgeberText: "Vorlesen oder anhören, was abends besser funktioniert"
 image: images/gute-nacht-sagen.jpg
 imageAlt: "Ein Junge sitzt auf der Bettkante und winkt ins mondbeschienene Zimmer"
+sammlungSatz: "Noch eine ruhige Geschichte? Hier stehen [17 kurze Geschichten für 4-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: das-loch-im-schlafanzug, die-ente-die-angst-vor-dem-dunkeln-hatte, der-hase-im-auto
 ---
 
 Theo konnte erst schlafen, wenn er allen Gute Nacht gesagt hatte.

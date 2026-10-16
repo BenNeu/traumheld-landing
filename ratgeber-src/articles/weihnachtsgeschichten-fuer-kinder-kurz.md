@@ -216,6 +216,6 @@ In der App werden alle Geschichten mit ruhiger Stimme und leiser Musik vorgelese
 
 ## Für die Abende danach
 
-Der Advent hat vierundzwanzig Abende, und drei Geschichten reichen dafür nicht. Weitere kostenlose Geschichten zum Vorlesen findest du in unserer Sammlung [kurzer Gute-Nacht-Geschichten](/ratgeber/kurze-gute-nacht-geschichten.html).
+Der Advent hat vierundzwanzig Abende, und drei Geschichten reichen dafür nicht. Weitere kostenlose Geschichten zum Vorlesen findest du in unserer Sammlung [kurzer Gute-Nacht-Geschichten](/ratgeber/kurze-gute-nacht-geschichten.html). Und für die Abende nach den Feiertagen gibt es [lustige Gute-Nacht-Geschichten für das ganze Jahr](/geschichten/lustige-gute-nacht-geschichten.html).
 
 Und wenn dein Kind ab morgen selbst die Hauptrolle spielen soll: 14 Tage kostenlos testen, ohne Kreditkarte.

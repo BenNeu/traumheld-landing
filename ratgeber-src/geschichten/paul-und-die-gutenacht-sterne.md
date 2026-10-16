@@ -13,6 +13,8 @@ image: images/paul-und-die-gutenacht-sterne.jpg
 imageAlt: "Ein Junge liegt im Bett unter dem Fenster und schaut zu sieben hellen Sternen hinauf"
 ratgeberLink2: /ratgeber/einschlafrituale-kinder.html
 ratgeberText2: "So baust du eine ruhige Abendroutine auf"
+sammlungSatz: "Weitere Einschlafgeschichten ab 3 Jahren stehen in unserer Sammlung [Gute-Nacht-Geschichten für 4-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: regentropfen-mit-namen, das-loch-im-schlafanzug, mia-und-die-mondkatze
 ---
 
 Paul hatte ein Fenster über seinem Bett. Wenn er auf dem Rücken lag, sah er genau hinaus.

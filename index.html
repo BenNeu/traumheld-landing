@@ -970,6 +970,12 @@
       .site-nav { padding: 10px 16px; }
       .site-nav nav { gap: 14px; font-size: 0.88rem; }
       .site-nav nav a.nav-cta { padding: 8px 14px; }
+      /* Seit 16.10.2026 steht "Geschichten" in der Navigation. Auf dem Handy
+         faellt dafuer "Preise" weg, der Button fuehrt ohnehin zu den Preisen. */
+      .site-nav nav a[href="#pricing"]:not(.nav-cta) { display: none; }
+    }
+    @media (max-width: 420px) {
+      .site-nav .nav-brand { font-size: 0; gap: 0; }
     }
   
     /* BUCH-ABSCHNITT (seit 11.09.2026) */
@@ -997,6 +1003,7 @@
   <div class="site-nav">
     <a class="nav-brand" href="/"><img src="/logo.png" alt="Mein Traumheld">Mein Traumheld</a>
     <nav>
+      <a href="/geschichten/">Geschichten</a>
       <a href="/ratgeber/">Ratgeber</a>
       <a href="#pricing">Preise</a>
       <a href="#pricing" class="nav-cta">Kostenlos starten</a>
@@ -1116,6 +1123,7 @@
     <div class="section-label">Kostenlos anhören</div>
     <h2>Hör rein — <span>völlig kostenlos</span></h2>
     <p>Eine echte Traumheld-Geschichte. Kein Konto, keine E-Mail. Einfach Play drücken.</p>
+    <p>Lieber selbst vorlesen? Probiert eine unserer <a href="/geschichten/lustige-gute-nacht-geschichten.html" style="color:var(--gold);text-decoration:underline;text-underline-offset:3px">kurzen lustigen Gute-Nacht-Geschichten</a> oder die <a href="/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html" style="color:var(--gold);text-decoration:underline;text-underline-offset:3px">Gute-Nacht-Geschichten für 4-Jährige</a>, beide kostenlos und ohne Anmeldung.</p>
     <div class="player-card">
       <div class="player-episode-label">Gratis Hörprobe</div>
       <div class="player-title">✨ Bennis großes Abenteuer</div>
@@ -1335,6 +1343,7 @@
         <p>30 Gute-Nacht-Geschichten auf 145 Seiten, sortiert nach Alter.
         Über jeder Geschichte steht, wie lange sie dauert: zwei Minuten an den
         Abenden, an denen es schnell gehen muss, sieben, wenn ihr Zeit habt.
+        Einige Geschichten aus dem Buch könnt ihr vorab <a href="/geschichten/" style="color:var(--gold);text-decoration:underline;text-underline-offset:3px">kostenlos online lesen</a>.
         Für die Abende, an denen kein Handy im Kinderzimmer liegen soll.</p>
         <a class="store-btn" href="https://www.amazon.de/dp/B0HJH1643C" target="_blank" rel="noopener">
           <span class="icon">📖</span>
@@ -1399,6 +1408,9 @@
   <!-- FOOTER -->
   <footer>
     <div class="footer-links">
+      <a href="/geschichten/">Gute-Nacht-Geschichten</a>
+      <a href="/geschichten/lustige-gute-nacht-geschichten.html">Lustige Gute-Nacht-Geschichten</a>
+      <a href="/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html">Geschichten für 4-Jährige</a>
       <a href="/ratgeber/">Ratgeber</a>
       <a href="/impressum.html">Impressum</a>
       <a href="/datenschutz.html">Datenschutzerklärung</a>

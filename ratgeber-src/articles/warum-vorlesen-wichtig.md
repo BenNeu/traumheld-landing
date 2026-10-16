@@ -46,7 +46,7 @@ Hier ist die gute Nachricht, die selten klar ausgesprochen wird: Es geht um Rege
 
 **10 bis 15 Minuten täglich sind mehr wert als 45 Minuten am Sonntag.** Das tägliche Ritual ist der eigentliche Wirkstoff. Dein Kind braucht die Verlässlichkeit, nicht die Menge.
 
-**Fünf Minuten zählen auch.** An einem Abend, an dem du wirklich am Ende bist, ist ein kurzes Buch besser als gar keins. Und deutlich besser als ein langes Buch mit genervtem Unterton.
+**Fünf Minuten zählen auch.** An einem Abend, an dem du wirklich am Ende bist, ist ein kurzes Buch besser als gar keins. Und deutlich besser als ein langes Buch mit genervtem Unterton. Für solche Abende gibt es [lustige Geschichten, die in drei Minuten vorgelesen sind](/geschichten/lustige-gute-nacht-geschichten.html).
 
 **Es muss nicht abends sein.** Der Abend bietet sich an, weil er ohnehin Ritualzeit ist. Aber Vorlesen nach dem Mittagessen oder Sonntagmorgen im Bett zählt genauso.
 
@@ -58,7 +58,7 @@ Der Vorlesemonitor 2024 zeigt übrigens auch: Der Anteil regelmäßig vorlesende
 
 **Von 1 bis 3 Jahren** sind Bilder und Wiederholung das Wichtigste. Dass dein Kind zum vierzigsten Mal dasselbe Buch will, ist kein Mangel an Fantasie, sondern genau richtig: Wiederholung ist die Art, wie kleine Kinder Sprache verankern.
 
-**Von 3 bis 6 Jahren** beginnt die eigentliche Blütezeit. Dein Kind kann einer Handlung folgen, versteht Ursache und Wirkung und taucht tief in Fantasiewelten ein. In diesem Alter wirkt Vorlesen am stärksten.
+**Von 3 bis 6 Jahren** beginnt die eigentliche Blütezeit. Dein Kind kann einer Handlung folgen, versteht Ursache und Wirkung und taucht tief in Fantasiewelten ein. In diesem Alter wirkt Vorlesen am stärksten. Zum Ausprobieren eignen sich unsere [Gute-Nacht-Geschichten für Vierjährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html).
 
 **Ab 6 Jahren** kommt der häufigste Fehler: Viele Eltern hören auf, sobald das Kind selbst lesen kann. Dabei ist Weitervorlesen besonders wertvoll. Selbst lesen ist für Erstklässler noch anstrengend, und Vorlesen hält die Freude an Geschichten am Leben, während das eigene Lesen langsam nachkommt.
 

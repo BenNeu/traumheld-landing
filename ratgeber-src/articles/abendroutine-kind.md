@@ -84,7 +84,7 @@ Für diese Abende braucht ihr eine Kurzfassung, die ihr vorher festlegt. Drei Sc
 
 1. **Zähne putzen und Schlafanzug** (5 Minuten). Waschen fällt aus. Einmal nicht waschen ist folgenlos.
 2. **Ins Bett, Licht runter** (1 Minute). Aufräumen fällt aus, das macht ihr morgen.
-3. **Eine kurze Geschichte** (5 bis 6 Minuten). Die fällt nicht aus.
+3. **Eine kurze Geschichte** (5 bis 6 Minuten). Die fällt nicht aus. Für Kinder ab 3 passen die [kurzen Gute-Nacht-Geschichten für 4-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html).
 
 Warum gerade die Geschichte bleibt: Sie ist der Teil, der den Abend abschließt. Ohne sie liegt dein Kind im Bett und merkt, dass etwas fehlt, und dann steht es wieder auf. Die fünf Minuten sparen dir am Ende mehr Zeit, als sie kosten.
 

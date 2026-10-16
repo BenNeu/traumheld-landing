@@ -11,6 +11,8 @@ ratgeberLink: /ratgeber/einschlafgeschichten-zum-anhoeren.html
 ratgeberText: "Vorlesen oder anhören, was abends besser funktioniert"
 image: images/regentropfen-mit-namen.jpg
 imageAlt: "Ein Mädchen liegt im Bett und lauscht dem Regen am Fenster"
+sammlungSatz: "Alle [ruhigen Geschichten für 3- bis 5-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html) findet ihr auf einer Seite."
+verwandt: paul-und-die-gutenacht-sterne, das-loch-im-schlafanzug, der-mond-in-der-pfuetze
 ---
 
 Ronja lag im Bett, als es anfing zu regnen.

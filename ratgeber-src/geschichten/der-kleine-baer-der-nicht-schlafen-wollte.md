@@ -17,6 +17,8 @@ youtube: eS_C3Y9FlRg
 youtubeDate: 2026-09-26
 youtubeDauer: 4:01
 youtubeBild: images/der-kleine-baer-der-nicht-schlafen-wollte-video.jpg
+sammlungSatz: "Diese Geschichte steht auch in unserer Sammlung [kurzer Geschichten für Vierjährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: mia-und-die-mondkatze, das-schaf-das-wolken-zaehlte, die-ente-die-angst-vor-dem-dunkeln-hatte
 ---
 
 Im Wald am Hang, dort wo die großen Tannen stehen, lag eine Höhle. In der Höhle wohnte Mama Bär. Und neben Mama Bär lag ein kleiner Bär, der hieß Bruno.

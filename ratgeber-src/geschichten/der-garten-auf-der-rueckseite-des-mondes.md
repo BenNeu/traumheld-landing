@@ -13,6 +13,8 @@ image: images/der-garten-auf-der-rueckseite-des-mondes.jpg
 imageAlt: "Leuchtender Garten auf der Rückseite des Mondes mit fremdartigen Blumen"
 ratgeberLink2: /ratgeber/ki-geschichten-fuer-kinder.html
 ratgeberText2: "Wie Geschichten mit KI entstehen, ehrlich erklärt"
+sammlungSatz: "Für jüngere Geschwister gibt es [17 kurze Geschichten für Vierjährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: das-schloss-des-mondkoenigs, der-junge-der-die-sterne-sortierte, der-bahnhof-am-rand-des-universums
 ---
 
 Auf der geheimnisvollen Rückseite des Mondes, verborgen vor den neugierigen Augen der Menschen, lag ein wunderbarer Garten. Dieser Garten war einzigartig, denn hier wuchsen die magischen Mondblumen. Jede Nacht, wenn die Erde in Dunkelheit gehüllt war, öffneten die Mondblumen ihre Blüten und strahlten ein sanftes, beruhigendes Licht aus. Dieses Licht war das perfekte Nachtlicht für all die Kinder auf der Erde, die darauf warteten, in ihre Träume zu gleiten. Die Mondblumen waren von einer Vielzahl an Farben: strahlendes Silber, leuchtendes Blau und zartes Perlweiß. Sie tanzten leise im Mondwind und flüsterten ein Lied der Ruhe.

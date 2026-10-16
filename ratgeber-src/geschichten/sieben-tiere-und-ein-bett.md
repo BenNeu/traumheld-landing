@@ -11,6 +11,8 @@ ratgeberLink: /ratgeber/abendroutine-kind.html
 ratgeberText: "Wie ein Abendritual anfängt und wieder aufhört"
 image: images/sieben-tiere-und-ein-bett.jpg
 imageAlt: "Ein Mädchen schläft quer im Bett, um sich herum sieben Kuscheltiere"
+sammlungSatz: "Mehr kurze Geschichten für dieses Alter: [Gute-Nacht-Geschichten für 3- bis 5-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html). Und wer lieber lacht, findet hier [zwölf kurze lustige Geschichten](/geschichten/lustige-gute-nacht-geschichten.html)."
+verwandt: der-hase-im-auto, drei-glaeser-wasser, der-bagger-passt-nicht-in-die-garage
 ---
 
 Lotta hatte sieben Kuscheltiere. Alle sieben schliefen in ihrem Bett.

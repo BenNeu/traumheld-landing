@@ -13,6 +13,8 @@ image: images/mia-und-die-mondkatze.jpg
 imageAlt: "Silberne Katze auf einem Fensterbrett, dahinter ein riesiger Mond am Nachthimmel"
 ratgeberLink2: /ratgeber/ki-geschichten-fuer-kinder.html
 ratgeberText2: "Wie Geschichten mit KI entstehen, ehrlich erklärt"
+sammlungSatz: "Mehr Geschichten in dieser Länge findet ihr bei den [Gute-Nacht-Geschichten für Vierjährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: der-mond-in-der-pfuetze, der-kleine-baer-der-nicht-schlafen-wollte, paul-und-die-gutenacht-sterne
 ---
 
 Mia konnte nicht schlafen. Sie lag in ihrem Bett und schaute an die Decke, wo die Leuchtsterne klebten. Vier waren abgefallen. Sie hatte sie gezählt.

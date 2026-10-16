@@ -82,7 +82,7 @@ Was dabei im Kopf deines Kindes passiert und warum es diesen Moment nie vergisst
 ## Häufige Fragen
 
 **Ab welchem Alter sind Hörgeschichten sinnvoll?**
-Ab etwa 3 Jahren können Kinder einer erzählten Geschichte gut folgen. Vorher gilt: kurz, einfach, und am wichtigsten ist deine Nähe.
+Ab etwa 3 Jahren können Kinder einer erzählten Geschichte gut folgen. Vorher gilt: kurz, einfach, und am wichtigsten ist deine Nähe. Zum Vorlesen gut geeignet sind unsere [Gute-Nacht-Geschichten für 3- bis 5-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html).
 
 **Mit Kopfhörern oder über Lautsprecher?**
 Zum Einschlafen besser über einen Lautsprecher in Zimmerlautstärke. Kopfhörer verrutschen, drücken und verleiten dazu, lauter zu stellen als nötig.

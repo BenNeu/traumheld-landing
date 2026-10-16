@@ -13,6 +13,8 @@ image: images/der-bahnhof-am-rand-des-universums.jpg
 imageAlt: "Bahnhof aus Sternenlicht am Rand des Universums, ein leuchtender Zug wartet"
 ratgeberLink2: /ratgeber/toniebox-alternative-app.html
 ratgeberText2: "Braucht ihr abends überhaupt ein zweites Gerät?"
+sammlungSatz: "Für müde Abende gibt es [kurze lustige Gute-Nacht-Geschichten](/geschichten/lustige-gute-nacht-geschichten.html), jede in drei Minuten vorgelesen."
+verwandt: der-zug-der-die-traeume-bringt, die-reise-mit-dem-nachtzug, der-garten-auf-der-rueckseite-des-mondes
 ---
 
 Es war eine ungewöhnliche Nacht am leuchtenden Bahnhof am Rand des Universums. Jeden Abend sammelten sich hier Züge aus reinem Sternenlicht, bereit, sanft in alle Galaxien zu gleiten. Der Bahnhof war ein magischer Ort, dessen Gleise sich wie flüssiges Silber durch die funkelnde Dunkelheit zogen. Überall war ein sanftes Summen zu hören, als ob die Sterne miteinander flüsterten. Der Duft von frischem Kometenstaub lag in der Luft, süß und geheimnisvoll .

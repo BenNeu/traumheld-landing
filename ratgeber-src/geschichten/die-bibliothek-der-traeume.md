@@ -13,6 +13,8 @@ image: images/die-bibliothek-der-traeume.jpg
 imageAlt: "Uralte Bibliothek tief im Wald, Regale wachsen zwischen den Baumstämmen"
 ratgeberLink2: /ratgeber/ki-geschichten-fuer-kinder.html
 ratgeberText2: "Wie Geschichten mit KI entstehen, ehrlich erklärt"
+sammlungSatz: "Für die Kleineren: [Gute-Nacht-Geschichten für Vierjährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html), jede in drei Minuten vorgelesen."
+verwandt: der-zug-der-die-traeume-bringt, der-fluss-aus-erinnerungen, der-laternenwald
 ---
 
 Tief im Herzen des Waldes, wo die Bäume flüstern und die Schatten tanzen, stand eine uralte Bibliothek. Diese Bibliothek war so alt wie die Nacht selbst, ihre Wände aus moosbedecktem Stein und ihr Dach aus geflochtenen Ästen und Blättern. Die Bibliothek war ein magischer Ort, wo jedes Buch einen eigenen Traum in sich trug. Manche Träume waren bunt und warm wie ein leuchtender Regenbogen nach einem Sommerregen, während andere silbern und geheimnisvoll wie ein sternenklarer Nachthimmel waren.

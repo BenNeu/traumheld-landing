@@ -40,7 +40,7 @@ Dimme das Licht eine halbe Stunde vor dem Schlafen. Helles Licht bremst das Schl
 
 ### 4. Eine Geschichte zum Ankommen
 
-Vorlesen ist der Klassiker, weil es wirkt. Die ruhige Stimme, die Nähe, das Eintauchen in eine andere Welt. Eine Geschichte ist die Brücke vom Tag in den Schlaf. Was diese zehn Minuten im Kind auslösen, steht im Artikel darüber, [warum Vorlesen so wichtig ist](warum-vorlesen-wichtig.html).
+Vorlesen ist der Klassiker, weil es wirkt. Die ruhige Stimme, die Nähe, das Eintauchen in eine andere Welt. Eine Geschichte ist die Brücke vom Tag in den Schlaf. Manchmal darf diese Brücke auch eine [Geschichte zum Lachen](/geschichten/lustige-gute-nacht-geschichten.html) sein, solange sie ruhig endet. Was diese zehn Minuten im Kind auslösen, steht im Artikel darüber, [warum Vorlesen so wichtig ist](warum-vorlesen-wichtig.html).
 
 ### 5. Ein fester Abschiedssatz
 

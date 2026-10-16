@@ -13,6 +13,8 @@ image: images/lina-und-der-leuchtturm.jpg
 imageAlt: "Laternenraum eines Leuchtturms im Sturm, die große Linse dreht sich"
 ratgeberLink2: /ratgeber/gute-nacht-geschichten-app-vergleich.html
 ratgeberText2: "Welche Gute-Nacht-App passt zu euch?"
+sammlungSatz: "Für die Kleineren in der Familie gibt es unsere [Geschichten für 4-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: der-leuchtturm-am-rand-der-welt, das-geheimnis-im-apfelbaum, die-reise-mit-dem-nachtzug
 ---
 
 Der Leuchtturm stand auf einem Felsen, und der Felsen stand im Meer, und hinter dem Meer kam nichts mehr. Jedenfalls sagte Linas Großvater das immer.

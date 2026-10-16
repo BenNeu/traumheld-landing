@@ -13,6 +13,8 @@ image: images/die-insel-der-vier-winde.jpg
 imageAlt: "Kleine Insel im Ozean mit vier Häusern aus Wolken in verschiedenen Farben"
 ratgeberLink2: /ratgeber/gute-nacht-geschichten-app-vergleich.html
 ratgeberText2: "Welche Gute-Nacht-App passt zu euch?"
+sammlungSatz: "Habt ihr ein jüngeres Kind? Die [Geschichten für die Kleinen](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html) sind kürzer und enden ruhig."
+verwandt: der-leuchtturm-am-rand-der-welt, das-unterwasser-postamt, das-labyrinth-der-jahreszeiten
 ---
 
 Auf einer kleinen Insel mitten im riesigen Ozean lebten die vier mächtigen Winde. Diese Insel war der einzigartige Geburtsort der Winde, die die Welt kühlten und wärmten, die Blätter rauschen ließen und die Wolken über den Himmel trugen. Jeder Wind hatte sein eigenes Haus aus Wolken, das seinen Charakter widerspiegelte. Da war das Haus des Nordwinds, ein stiller Ort aus eisblauen Wolken, wo Ruhe und Frieden herrschten. Der Südwind lebte in einem gemütlichen Haus aus flauschigen, sonnengelben Wolken und schenkte allen, die ihn kannten, eine angenehme Wärme. Der Ostwind hatte ein neugieriges, zartes Haus aus rosafarbenen Wolken, das ständig über neue Ideen und Entdeckungen staunte. Und zuletzt gab es noch den Westwind, der mit seinen silbernen Wolken immer zu einem Streich aufgelegt war und das Lachen in die Lüfte trug. 

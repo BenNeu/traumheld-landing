@@ -13,6 +13,10 @@ image: images/der-laternenwald.jpg
 imageAlt: "Uralter Wald bei Nacht, an jedem Baum hängt eine golden leuchtende Laterne"
 ratgeberLink2: /ratgeber/weihnachtsgeschichten-fuer-kinder-kurz.html
 ratgeberText2: "Drei kurze Weihnachtsgeschichten zum Vorlesen"
+sammlungSatz: "Für jüngere Geschwister gibt es die [kurzen Geschichten für 3- bis 5-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: das-nordlicht-und-die-lichtknuepfer, das-dorf-das-ein-geheimnis-huetet, die-bibliothek-der-traeume
+ratgeberLink3: /ratgeber/sankt-martin-geschichte-kinder.html
+ratgeberText3: "Laternen gibt es auch hier: die Sankt-Martin-Geschichte für Kinder"
 ---
 
 Tief im Herzen des Waldes, dort wo die Bäume so dicht aneinander standen, dass kaum ein Sonnenstrahl hindurchdrang, fand man die Laternen des uralten Waldes. An jedem Baum hing eine zarte Laterne, deren sanftes Licht die Dunkelheit vertrieb. Diese Laternen waren nicht nur einfache Lichtquellen. Sie enthielten die Wünsche von Kindern aus aller Welt. Manche Wünsche waren einfach, wie „einen neuen Ball“, und andere geheimnisvoller, wie „ein Freund für immer“. Bei Nacht, wenn die Sterne am Himmel funkelten, stiegen die Wünsche der Kinder gen Himmel, getragen von den warmen, flackernden Lichtern der Laternen. Der Himmel selbst, so erzählte man sich, lauschte den Wünschen und erfüllte sie, wenn die Zeit reif war.

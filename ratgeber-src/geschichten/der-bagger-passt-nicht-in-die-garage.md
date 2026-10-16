@@ -11,6 +11,8 @@ ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
 ratgeberText: "Kurze Geschichten für Abende, an denen es schnell gehen muss"
 image: images/der-bagger-passt-nicht-in-die-garage.jpg
 imageAlt: "Ein gelber Bagger steht nachts vor einer kleinen Garage, nur seine Schaufel steckt drinnen"
+sammlungSatz: "Mehr davon steht bei den [lustigen Gute-Nacht-Geschichten](/geschichten/lustige-gute-nacht-geschichten.html) und bei den [Gute-Nacht-Geschichten für 4-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: der-traktor-der-traeumte, der-falsche-fuss, sieben-tiere-und-ein-bett
 ---
 
 Auf der Baustelle war Feierabend. Die Männer gingen nach Hause, einer nach dem anderen. Nur Hannes blieb noch da, und Bruno.

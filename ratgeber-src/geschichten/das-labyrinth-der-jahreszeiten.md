@@ -13,6 +13,8 @@ image: images/das-labyrinth-der-jahreszeiten.jpg
 imageAlt: "Unterirdisches Labyrinth, hinter jedem Torbogen liegt eine andere Jahreszeit"
 ratgeberLink2: /ratgeber/weihnachtsgeschichten-fuer-kinder-kurz.html
 ratgeberText2: "Wenn der Winter kommt: Weihnachtsgeschichten mit Vorlesezeit"
+sammlungSatz: "Habt ihr auch ein jüngeres Kind? Dann passen die [kurzen Geschichten für Vierjährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: die-stadt-der-uhrmacher, die-insel-der-vier-winde, der-berg-aus-kristall
 ---
 
 Tief unter der Erde, verborgen vor den Blicken der Welt, liegt ein geheimnisvolles Labyrinth aus Gängen und Kammern. Dieses unterirdische Wunderwerk ist kein gewöhnlicher Ort — hier wird das Wetter der gesamten Erde entschieden. Jeder schmale Gang und jede geräumige Kammer hat ihre eigene besondere Aufgabe. In einer Kammer tanzen die sanften Sommerwinde, die die Blumen blühen und die Bäume rauschen lassen. Eine andere Kammer beherbergt die wilden Winterstürme, die Schneeflocken vom Himmel wirbeln lassen und die Welt in ein weißes Wunderland verwandeln. 

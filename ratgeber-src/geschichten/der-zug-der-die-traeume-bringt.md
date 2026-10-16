@@ -13,6 +13,8 @@ image: images/der-zug-der-die-traeume-bringt.jpg
 imageAlt: "Zug auf einem Viadukt durch schlafendes Land, die Waggons voller leuchtender Träume"
 ratgeberLink2: /ratgeber/kind-schlaeft-nicht-ein.html
 ratgeberText2: "Was hilft, wenn der Abend zum Kampf wird"
+sammlungSatz: "Für Abende, an denen nur noch drei Minuten drin sind, gibt es unsere [lustigen Gute-Nacht-Geschichten für Kinder](/geschichten/lustige-gute-nacht-geschichten.html)."
+verwandt: der-bahnhof-am-rand-des-universums, die-reise-mit-dem-nachtzug, die-bibliothek-der-traeume
 ---
 
 In einer sternenklaren Nacht, während die meisten Kinder in ihren Betten schlummerten, fuhr ein ganz besonderer Zug leise und geheimnisvoll durch die Welt. Bekannt als der Jahreszeiten-Zug, war er einzigartig, denn er trug die Verantwortung, die Jahreszeiten an die passenden Orte auf der Erde zu bringen. Jeder seiner Waggons war reich gefüllt mit den Schätzen einer Jahreszeit: makelloser Schnee für die verschneiten Wälder im Norden, bunte Blüten für die Frühlingswiesen, heiße Sonnenscheinstralen für die Strände des Südens und das goldene Licht des Herbstes für die Laubwälder. 

@@ -11,6 +11,8 @@ ratgeberLink: /ratgeber/abendroutine-kind.html
 ratgeberText: "Warum Kinder Dinge lieber selbst falsch machen"
 image: images/der-falsche-fuss.jpg
 imageAlt: "Ein Junge sitzt auf der Treppenstufe und schaut auf seine verkehrt angezogenen Schuhe, der Vater steht in der Tür"
+sammlungSatz: "Noch mehr Verkehrtes zum Lachen findet ihr bei den [lustigen Geschichten zum Vorlesen](/geschichten/lustige-gute-nacht-geschichten.html). Alle Geschichten für dieses Alter stehen bei den [Geschichten für Vierjährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: der-bagger-passt-nicht-in-die-garage, drei-glaeser-wasser, die-socke-die-abhauen-wollte
 ---
 
 Emil zog seine Schuhe jeden Morgen verkehrt herum an. Den linken rechts. Den rechten links.

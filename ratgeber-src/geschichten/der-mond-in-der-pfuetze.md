@@ -11,6 +11,8 @@ ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
 ratgeberText: "Kurze Geschichten für Abende, an denen es schnell gehen muss"
 image: images/der-mond-in-der-pfuetze.jpg
 imageAlt: "Ein Mädchen in gelber Regenjacke hockt mit seiner Oma vor einer Pfütze, in der sich der Vollmond spiegelt"
+sammlungSatz: "Weitere ruhige Geschichten für Kinder ab 3 findet ihr unter [Gute-Nacht-Geschichten für 4-Jährige zum Vorlesen](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: mia-und-die-mondkatze, der-hund-der-den-mond-anbellte, der-hase-im-auto
 ---
 
 Pia und Oma waren auf dem Heimweg. Es hatte geregnet, und jetzt war es Abend.

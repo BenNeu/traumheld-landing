@@ -13,6 +13,8 @@ image: images/die-ente-die-angst-vor-dem-dunkeln-hatte.jpg
 imageAlt: "Ein kleines Entenküken sitzt mit einem Frosch am Ufer, über dem Teich steht der große Mond"
 ratgeberLink2: /ratgeber/einschlafrituale-kinder.html
 ratgeberText2: "So baust du eine ruhige Abendroutine auf"
+sammlungSatz: "Weitere tröstliche Geschichten für Kinder ab 3 Jahren stehen bei den [Geschichten für 4-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: gute-nacht-sagen, der-kleine-baer-der-nicht-schlafen-wollte, paul-und-die-gutenacht-sterne
 ---
 
 Am Teich wohnte eine kleine Ente. Sie hieß Piet, und Piet hatte Angst vor dem Dunkeln.

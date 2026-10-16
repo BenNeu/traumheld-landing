@@ -16,6 +16,8 @@ ratgeberText2: "Schlafanzug, Zähne, Geschichte: die richtige Reihenfolge"
 youtube: AA6tasxHfug
 youtubeDate: 2026-10-03
 youtubeDauer: 4:01
+sammlungSatz: "Noch eine zum Lachen? Hier sind [zwölf lustige Gute-Nacht-Geschichten](/geschichten/lustige-gute-nacht-geschichten.html)."
+verwandt: der-elefant-im-badezimmer, der-falsche-fuss, das-krokodil-das-nicht-zaehne-putzen-wollte
 ---
 
 Es gibt eine Sache, die alle Erwachsenen falsch verstehen.

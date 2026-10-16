@@ -431,6 +431,45 @@ if (fs.existsSync(SRC_G)) {
   const storyTpl = fs.readFileSync(path.join(TPL, 'story.html'), 'utf8');
   const storyIndexTpl = fs.readFileSync(path.join(TPL, 'story-index.html'), 'utf8');
 
+  // Interne Verlinkung (seit 16.10.2026): Jede Geschichte kann im Frontmatter
+  //   sammlungSatz: Satz mit Markdown-Link auf eine oder zwei Sammelseiten
+  //   verwandt: slug, slug, slug   (Box "Das koennte euch auch gefallen")
+  //   ratgeberLink3 / ratgeberText3 (optionaler dritter Eintrag im Ratgeber-Kasten)
+  // tragen. Fuer "verwandt" braucht jede Seite Titel und Bild der anderen,
+  // deshalb hier ein Vorlauf ueber alle Quellen.
+  const storyInfo = {};
+  for (const file of fs.readdirSync(SRC_G).filter(f => f.endsWith('.md'))) {
+    const { data: d, body: b } = parseFrontmatter(fs.readFileSync(path.join(SRC_G, file), 'utf8'));
+    if (!d.title) continue;
+    const s = d.slug || slugify(d.title);
+    const img = d.image ? (d.image.startsWith('http') ? d.image : `/geschichten/${d.image.replace(/^\/?geschichten\//, '')}`) : '';
+    storyInfo[s] = { title: d.title, image: img, imageAlt: d.imageAlt || d.title, alter: d.category || 'Zum Vorlesen',
+      vorlesezeit: d.lesezeit || `${Math.max(1, Math.round(wordCount(b) / 130))} Minuten` };
+  }
+  const verwandtBox = (slug, liste) => {
+    if (!liste) return '';
+    const karten = liste.split(',').map(x => x.trim()).filter(Boolean).map(v => {
+      const g = storyInfo[v];
+      if (!g) { console.warn(`WARN: ${slug}: verwandte Geschichte ${v} nicht gefunden`); return ''; }
+      const thumb = g.image ? `<img class="card-thumb" src="${escAttr(g.image)}" alt="${escAttr(g.imageAlt)}" loading="lazy">` : `<div class="card-thumb"></div>`;
+      return `        <a class="card" href="/geschichten/${v}.html">
+          ${thumb}
+          <div class="card-body">
+            <span class="eyebrow">${escAttr(g.alter)} · ${escAttr(g.vorlesezeit)}</span>
+            <h3>${esc(g.title)}</h3>
+          </div>
+        </a>`;
+    }).filter(Boolean).join('\n');
+    return karten ? `    <section class="verwandt">
+      <h2>Das könnte euch auch gefallen</h2>
+      <div class="card-grid">
+${karten}
+      </div>
+    </section>
+
+` : '';
+  };
+
   for (const file of fs.readdirSync(SRC_G).filter(f => f.endsWith('.md'))) {
     const raw = fs.readFileSync(path.join(SRC_G, file), 'utf8');
     const { data, body } = parseFrontmatter(raw);
@@ -534,6 +573,9 @@ if (fs.existsSync(SRC_G)) {
       .replace(/{{RATGEBER_TEXT}}/g, esc(data.ratgeberText || 'Alle Ratgeber-Artikel'))
       .replace(/{{RATGEBER_LINK_2}}/g, escAttr(data.ratgeberLink2 || '/ratgeber/'))
       .replace(/{{RATGEBER_TEXT_2}}/g, esc(data.ratgeberText2 || 'Alle Ratgeber-Artikel'))
+      .replace(/{{RATGEBER_LI_3}}\n/g, data.ratgeberLink3 ? `        <li><a href="${escAttr(data.ratgeberLink3)}">${esc(data.ratgeberText3 || data.ratgeberLink3)}</a></li>\n` : '')
+      .replace(/{{SAMMLUNG_SATZ}}\n/g, data.sammlungSatz ? `    <p class="sammlung-hinweis">${inline(data.sammlungSatz)}</p>\n` : '')
+      .replace(/{{VERWANDT}}\n/g, verwandtBox(slug, data.verwandt))
       .replace(/{{ETSY_BOX}}/g, etsyBox(slug, data.title))
       .replace(/{{YEAR}}/g, YEAR);
 

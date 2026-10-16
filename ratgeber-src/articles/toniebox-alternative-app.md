@@ -92,7 +92,7 @@ Wenn ihr wegen Situation eins nach einer Alternative sucht: kauft eine Box. Wenn
 
 **Nichts im Gepäck.** Bei Oma, im Hotel, im Zelt. Das Abendritual funktioniert auch dort, wo die Box zu Hause im Regal steht. Wer schon mal eine Toniebox im Urlaub vergessen hat, weiß, wie der Abend dann läuft.
 
-Vorgelesen wird professionell mit ruhiger Stimme und leiser Musik im Hintergrund. Wie sich das von einer Hörspielproduktion unterscheidet, steht in unserem Artikel über [Einschlafgeschichten zum Anhören](/ratgeber/einschlafgeschichten-zum-anhoeren.html).
+Vorgelesen wird professionell mit ruhiger Stimme und leiser Musik im Hintergrund. Wie sich das von einer Hörspielproduktion unterscheidet, steht in unserem Artikel über [Einschlafgeschichten zum Anhören](/ratgeber/einschlafgeschichten-zum-anhoeren.html). Wer lieber selbst vorliest, findet hier [kurze Gute-Nacht-Geschichten für Vierjährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html).
 
 ## Und was eine App nicht kann
 

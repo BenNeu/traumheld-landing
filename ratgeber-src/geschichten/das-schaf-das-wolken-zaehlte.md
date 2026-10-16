@@ -13,6 +13,8 @@ image: images/das-schaf-das-wolken-zaehlte.jpg
 imageAlt: "Mondbeschienene Wiese mit ruhenden Schafen unter einem Sternenhimmel"
 ratgeberLink2: /ratgeber/einschlafrituale-kinder.html
 ratgeberText2: "So baust du eine ruhige Abendroutine auf"
+sammlungSatz: "Mehr zum Lachen gibt es bei den [kurzen lustigen Gute-Nacht-Geschichten](/geschichten/lustige-gute-nacht-geschichten.html), noch mehr für dieses Alter bei den [Geschichten für Kinder ab 3](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: oma-schnarcht, der-kleine-baer-der-nicht-schlafen-wollte, drei-glaeser-wasser
 ---
 
 Alle Menschen wissen: Wenn man nicht einschlafen kann, zählt man Schafe.

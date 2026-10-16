@@ -10,7 +10,7 @@ image: images/kurze-gute-nacht-geschichten.jpg
 imageAlt: "Elternteil liest dem Kind im warmen Licht eine kurze Gute-Nacht-Geschichte vor"
 ---
 
-Manchmal muss es einfach schnell gehen und trotzdem schön sein. Hier findest du 5 kurze Gute-Nacht-Geschichten zum Vorlesen, jede etwa 5 Minuten lang, kostenlos und ohne Anmeldung. Alle Geschichten stammen aus der Traumheld-Welt: ruhig erzählt, mit einem kleinen Abenteuer, einem mutigen Kind als Held und einem friedlichen Ende, das sanft ins Einschlafen führt.
+Manchmal muss es einfach schnell gehen und trotzdem schön sein. Hier findest du 5 kurze Gute-Nacht-Geschichten zum Vorlesen, jede etwa 5 Minuten lang, kostenlos und ohne Anmeldung. Alle Geschichten stammen aus der Traumheld-Welt: ruhig erzählt, mit einem kleinen Abenteuer, einem mutigen Kind als Held und einem friedlichen Ende, das sanft ins Einschlafen führt. Wenn es lieber lustig sein soll, findest du hier [kurze lustige Gute-Nacht-Geschichten](/geschichten/lustige-gute-nacht-geschichten.html).
 
 Ein Tipp vorab: In jeder Geschichte trägt der Held einen anderen Namen. Wenn du beim Vorlesen einfach den Namen deines Kindes einsetzt, passiert etwas Magisches. Warum das so stark wirkt, liest du im Ratgeber über [personalisierte Kindergeschichten](personalisierte-kindergeschichten.html).
 
@@ -117,6 +117,8 @@ Mia ging durch den hell erleuchteten Garten nach Hause, und die Blüten flüster
 Kurze Geschichten wirken am stärksten, wenn sie Teil eines festen Abendrituals sind: erst Zähneputzen und Schlafanzug, dann kuscheln und vorlesen, dann Licht aus. Lies langsamer, als du sprichst, und werde zum Ende hin leiser. Und wenn dein Kind zwischendurch einschläft, ist das kein Abbruch, sondern das schönste Kompliment. Wie du eine Abendroutine aufbaust, die von selbst trägt, liest du im Ratgeber über [Einschlafrituale](einschlafrituale-kinder.html).
 
 Wenn deine Stimme abends selbst müde ist, gibt es die Traumheld-Geschichten auch fertig vertont als ruhiges Hörabenteuer mit sanfter Musik. Mehr dazu im Ratgeber über [Einschlafgeschichten zum Anhören](einschlafgeschichten-zum-anhoeren.html).
+
+Für Kinder ab drei Jahren gibt es außerdem [17 kurze Geschichten für 4-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html), jede in zwei bis vier Minuten vorgelesen.
 
 Für den Advent haben wir eine eigene Sammlung angelegt, mit drei [kurzen Weihnachtsgeschichten zum Vorlesen](weihnachtsgeschichten-fuer-kinder-kurz.html), jede mit Minutenangabe und Altersempfehlung.
 

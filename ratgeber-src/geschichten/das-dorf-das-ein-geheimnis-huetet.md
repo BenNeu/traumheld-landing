@@ -13,6 +13,8 @@ image: images/das-dorf-das-ein-geheimnis-huetet.jpg
 imageAlt: "Kleines Bergdorf zwischen schneebedeckten Gipfeln mit warm erleuchteten Fenstern"
 ratgeberLink2: /ratgeber/warum-vorlesen-wichtig.html
 ratgeberText2: "Warum Vorlesen so viel bewirkt"
+sammlungSatz: "Heute lieber etwas Kurzes zum Lachen? Dann passen unsere [lustigen Gute-Nacht-Geschichten](/geschichten/lustige-gute-nacht-geschichten.html)."
+verwandt: der-berg-aus-kristall, der-laternenwald, die-insel-der-vier-winde
 ---
 
 Zwischen den hohen, schneebedeckten Gipfeln der Berge liegt ein kleines Dorf, das eine ganz besondere Heimat hat. Dieses Dorf schmiegt sich sicher und geborgen zwischen den Händen und Schultern von Riesen, die seit hundert Jahren friedlich schlafen. Die Riesen mit ihren riesigen Körpern und freundlichen Gesichtern, die dem Himmel zugewandt sind, strahlen eine wohlige Wärme aus, die das Dorf auch in den kältesten Winternächten warm hält. Die Bewohner leben in Harmonie mit den gewaltigen Wesen, die ihnen Schutz und Geborgenheit bieten, während sie träumen.

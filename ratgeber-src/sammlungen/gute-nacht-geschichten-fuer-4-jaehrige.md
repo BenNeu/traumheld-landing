@@ -12,7 +12,7 @@ image: images/der-hase-im-auto.jpg
 
 Mit vier hört ein Kind schon richtig zu. Aber nicht lange. Nach drei Minuten will es wissen, warum der Stoffhase ein Ohr umgeklappt hat, und dann ist die Geschichte vorbei, egal wo ihr gerade wart.
 
-Deshalb sind alle Geschichten auf dieser Seite kurz: 185 bis 350 Wörter, zwei bis vier Minuten Vorlesezeit. Die meisten spielen dort, wo sich Vierjährige auskennen. Im Kinderzimmer, in der Einfahrt, an der Pfütze vor dem Haus. Ein Stoffhase liegt noch im Auto, Oma schnarcht durch die Wand, ein Bagger passt nicht in die Garage. Jede hat eine Stelle zum Lachen und ein Ende, nach dem man das Licht ausmachen kann.
+Deshalb sind alle Geschichten auf dieser Seite kurz: 185 bis 350 Wörter, zwei bis vier Minuten Vorlesezeit. Die meisten spielen dort, wo sich Vierjährige auskennen. Im Kinderzimmer, in der Einfahrt, an der Pfütze vor dem Haus. [Ein Stoffhase liegt noch im Auto](/geschichten/der-hase-im-auto.html), [Oma schnarcht durch die Wand](/geschichten/oma-schnarcht.html), [ein Bagger passt nicht in die Garage](/geschichten/der-bagger-passt-nicht-in-die-garage.html). Jede hat eine Stelle zum Lachen und ein Ende, nach dem man das Licht ausmachen kann.
 
 Alle 17 sind kostenlos und ohne Anmeldung zu lesen. Sie passen auch für Dreijährige und für Fünfjährige, die abends schon müde sind.
 
@@ -20,9 +20,9 @@ Alle 17 sind kostenlos und ohne Anmeldung zu lesen. Sie passen auch für Dreijä
 
 ## Worauf es bei Geschichten für 4-Jährige ankommt
 
-**Dieselbe Geschichte zum zwölften Mal ist in Ordnung.** Dein Kind weiß dann, was kommt, und genau das beruhigt es. „Drei Gläser Wasser" wird beim dritten Vorlesen besser, weil dein Kind die Gläser mitzählt.
+**Dieselbe Geschichte zum zwölften Mal ist in Ordnung.** Dein Kind weiß dann, was kommt, und genau das beruhigt es. [„Drei Gläser Wasser"](/geschichten/drei-glaeser-wasser.html) wird beim dritten Vorlesen besser, weil dein Kind die Gläser mitzählt.
 
-**Ein Witz trägt weiter als ein Zauberer.** Vierjährige lachen über Dinge, die verkehrt herum sind: Schuhe am falschen Fuß, ein Hamster, der Nachtschicht schiebt. Ein Drache mit Schatzkammer ist kurz vor dem Schlafen einfach zu viel Handlung.
+**Ein Witz trägt weiter als ein Zauberer.** Vierjährige lachen über Dinge, die verkehrt herum sind: Schuhe am falschen Fuß, ein Hamster, der Nachtschicht schiebt. Ein Drache mit Schatzkammer ist kurz vor dem Schlafen einfach zu viel Handlung. Die zwölf lustigsten stehen gesammelt bei den [kurzen lustigen Gute-Nacht-Geschichten](/geschichten/lustige-gute-nacht-geschichten.html).
 
 **Den letzten Absatz langsamer lesen.** Keine Geschichte hier hört mitten im Abenteuer auf. Manche enden im Bett, eine erst am nächsten Morgen beim Frühstück. Wenn du am Schluss das Tempo rausnimmst, wird dein Kind meistens mit ruhiger.
 

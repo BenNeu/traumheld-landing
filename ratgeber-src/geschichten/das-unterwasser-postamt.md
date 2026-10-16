@@ -13,6 +13,8 @@ image: images/das-unterwasser-postamt.jpg
 imageAlt: "Unterwasser-Postamt zwischen Korallenriffen mit hell erleuchteten Fenstern"
 ratgeberLink2: /ratgeber/toniebox-alternative-app.html
 ratgeberText2: "Toniebox-Alternative: was ein Jahr wirklich kostet"
+sammlungSatz: "Wenn es heute schneller gehen soll: Unsere [kurzen lustigen Geschichten](/geschichten/lustige-gute-nacht-geschichten.html) sind in drei Minuten vorgelesen."
+verwandt: der-leuchtturm-am-rand-der-welt, die-insel-der-vier-winde, der-bahnhof-am-rand-des-universums
 ---
 
 Tief unten im stillen Ozean, verborgen zwischen Korallenriffen und sanft wiegenden Algen, liegt ein ganz besonderes Gebäude: das Unterwasser-Postamt. Jede Nacht, wenn die Welt oben schlafen geht, erwacht es zum Leben. In dem gläsernen Gebäude, das im Mondlicht schimmert, arbeiten eifrige Meeresbewohner: flinken Fischlein, brummenden Hummern und fleißigen Oktopussen. Sie alle haben eine wichtige Aufgabe — die Briefe der Träume zu sortieren und sicherzustellen, dass sie ihren richtigen Empfänger erreichen.

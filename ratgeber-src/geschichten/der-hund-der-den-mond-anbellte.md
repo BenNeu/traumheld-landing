@@ -13,6 +13,8 @@ image: images/der-hund-der-den-mond-anbellte.jpg
 imageAlt: "Kleiner Hund im nächtlichen Garten, den Kopf zum riesigen Mond erhoben"
 ratgeberLink2: /ratgeber/toniebox-alternative-app.html
 ratgeberText2: "Immer dieselbe Hörfigur? Das hilft wirklich"
+sammlungSatz: "Mehr Quatsch für die Nacht steht bei den [lustigen Geschichten für Kinder ab 3](/geschichten/lustige-gute-nacht-geschichten.html)."
+verwandt: der-mond-in-der-pfuetze, mia-und-die-mondkatze, ein-drache-mit-schluckauf
 ---
 
 Bruno war ein Hund, und Bruno hatte eine Aufgabe.

@@ -11,6 +11,8 @@ ratgeberLink: /ratgeber/abendroutine-kind.html
 ratgeberText: "Wie ein Abendritual anfängt und wieder aufhört"
 image: images/die-nachtschicht-vom-hamster.jpg
 imageAlt: "Ein Mädchen liegt im Bett und schaut zum Hamsterkäfig auf der Kommode"
+sammlungSatz: "Noch eine zum Lachen? Hier sind alle [lustigen Gute-Nacht-Geschichten](/geschichten/lustige-gute-nacht-geschichten.html). Alle Geschichten ab 3 Jahren stehen bei den [Gute-Nacht-Geschichten ab 3 Jahren](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: oma-schnarcht, das-schaf-das-wolken-zaehlte, der-hund-der-den-mond-anbellte
 ---
 
 Juna lag im Bett. Das Licht war aus.

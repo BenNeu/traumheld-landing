@@ -11,6 +11,8 @@ ratgeberLink: /ratgeber/abendroutine-kind.html
 ratgeberText: "Wie ein Abendritual anfängt und wieder aufhört"
 image: images/oma-schnarcht.jpg
 imageAlt: "Ein Junge sitzt im Bett und lauscht mit dem Ohr an der Wand zum Nachbarzimmer"
+sammlungSatz: "Mehr zum Lachen am Bett: unsere [lustigen Gute-Nacht-Geschichten für Kinder](/geschichten/lustige-gute-nacht-geschichten.html). Ruhigere für dieses Alter stehen bei den [kurzen Gute-Nacht-Geschichten für 4-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: drei-glaeser-wasser, die-nachtschicht-vom-hamster, das-schaf-das-wolken-zaehlte
 ---
 
 Oma übernachtete im Zimmer neben Mats. Dazwischen war nur eine Wand, und die war dünn.

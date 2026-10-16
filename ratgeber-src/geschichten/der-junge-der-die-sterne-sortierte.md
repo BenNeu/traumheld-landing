@@ -13,6 +13,8 @@ image: images/der-junge-der-die-sterne-sortierte.jpg
 imageAlt: "Schreibtisch am Fenster voller Sternkarten, draußen der echte Sternenhimmel"
 ratgeberLink2: /ratgeber/personalisierte-kindergeschichten.html
 ratgeberText2: "Personalisierte Kindergeschichten: was wirklich dahintersteckt"
+sammlungSatz: "Habt ihr auch ein Kind unter fünf? Dann passen unsere [Gute-Nacht-Geschichten für 4-Jährige zum Vorlesen](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html)."
+verwandt: das-nordlicht-und-die-lichtknuepfer, der-garten-auf-der-rueckseite-des-mondes, paul-und-die-gutenacht-sterne
 ---
 
 Tom mochte Ordnung.

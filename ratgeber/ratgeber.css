@@ -283,3 +283,13 @@ footer a:hover { color: var(--gold); }
 
 /* PERSONALISIERTES BUCH bei Etsy (ab 15.10.2026) */
 .etsy-box { border-color: #6b5a2e; }
+
+/* --- Interne Verlinkung in Geschichten (seit 2026-10-16) --- */
+.sammlung-hinweis { font-size: 1.05rem; color: #d8d8ea; margin: 6px 0 26px; }
+.sammlung-hinweis a { color: var(--gold); text-decoration: underline; text-underline-offset: 3px; }
+.verwandt { margin: 10px 0 30px; }
+.verwandt h2 { font-size: 1.3rem; color: #fff; margin: 0 0 4px; }
+.verwandt .card-grid { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; padding: 12px 0 0; }
+.verwandt .card h3 { font-size: 1.02rem; color: #fff; margin: 8px 0 0; line-height: 1.3; }
+.verwandt .card-body { padding: 14px; }
+.index-head a { color: var(--gold); text-decoration: underline; text-underline-offset: 3px; }

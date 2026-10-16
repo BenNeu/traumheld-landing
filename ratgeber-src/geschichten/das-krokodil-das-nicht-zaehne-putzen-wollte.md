@@ -13,6 +13,8 @@ image: images/das-krokodil-das-nicht-zaehne-putzen-wollte.jpg
 imageAlt: "Krokodil im flachen Flussufer bei Sonnenuntergang, ein Vogel sitzt auf seiner Nase"
 ratgeberLink2: /ratgeber/warum-vorlesen-wichtig.html
 ratgeberText2: "Warum Vorlesen so viel bewirkt"
+sammlungSatz: "Noch mehr zum Lachen findet ihr bei unseren [kurzen lustigen Gute-Nacht-Geschichten](/geschichten/lustige-gute-nacht-geschichten.html)."
+verwandt: der-elefant-im-badezimmer, ein-drache-mit-schluckauf, die-socke-die-abhauen-wollte
 ---
 
 Ein Krokodil hat 68 Zähne.
