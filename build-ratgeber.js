@@ -192,6 +192,14 @@ function mdToHtml(md) {
       i++; continue;
     }
 
+    // Video: Zeile "::video::" wird zum YouTube-Kasten (Zwei-Klick-Loesung).
+    // Daten aus dem Frontmatter: youtube, youtubeTitel, youtubeText,
+    // youtubeBild, youtubeDate, youtubeDauer. Nur in Ratgeber-Artikeln.
+    if (/^\s*::video::\s*$/.test(line)) {
+      out.push('{{VIDEO_PLAYER}}');
+      i++; continue;
+    }
+
     // table  | a | b |  /  |---|---|  /  | c | d |
     if (/^\s*\|/.test(line) && i + 1 < lines.length && /^\s*\|[\s:|-]+\|\s*$/.test(lines[i + 1])) {
       const zellen = (zeile) => zeile.trim().replace(/^\||\|$/g, '').split('|').map(c => c.trim());
@@ -368,6 +376,41 @@ for (const file of files) {
     });
   }
 
+  // YouTube-Video im Artikel, gleiche Zwei-Klick-Loesung wie auf den
+  // Geschichtenseiten: Bis zum Klick laedt nichts von YouTube.
+  let videoHtml = '';
+  if (data.youtube) {
+    const vid = String(data.youtube).trim();
+    const vbild = data.youtubeBild
+      ? `/ratgeber/${data.youtubeBild.replace(/^\/?ratgeber\//, '')}` : image;
+    const vtitel = data.youtubeTitel || 'Lieber anhören?';
+    const vname = data.youtubeName || data.title;
+    videoHtml = `<section id="vorgelesen" class="video-box" style="margin:28px 0;padding:22px;border-radius:18px;background:rgba(255,255,255,0.06)">
+  <h2 style="margin:0 0 6px">${esc(vtitel)}</h2>
+  ${data.youtubeText ? `<p style="margin:0 0 14px">${inline(data.youtubeText)}</p>` : ''}
+  <button type="button" class="yt-lite" data-id="${escAttr(vid)}" aria-label="Video abspielen: ${escAttr(vname)}"
+    style="position:relative;display:block;width:100%;aspect-ratio:16/9;padding:0;border:0;border-radius:14px;overflow:hidden;cursor:pointer;background:#0b1030">
+    <img src="${escAttr(vbild)}" alt="${escAttr(vname)}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block">
+    <span aria-hidden="true" style="position:absolute;left:50%;top:50%;width:76px;height:76px;margin:-38px 0 0 -38px;border-radius:50%;background:rgba(0,0,0,0.55);box-shadow:0 0 0 3px rgba(255,255,255,0.85)"></span>
+    <span aria-hidden="true" style="position:absolute;left:50%;top:50%;margin:-16px 0 0 -9px;border-style:solid;border-width:16px 0 16px 28px;border-color:transparent transparent transparent #fff"></span>
+  </button>
+  <p style="margin:10px 0 0;font-size:0.85em;opacity:0.75">Mit dem Klick wird das Video von YouTube geladen. Mehr dazu im <a href="/datenschutz.html#youtube">Datenschutz</a>.</p>
+  <script>document.querySelectorAll('.yt-lite').forEach(function(b){b.addEventListener('click',function(){var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1&rel=0';f.title=b.getAttribute('aria-label');f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;f.style.cssText='width:100%;aspect-ratio:16/9;border:0;border-radius:14px;display:block';b.replaceWith(f);});});</script>
+</section>`;
+    schemaBlocks.push({
+      '@context': 'https://schema.org',
+      '@type': 'VideoObject',
+      name: vname,
+      description: data.youtubeText ? plainText(data.youtubeText) : description,
+      thumbnailUrl: vbild ? (vbild.startsWith('http') ? vbild : SITE + vbild) : `${SITE}/logo.png`,
+      uploadDate: mitZeitzone(data.youtubeDate || date),
+      ...(data.youtubeDauer ? { duration: isoDauer(data.youtubeDauer) } : {}),
+      embedUrl: `https://www.youtube-nocookie.com/embed/${vid}`,
+      contentUrl: `https://www.youtube.com/watch?v=${vid}`,
+      inLanguage: 'de'
+    });
+  }
+
   const jsonld = JSON.stringify(schemaBlocks);
 
   const html = articleTpl
@@ -383,7 +426,8 @@ for (const file of files) {
     .replace(/{{READING_TIME}}/g, readingTime)
     .replace(/{{JSONLD}}/g, jsonld)
     .replace(/{{HERO}}/g, hero)
-    .replace(/{{ARTICLE_BODY}}/g, bodyHtml.replace('{{AUDIO_PLAYER}}', audioHtml))
+    .replace(/{{ARTICLE_BODY}}/g, bodyHtml.replace('{{AUDIO_PLAYER}}', audioHtml)
+      .replace(/<p>\{\{VIDEO_PLAYER\}\}<\/p>|\{\{VIDEO_PLAYER\}\}/, () => videoHtml))
     .replace(/{{YEAR}}/g, YEAR);
 
   fs.writeFileSync(path.join(OUT, `${slug}.html`), html);

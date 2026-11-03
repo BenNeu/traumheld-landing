@@ -8,11 +8,20 @@ category: Geschichten
 keywords: weihnachtsgeschichten für kinder kurz, kurze weihnachtsgeschichten zum vorlesen, weihnachtsgeschichte kinder 5 minuten, weihnachtsgeschichte zum vorlesen kostenlos, adventsgeschichte kurz
 image: images/weihnachtsgeschichten-fuer-kinder-kurz.jpg
 imageAlt: "Kind im Bett bei Kerzenlicht, im Hintergrund ein geschmückter Weihnachtsbaum"
+youtube: 2QW1PVM_SkQ
+youtubeDate: 2026-11-03
+youtubeDauer: 27:32
+youtubeBild: images/weihnachtsgeschichten-video.jpg
+youtubeTitel: "Lieber zuhören? 12 Weihnachtsgeschichten vorgelesen"
+youtubeName: "Weihnachtsgeschichten zum Einschlafen: 12 Gute-Nacht-Geschichten für Kinder ab 3"
+youtubeText: "Wenn deine Stimme heute nicht mehr mag: Hier werden zwölf kurze Weihnachtsgeschichten am Stück vorgelesen, 27 Minuten zum Zuhören im Bett. Die drei Geschichten weiter unten sind andere, die kannst du morgen selbst vorlesen."
 ---
 
 Es ist der 6. Dezember, kurz vor acht. Die Kerze brennt, dein Kind liegt schon im Bett und wartet. Du tippst "kurze Weihnachtsgeschichte" ins Handy und landest auf einer Seite mit vierzig Titeln, keiner davon mit einer Angabe, wie lange er dauert.
 
 Hier stehen drei Geschichten. Vollständig, kostenlos, mit Vorlesezeit in Minuten und einer Altersangabe. Du kannst direkt loslegen.
+
+::video::
 
 ## Wie lang eine Weihnachtsgeschichte am Abend sein darf
 
@@ -212,7 +221,7 @@ Ja, und Kinder wollen das meistens sogar. Wiederholung gibt Sicherheit, weil das
 Ja, vorlesen im privaten und pädagogischen Rahmen ist ausdrücklich erwünscht. Nicht erlaubt ist, sie als eigene Texte zu veröffentlichen oder abzudrucken.
 
 **Gibt es die Geschichten auch zum Anhören?**
-In der App werden alle Geschichten mit ruhiger Stimme und leiser Musik vorgelesen. Wie sich das anfühlt, steht in unserem Artikel über [Einschlafgeschichten zum Anhören](/ratgeber/einschlafgeschichten-zum-anhoeren.html).
+Ja. Zwölf kurze Weihnachtsgeschichten gibt es [oben auf dieser Seite als Video](#vorgelesen), 27 Minuten am Stück. In der App werden alle Geschichten mit ruhiger Stimme und leiser Musik vorgelesen. Wie sich das anfühlt, steht in unserem Artikel über [Einschlafgeschichten zum Anhören](/ratgeber/einschlafgeschichten-zum-anhoeren.html).
 
 ## Für die Abende danach
 
