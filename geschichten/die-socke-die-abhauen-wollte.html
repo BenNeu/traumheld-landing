@@ -64,7 +64,7 @@
         <span aria-hidden="true" style="position:absolute;left:50%;top:50%;margin:-16px 0 0 -9px;border-style:solid;border-width:16px 0 16px 28px;border-color:transparent transparent transparent #fff"></span>
       </button>
       <p style="margin:10px 0 0;font-size:0.85em;opacity:0.75">Mit dem Klick wird das Video von YouTube geladen. Mehr dazu im <a href="/datenschutz.html#youtube">Datenschutz</a>.</p>
-      <script>document.querySelectorAll('.yt-lite').forEach(function(b){b.addEventListener('click',function(){var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1&rel=0';f.title=b.getAttribute('aria-label');f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;f.style.cssText='width:100%;aspect-ratio:16/9;border:0;border-radius:14px;display:block';b.replaceWith(f);});});</script>
+      <script>document.querySelectorAll('.yt-lite').forEach(function(b){b.addEventListener('click',function(){var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1&rel=0'+(b.dataset.start?'&start='+b.dataset.start:'');f.title=b.getAttribute('aria-label');f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;f.style.cssText='width:100%;aspect-ratio:16/9;border:0;border-radius:14px;display:block';b.replaceWith(f);});});</script>
     </section>
 
     <div class="article-body">

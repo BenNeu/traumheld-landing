@@ -574,6 +574,6 @@ In der App liest eine ruhige Stimme die Geschichten vor, mit leiser Musik. Wie d
 
 ## Für die Abende danach
 
-Im Advent sind 24 Abende schnell vorbei. Für einen Abend, an dem du selbst nicht mehr vorlesen magst, gibt es [zwölf Weihnachtsgeschichten als Video zum Zuhören](/ratgeber/weihnachtsgeschichten-fuer-kinder-kurz.html#vorgelesen), 27 Minuten am Stück. Weitere kostenlose Geschichten findest du in unserer Sammlung [kurzer Gute-Nacht-Geschichten](/ratgeber/kurze-gute-nacht-geschichten.html). Und warum die paar Minuten am Abend mehr bewirken als viele denken, steht im Artikel [Warum Vorlesen wichtig ist](/ratgeber/warum-vorlesen-wichtig.html).
+Im Advent sind 24 Abende schnell vorbei. Für einen Abend, an dem du selbst nicht mehr vorlesen magst, gibt es [zwölf Weihnachtsgeschichten als Video zum Zuhören](/ratgeber/weihnachtsgeschichten-fuer-kinder-kurz.html#vorgelesen), 27 Minuten am Stück. Zum Selbstlesen stehen dieselben zwölf bei den [Weihnachtsgeschichten für Kinder](/geschichten/weihnachtsgeschichten-fuer-kinder.html). Weitere kostenlose Geschichten findest du in unserer Sammlung [kurzer Gute-Nacht-Geschichten](/ratgeber/kurze-gute-nacht-geschichten.html). Und warum die paar Minuten am Abend mehr bewirken als viele denken, steht im Artikel [Warum Vorlesen wichtig ist](/ratgeber/warum-vorlesen-wichtig.html).
 
 Wenn dein Kind ab morgen selbst die Hauptrolle übernehmen soll: [Mein Traumheld 14 Tage kostenlos testen](/), ohne Kreditkarte.

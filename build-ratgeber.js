@@ -395,7 +395,7 @@ for (const file of files) {
     <span aria-hidden="true" style="position:absolute;left:50%;top:50%;margin:-16px 0 0 -9px;border-style:solid;border-width:16px 0 16px 28px;border-color:transparent transparent transparent #fff"></span>
   </button>
   <p style="margin:10px 0 0;font-size:0.85em;opacity:0.75">Mit dem Klick wird das Video von YouTube geladen. Mehr dazu im <a href="/datenschutz.html#youtube">Datenschutz</a>.</p>
-  <script>document.querySelectorAll('.yt-lite').forEach(function(b){b.addEventListener('click',function(){var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1&rel=0';f.title=b.getAttribute('aria-label');f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;f.style.cssText='width:100%;aspect-ratio:16/9;border:0;border-radius:14px;display:block';b.replaceWith(f);});});</script>
+  <script>document.querySelectorAll('.yt-lite').forEach(function(b){b.addEventListener('click',function(){var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1&rel=0'+(b.dataset.start?'&start='+b.dataset.start:'');f.title=b.getAttribute('aria-label');f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;f.style.cssText='width:100%;aspect-ratio:16/9;border:0;border-radius:14px;display:block';b.replaceWith(f);});});</script>
 </section>`;
     schemaBlocks.push({
       '@context': 'https://schema.org',
@@ -542,23 +542,28 @@ ${karten}
     if (data.youtube) {
       const vid = String(data.youtube).trim();
       const vbild = data.youtubeBild ? `/geschichten/${data.youtubeBild.replace(/^\/?geschichten\//, '')}` : image;
+      // Optional fuer Kompilationen: youtubeStart (m:ss oder Sekunden) springt
+      // an die Stelle der Geschichte, youtubeText ersetzt den Hinnerk-Satz,
+      // youtubeName den Videonamen im Schema.
+      const vstart = data.youtubeStart ? String(data.youtubeStart).split(':').reduce((a, x) => a * 60 + parseInt(x, 10), 0) : 0;
+      const vtext = data.youtubeText || 'Opa Hinnerk liest dir die Geschichte vor, oben im Leuchtturm am Traummeer.';
       video = `    <section class="video-box" style="margin:28px 0;padding:22px;border-radius:18px;background:rgba(255,255,255,0.06)">
-      <h2 style="margin:0 0 6px">Lieber anhören?</h2>
-      <p style="margin:0 0 14px">Opa Hinnerk liest dir die Geschichte vor, oben im Leuchtturm am Traummeer.</p>
-      <button type="button" class="yt-lite" data-id="${escAttr(vid)}" aria-label="Video abspielen: ${escAttr(data.title)}"
+      <h2 style="margin:0 0 6px">${esc(data.youtubeTitel || 'Lieber anhören?')}</h2>
+      <p style="margin:0 0 14px">${inline(vtext)}</p>
+      <button type="button" class="yt-lite" data-id="${escAttr(vid)}"${vstart ? ` data-start="${vstart}"` : ''} aria-label="Video abspielen: ${escAttr(data.title)}"
         style="position:relative;display:block;width:100%;aspect-ratio:16/9;padding:0;border:0;border-radius:14px;overflow:hidden;cursor:pointer;background:#0b1030">
-        <img src="${escAttr(vbild)}" alt="Opa Hinnerk liest: ${escAttr(data.title)}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block">
+        <img src="${escAttr(vbild)}" alt="${escAttr(data.youtubeText ? 'Vorgelesen: ' + data.title : 'Opa Hinnerk liest: ' + data.title)}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block">
         <span aria-hidden="true" style="position:absolute;left:50%;top:50%;width:76px;height:76px;margin:-38px 0 0 -38px;border-radius:50%;background:rgba(0,0,0,0.55);box-shadow:0 0 0 3px rgba(255,255,255,0.85)"></span>
         <span aria-hidden="true" style="position:absolute;left:50%;top:50%;margin:-16px 0 0 -9px;border-style:solid;border-width:16px 0 16px 28px;border-color:transparent transparent transparent #fff"></span>
       </button>
       <p style="margin:10px 0 0;font-size:0.85em;opacity:0.75">Mit dem Klick wird das Video von YouTube geladen. Mehr dazu im <a href="/datenschutz.html#youtube">Datenschutz</a>.</p>
-      <script>document.querySelectorAll('.yt-lite').forEach(function(b){b.addEventListener('click',function(){var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1&rel=0';f.title=b.getAttribute('aria-label');f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;f.style.cssText='width:100%;aspect-ratio:16/9;border:0;border-radius:14px;display:block';b.replaceWith(f);});});</script>
+      <script>document.querySelectorAll('.yt-lite').forEach(function(b){b.addEventListener('click',function(){var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1&rel=0'+(b.dataset.start?'&start='+b.dataset.start:'');f.title=b.getAttribute('aria-label');f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;f.style.cssText='width:100%;aspect-ratio:16/9;border:0;border-radius:14px;display:block';b.replaceWith(f);});});</script>
     </section>
 `;
       videoSchema.push({
         '@context': 'https://schema.org',
         '@type': 'VideoObject',
-        name: `${data.title} | Opa Hinnerk liest vor`,
+        name: data.youtubeName || `${data.title} | Opa Hinnerk liest vor`,
         description: description,
         thumbnailUrl: vbild ? (vbild.startsWith('http') ? vbild : SITE + vbild) : `${SITE}/logo.png`,
         uploadDate: mitZeitzone(data.youtubeDate || date),
@@ -624,7 +629,7 @@ ${karten}
       .replace(/{{YEAR}}/g, YEAR);
 
     fs.writeFileSync(path.join(OUT_G, `${slug}.html`), html);
-    geschichten.push({ slug, title: data.title, description, date, alter, vorlesezeit, url, image, imageAlt: data.imageAlt || data.title });
+    geschichten.push({ slug, title: data.title, description, date, alter, thema: data.thema || '', vorlesezeit, url, image, imageAlt: data.imageAlt || data.title });
     console.log('✓ Geschichte gebaut:', `${slug}.html`);
   }
 
@@ -632,9 +637,13 @@ ${karten}
   // alphabetisch – von den Kleinsten aufwaerts.
   const REIHENFOLGE = ['3–5 Jahre', '5–6 Jahre', '6–8 Jahre'];
   const gruppen = {};
-  for (const g of geschichten) (gruppen[g.alter] = gruppen[g.alter] || []).push(g);
+  // Geschichten mit Feld thema (z. B. weihnachten) bekommen eine eigene Gruppe
+  // ganz oben und tauchen nicht zusaetzlich in ihrer Altersgruppe auf.
+  const THEMEN = { weihnachten: 'Weihnachtsgeschichten' };
+  for (const g of geschichten) { const k = THEMEN[g.thema] || g.alter; (gruppen[k] = gruppen[k] || []).push(g); }
+  const themenGruppen = Object.values(THEMEN).filter(t => gruppen[t]);
   const bekannt = REIHENFOLGE.filter(a => gruppen[a]);
-  const uebrige = Object.keys(gruppen).filter(a => !REIHENFOLGE.includes(a)).sort();
+  const uebrige = Object.keys(gruppen).filter(a => !REIHENFOLGE.includes(a) && !themenGruppen.includes(a)).sort();
 
   const SRC_S = path.join(ROOT, 'ratgeber-src', 'sammlungen');
   const sammlungQuellen = fs.existsSync(SRC_S)
@@ -655,7 +664,7 @@ ${karten}
       </a>`;
   };
 
-  const gruppenHtml = [...bekannt, ...uebrige].map(alter => {
+  const gruppenHtml = [...themenGruppen, ...bekannt, ...uebrige].map(alter => {
     const karten = gruppen[alter].map(g => {
       const thumb = g.image
         ? `<img class="card-thumb" src="${escAttr(g.image)}" alt="${escAttr(g.imageAlt)}" loading="lazy">`
@@ -672,7 +681,8 @@ ${karten}
     }).join('\n');
     const hinweise = sammlungQuellen.filter(s => s.data.alter === alter)
       .map(s => `    <p class="weiterlesen" style="margin:0 0 1rem"><a href="/geschichten/${s.data.slug}.html">${esc(s.data.title)}: die kurzen Geschichten auf einer Seite</a></p>`).join('\n');
-    return `    <h2 class="index-head" style="margin-top:2rem">Geschichten für ${esc(alter)}</h2>\n${hinweise}${hinweise ? '\n' : ''}    <div class="card-grid">\n${karten}\n    </div>`;
+    const kopf = themenGruppen.includes(alter) ? alter : `Geschichten für ${alter}`;
+    return `    <h2 class="index-head" style="margin-top:2rem">${esc(kopf)}</h2>\n${hinweise}${hinweise ? '\n' : ''}    <div class="card-grid">\n${karten}\n    </div>`;
   }).join('\n\n');
 
   const themenLinks = sammlungQuellen.filter(s => !s.data.alter && s.data.slug)
@@ -708,7 +718,7 @@ ${karten}
       liste.forEach((s, i) => { if (!treffer[i]) console.warn(`WARN: Sammlung ${data.slug}: Geschichte ${s} nicht gefunden`); });
       treffer = treffer.filter(Boolean);
     } else {
-      treffer = geschichten.filter(g => g.alter === data.alter)
+      treffer = geschichten.filter(g => g.alter === data.alter && !g.thema)
         .sort((x, y) => (parseInt(x.vorlesezeit) - parseInt(y.vorlesezeit)) || x.title.localeCompare(y.title, 'de'));
     }
     const ogImage = data.image ? `${SITE}/geschichten/${data.image.replace(/^\/?geschichten\//, '')}` : `${SITE}/logo.png`;

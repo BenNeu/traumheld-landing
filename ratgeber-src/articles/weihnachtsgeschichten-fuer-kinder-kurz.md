@@ -19,7 +19,7 @@ youtubeText: "Wenn deine Stimme heute nicht mehr mag: Hier werden zwölf kurze W
 
 Es ist der 6. Dezember, kurz vor acht. Die Kerze brennt, dein Kind liegt schon im Bett und wartet. Du tippst "kurze Weihnachtsgeschichte" ins Handy und landest auf einer Seite mit vierzig Titeln, keiner davon mit einer Angabe, wie lange er dauert.
 
-Hier stehen drei Geschichten. Vollständig, kostenlos, mit Vorlesezeit in Minuten und einer Altersangabe. Du kannst direkt loslegen.
+Hier stehen drei Geschichten. Vollständig, kostenlos, mit Vorlesezeit in Minuten und einer Altersangabe. Du kannst direkt loslegen. Für Kinder ab 3 gibt es zusätzlich [zwölf noch kürzere Weihnachtsgeschichten](/geschichten/weihnachtsgeschichten-fuer-kinder.html).
 
 ::video::
 
@@ -225,6 +225,6 @@ Ja. Zwölf kurze Weihnachtsgeschichten gibt es [oben auf dieser Seite als Video]
 
 ## Für die Abende danach
 
-Der Advent hat vierundzwanzig Abende, und drei Geschichten reichen dafür nicht. Weitere kostenlose Geschichten zum Vorlesen findest du in unserer Sammlung [kurzer Gute-Nacht-Geschichten](/ratgeber/kurze-gute-nacht-geschichten.html). Und für die Abende nach den Feiertagen gibt es [lustige Gute-Nacht-Geschichten für das ganze Jahr](/geschichten/lustige-gute-nacht-geschichten.html).
+Der Advent hat vierundzwanzig Abende, und drei Geschichten reichen dafür nicht. Die zwölf Geschichten aus dem Video oben stehen alle zum Selbstlesen bei den [Weihnachtsgeschichten für Kinder ab 3](/geschichten/weihnachtsgeschichten-fuer-kinder.html), jede in zwei bis drei Minuten vorgelesen. Weitere kostenlose Geschichten zum Vorlesen findest du in unserer Sammlung [kurzer Gute-Nacht-Geschichten](/ratgeber/kurze-gute-nacht-geschichten.html). Und für die Abende nach den Feiertagen gibt es [lustige Gute-Nacht-Geschichten für das ganze Jahr](/geschichten/lustige-gute-nacht-geschichten.html).
 
 Und wenn dein Kind ab morgen selbst die Hauptrolle spielen soll: 14 Tage kostenlos testen, ohne Kreditkarte.
