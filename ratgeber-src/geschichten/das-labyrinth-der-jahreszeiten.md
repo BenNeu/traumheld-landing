@@ -7,8 +7,8 @@ author: Mein Traumheld
 category: 6–8 Jahre
 keywords: gute nacht geschichte, vorlesen, einschlafen, kinder
 lesezeit: 9 Minuten
-ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
-ratgeberText: "Fünf kurze Geschichten zum Vorlesen, kostenlos"
+ratgeberLink: /geschichten/kurze-gute-nacht-geschichten.html
+ratgeberText: "Kurze Gute-Nacht-Geschichten, in 2 bis 5 Minuten vorgelesen"
 image: images/das-labyrinth-der-jahreszeiten.jpg
 imageAlt: "Unterirdisches Labyrinth, hinter jedem Torbogen liegt eine andere Jahreszeit"
 ratgeberLink2: /ratgeber/weihnachtsgeschichten-fuer-kinder-kurz.html

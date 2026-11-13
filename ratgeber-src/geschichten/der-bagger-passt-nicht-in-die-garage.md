@@ -7,7 +7,7 @@ author: Mein Traumheld
 category: 3–5 Jahre
 keywords: gute nacht geschichte 4 jährige, bagger, fahrzeuge
 lesezeit: 3 Minuten
-ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
+ratgeberLink: /geschichten/kurze-gute-nacht-geschichten.html
 ratgeberText: "Kurze Geschichten für Abende, an denen es schnell gehen muss"
 image: images/der-bagger-passt-nicht-in-die-garage.jpg
 imageAlt: "Ein gelber Bagger steht nachts vor einer kleinen Garage, nur seine Schaufel steckt drinnen"

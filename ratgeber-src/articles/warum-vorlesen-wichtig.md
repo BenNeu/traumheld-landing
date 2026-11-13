@@ -108,7 +108,7 @@ Am leichtesten fällt Vorlesen, wenn es keine Entscheidung mehr ist. Wenn es ein
 
 Deshalb funktioniert Vorlesen am besten als letzter Baustein eines ruhigen Abendrituals: Zähneputzen, Schlafanzug, Licht runter, Geschichte, Gute-Nacht-Satz. Wie du so einen Ablauf aufbaust, der auch an schwierigen Tagen trägt, steht im Ratgeber [Einschlafrituale für Kinder](einschlafrituale-kinder.html). Wer es lieber mit festen Uhrzeiten plant, findet den kompletten Ablauf von 17:45 bis 19:45 Uhr im Artikel zur [Abendroutine für Kinder](abendroutine-kind.html).
 
-Und wenn dir gerade nichts einfällt, was du vorlesen sollst: In unserer Sammlung liegen fünf [kurze Gute-Nacht-Geschichten](kurze-gute-nacht-geschichten.html) zum Direkt-Loslegen.
+Und wenn dir gerade nichts einfällt, was du vorlesen sollst: Bei den [kurzen Gute-Nacht-Geschichten](/geschichten/kurze-gute-nacht-geschichten.html) stehen vierzehn, die in zwei bis fünf Minuten vorgelesen sind.
 
 ## Häufige Fragen
 

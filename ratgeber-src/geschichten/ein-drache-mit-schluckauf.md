@@ -11,7 +11,7 @@ ratgeberLink: /ratgeber/personalisierte-kindergeschichten.html
 ratgeberText: "Warum dein Kind seinen eigenen Namen in der Geschichte liebt"
 image: images/ein-drache-mit-schluckauf.jpg
 imageAlt: "Großer gutmütiger Drache auf einem Felsvorsprung, ein kleines Flämmchen entweicht ihm"
-ratgeberLink2: /ratgeber/kurze-gute-nacht-geschichten.html
+ratgeberLink2: /geschichten/kurze-gute-nacht-geschichten.html
 ratgeberText2: "Noch mehr kurze Gute-Nacht-Geschichten"
 sammlungSatz: "Mehr davon findet ihr bei unseren [Gute-Nacht-Geschichten zum Lachen](/geschichten/lustige-gute-nacht-geschichten.html)."
 verwandt: das-krokodil-das-nicht-zaehne-putzen-wollte, der-hund-der-den-mond-anbellte, der-elefant-im-badezimmer

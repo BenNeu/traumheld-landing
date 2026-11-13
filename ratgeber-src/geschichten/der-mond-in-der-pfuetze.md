@@ -7,7 +7,7 @@ author: Mein Traumheld
 category: 3–5 Jahre
 keywords: gute nacht geschichte 3 jährige, mond, kurze geschichte
 lesezeit: 2 Minuten
-ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
+ratgeberLink: /geschichten/kurze-gute-nacht-geschichten.html
 ratgeberText: "Kurze Geschichten für Abende, an denen es schnell gehen muss"
 image: images/der-mond-in-der-pfuetze.jpg
 imageAlt: "Ein Mädchen in gelber Regenjacke hockt mit seiner Oma vor einer Pfütze, in der sich der Vollmond spiegelt"

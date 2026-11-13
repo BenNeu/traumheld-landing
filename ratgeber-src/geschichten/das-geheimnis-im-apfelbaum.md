@@ -11,7 +11,7 @@ ratgeberLink: /ratgeber/warum-vorlesen-wichtig.html
 ratgeberText: "Was zehn Minuten Vorlesen am Abend bewirken"
 image: images/das-geheimnis-im-apfelbaum.jpg
 imageAlt: "Alter hohler Apfelbaum mit einer rostigen Blechdose in der Höhlung"
-ratgeberLink2: /ratgeber/kurze-gute-nacht-geschichten.html
+ratgeberLink2: /geschichten/kurze-gute-nacht-geschichten.html
 ratgeberText2: "Noch mehr kurze Gute-Nacht-Geschichten"
 sammlungSatz: "Für jüngere Geschwister gibt es die [Gute-Nacht-Geschichten für 4-Jährige](/geschichten/gute-nacht-geschichten-fuer-4-jaehrige.html), jede in drei Minuten vorgelesen."
 verwandt: der-fluss-aus-erinnerungen, lina-und-der-leuchtturm, der-junge-der-die-sterne-sortierte

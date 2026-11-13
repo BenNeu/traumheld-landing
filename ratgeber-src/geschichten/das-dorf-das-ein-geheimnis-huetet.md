@@ -7,8 +7,8 @@ author: Mein Traumheld
 category: 5–6 Jahre
 keywords: gute nacht geschichte, vorlesen, einschlafen, kinder
 lesezeit: 8 Minuten
-ratgeberLink: /ratgeber/kurze-gute-nacht-geschichten.html
-ratgeberText: "Fünf kurze Geschichten zum Vorlesen, kostenlos"
+ratgeberLink: /geschichten/kurze-gute-nacht-geschichten.html
+ratgeberText: "Kurze Gute-Nacht-Geschichten, in 2 bis 5 Minuten vorgelesen"
 image: images/das-dorf-das-ein-geheimnis-huetet.jpg
 imageAlt: "Kleines Bergdorf zwischen schneebedeckten Gipfeln mit warm erleuchteten Fenstern"
 ratgeberLink2: /ratgeber/warum-vorlesen-wichtig.html
