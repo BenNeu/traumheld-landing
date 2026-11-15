@@ -68,7 +68,7 @@ Personalisierte Kindergeschichten gibt es in drei sehr unterschiedlichen Ausprä
 | **Kosten** | Meist 25 bis 45 Euro pro Buch | Abos etwa 5 bis 45 Euro im Monat | Abos ab etwa 10 Euro im Monat |
 | **Passt, wenn** | du ein Geschenk suchst | du gerne selbst gestaltest und vorliest | du ein Ritual willst, das jeden Abend von allein trägt |
 
-Ein ehrlicher Hinweis: Das personalisierte Buch und die Hörgeschichte konkurrieren gar nicht miteinander. Das Buch ist ein Geschenk für einen besonderen Anlass. Die Hörgeschichte ist ein Ritual für jeden Abend. Viele Familien haben beides.
+Ein ehrlicher Hinweis: Das personalisierte Buch und die Hörgeschichte konkurrieren gar nicht miteinander. Das Buch ist ein Geschenk für einen besonderen Anlass. Die Hörgeschichte ist ein Ritual für jeden Abend. Viele Familien haben beides. Was das in Euro und Vorleseabenden bedeutet, rechnen wir in [Personalisiertes Kinderbuch oder App](/ratgeber/personalisiertes-kinderbuch-oder-app.html) durch.
 
 ## Ab welchem Alter personalisierte Geschichten wirken
 

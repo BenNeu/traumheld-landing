@@ -97,7 +97,7 @@ Die klare Antwort ist nein. Und wer etwas anderes behauptet, verkauft dir etwas.
 
 Beim Vorlesen aus einem Buch passiert mehr als Unterhaltung: Dein Kind sieht Buchstaben, hört deine Stimme, spürt deine Nähe, unterbricht mit Fragen, und ihr redet über das, was passiert. Diese Kombination bekommt keine App hin.
 
-Was KI-Geschichten leisten können, ist die Lücke füllen. Für die Abende, an denen du leer bist. Als tägliches Extra zusätzlich zum Buch. Oder als etwas, das ihr gemeinsam hört, während du dazu kuschelst. Warum das gemeinsame Vorlesen so wertvoll ist und wie viel wirklich reicht, liest du im Ratgeber [Warum Vorlesen so wichtig ist](warum-vorlesen-wichtig.html).
+Was KI-Geschichten leisten können, ist die Lücke füllen. Für die Abende, an denen du leer bist. Als tägliches Extra zusätzlich zum Buch. Wenn du gerade überlegst, ob ein Buch mit dem Namen deines Kindes oder eine App das bessere Geschenk ist, hilft unser Vergleich [Personalisiertes Kinderbuch oder App](/ratgeber/personalisiertes-kinderbuch-oder-app.html). Oder als etwas, das ihr gemeinsam hört, während du dazu kuschelst. Warum das gemeinsame Vorlesen so wertvoll ist und wie viel wirklich reicht, liest du im Ratgeber [Warum Vorlesen so wichtig ist](warum-vorlesen-wichtig.html).
 
 ## Häufige Fragen
 

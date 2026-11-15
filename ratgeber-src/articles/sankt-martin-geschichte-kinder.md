@@ -172,11 +172,11 @@ Der Martinstag ist am 11. November, in diesem Jahr ein Mittwoch. Viele Laternenu
 Die Legende funktioniert ab etwa 3 Jahren, weil sie aus einer einzigen Szene besteht: kalt, Mantel, teilen. Die Traumszene verstehen oft erst Kinder ab 5 Jahren richtig. Du kannst sie bei Jüngeren kürzen.
 
 **Was ist der Unterschied zwischen Sankt Martin und Sankt Nikolaus?**
-Martin lebte im vierten Jahrhundert und ist für das Teilen des Mantels bekannt. Nikolaus lebte ebenfalls im vierten Jahrhundert, in Myra in der heutigen Türkei, und ist für seine Hilfe für Arme bekannt. Beide haben Gedenktage im Spätherbst, Martin am 11. November und Nikolaus am 6. Dezember.
+Martin lebte im vierten Jahrhundert und ist für das Teilen des Mantels bekannt. Nikolaus lebte ebenfalls im vierten Jahrhundert, in Myra in der heutigen Türkei, und ist für seine Hilfe für Arme bekannt. Beide haben Gedenktage im Spätherbst, Martin am 11. November und Nikolaus am 6. Dezember. Die Nikolauslegende und zwei neue Geschichten findest du bei unseren [kurzen Nikolausgeschichten für Kinder](/ratgeber/nikolausgeschichte-kinder-kurz.html).
 
 **Darf ich die Geschichten in der Kita vorlesen?**
 Ja, vorlesen im privaten und pädagogischen Rahmen ist ausdrücklich erwünscht. Nicht erlaubt ist, sie als eigene Texte zu veröffentlichen.
 
 ## Für die Wochen danach
 
-Nach Martin kommt der Advent. Für jeden Abend gibt es unseren [Vorlese-Adventskalender mit 24 Geschichten](/ratgeber/adventskalender-geschichten-24-tuerchen.html), für die vier Sonntage unsere [Adventsgeschichten](/ratgeber/adventsgeschichten-fuer-kinder.html). Und wenn dein Kind selbst Teil der Geschichte werden soll: [Mein Traumheld 14 Tage kostenlos testen](/), ohne Kreditkarte.
+Nach Martin kommt der Advent. Für jeden Abend gibt es unseren [Vorlese-Adventskalender mit 24 Geschichten](/ratgeber/adventskalender-geschichten-24-tuerchen.html), für die vier Sonntage unsere [Adventsgeschichten](/ratgeber/adventsgeschichten-fuer-kinder.html). Am 5. Dezember passt eine [Nikolausgeschichte zum Vorlesen](/ratgeber/nikolausgeschichte-kinder-kurz.html). Und wenn dein Kind selbst Teil der Geschichte werden soll: [Mein Traumheld 14 Tage kostenlos testen](/), ohne Kreditkarte.

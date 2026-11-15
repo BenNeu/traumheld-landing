@@ -50,7 +50,7 @@ Die Legende hat zwei Teile, und beide erzählen dasselbe: Nikolaus hilft, ohne d
 
 Die beiden Geschichten sind neu geschrieben und stehen nirgendwo sonst. Sie spielen am Abend vor dem Nikolaustag und enden beide im Bett, damit dein Kind danach zur Ruhe kommt.
 
-### Der Stiefel, der zu klein war
+### Elf Schuhe vor der Tür
 
 **3 Min. · ab 3 Jahren · lustig und warm**
 
@@ -111,7 +111,7 @@ Und Mats schlief ein, mit einem Lächeln, und einer Hand noch halb in der Luft.
 | Geschichte | Dauer | Ab | Stimmung | Passt, wenn |
 |---|---|---|---|---|
 | Die Nikolauslegende | 3 Min. | 3 Jahren | ruhig | dein Kind fragt, wer der Nikolaus war |
-| Der Stiefel, der zu klein war | 3 Min. | 3 Jahren | lustig, warm | ihr gerade den Stiefel geputzt habt |
+| Elf Schuhe vor der Tür | 3 Min. | 3 Jahren | lustig, warm | ihr gerade den Stiefel geputzt habt |
 | Der Nikolaus hat sich verlaufen | 4 Min. | 4 Jahren | ruhig | dein Kind vor Aufregung nicht einschlafen kann |
 
 Alle drei zusammen dauern rund zehn Minuten. Für den Abend vor dem Nikolaustag empfehlen wir eine einzige Geschichte, und zwar die letzte. Sie endet mit dem Satz, den aufgeregte Kinder an diesem Abend brauchen: Der Nikolaus kommt erst, wenn du schläfst.

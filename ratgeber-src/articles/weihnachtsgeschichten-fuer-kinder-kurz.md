@@ -193,6 +193,8 @@ An Heiligabend war alles rechtzeitig fertig. Und seitdem hängt in der Werkstatt
 
 Wenn du nur eine vorlesen willst und nicht weißt, welche: nimm die erste. Sie ist die kürzeste und funktioniert in fast jedem Alter.
 
+Für die Tage davor gibt es eigene Seiten: am 5. Dezember eine [kurze Nikolausgeschichte](/ratgeber/nikolausgeschichte-kinder-kurz.html), und für die Wichtelzeit [drei Wichtelgeschichten mit Vorlesezeit](/ratgeber/wichtelgeschichten-fuer-kinder.html).
+
 ## Drei Dinge, die eine Weihnachtsgeschichte besser machen
 
 **Licht runter, bevor der erste Satz kommt.** Nicht danach. Das Dimmen ist Teil der Geschichte, es sagt dem Kind, dass jetzt etwas anderes anfängt.

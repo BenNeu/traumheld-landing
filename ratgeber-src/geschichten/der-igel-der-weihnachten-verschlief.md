@@ -14,8 +14,8 @@ ratgeberLink: /ratgeber/adventskalender-geschichten-24-tuerchen.html
 ratgeberText: "24 kurze Geschichten für den Adventskalender"
 ratgeberLink2: /ratgeber/weihnachtsgeschichten-fuer-kinder-kurz.html
 ratgeberText2: "Drei kurze Weihnachtsgeschichten mit Vorlesezeit"
-ratgeberLink3: /ratgeber/adventsgeschichten-fuer-kinder.html
-ratgeberText3: "Eine Geschichte für jeden Adventssonntag"
+ratgeberLink3: /ratgeber/wichtelgeschichten-fuer-kinder.html
+ratgeberText3: "Drei Wichtelgeschichten mit Vorlesezeit"
 youtube: 2QW1PVM_SkQ
 youtubeDate: 2026-11-03
 youtubeDauer: 27:32
