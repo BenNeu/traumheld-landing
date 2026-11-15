@@ -146,7 +146,7 @@
         <input class="lead-hp" type="text" id="leadHp" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
         <label class="lead-consent">
           <input type="checkbox" id="leadOk">
-          <span>Ja, schickt mir das PDF und jede Woche eine neue Gute-Nacht-Geschichte. Abmelden geht jederzeit mit einem Klick. <a href="/datenschutz.html">Datenschutz</a></span>
+          <span>Ja, schickt mir das PDF, jede Woche eine neue Gute-Nacht-Geschichte und ab und zu Neuigkeiten zur App Mein Traumheld. Abmelden geht jederzeit mit einem Klick. <a href="/datenschutz.html">Datenschutz</a></span>
         </label>
         <p class="lead-hinweis" id="leadHinweis" role="status"></p>
       </form>
@@ -203,7 +203,7 @@
     var knopf = document.getElementById('leadBtn');
     var hinweis = document.getElementById('leadHinweis');
 
-    var EINWILLIGUNG = 'PDF mit zehn Geschichten plus woechentliche Gute-Nacht-Geschichte per Mail, Abmeldung jederzeit.';
+    var EINWILLIGUNG = 'PDF mit zehn Geschichten, woechentliche Gute-Nacht-Geschichte per Mail und ab und zu Neuigkeiten zur App Mein Traumheld, Abmeldung jederzeit.';
 
     function sag(text, art) {
       hinweis.textContent = text;
