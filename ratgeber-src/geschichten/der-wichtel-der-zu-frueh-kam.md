@@ -16,14 +16,13 @@ ratgeberLink2: /ratgeber/weihnachtsgeschichten-fuer-kinder-kurz.html
 ratgeberText2: "Drei kurze Weihnachtsgeschichten mit Vorlesezeit"
 ratgeberLink3: /ratgeber/wichtelgeschichten-fuer-kinder.html
 ratgeberText3: "Drei Wichtelgeschichten mit Vorlesezeit"
-youtube: 2QW1PVM_SkQ
-youtubeDate: 2026-11-03
-youtubeDauer: 27:32
-youtubeStart: 0:12
-youtubeText: "Die Geschichte gibt es auch vorgelesen. Das Video springt direkt an die richtige Stelle unserer zwölf Weihnachtsgeschichten."
-youtubeName: "Weihnachtsgeschichten zum Einschlafen: 12 Gute-Nacht-Geschichten für Kinder ab 3"
 sammlungSatz: "Alle zwölf stehen auf einer Seite bei den [Weihnachtsgeschichten für Kinder](/geschichten/weihnachtsgeschichten-fuer-kinder.html)."
 verwandt: das-tuerchen-das-klemmte, der-baum-der-zu-gross-war, das-rentier-das-tief-flog
+youtube: X97v65wL-iM
+youtubeDate: 2026-11-08
+youtubeDauer: 2:43
+youtubeText: "Opa Hinnerk liest dir die Geschichte vor, oben im Leuchtturm am Traummeer. Alle zwölf Weihnachtsgeschichten am Stück gibt es [hier als 27-Minuten-Video](https://youtu.be/2QW1PVM_SkQ)."
+youtubeName: "Wichtel-Geschichte zum Einschlafen für Kinder ab 3: Der Wichtel, der zu früh kam"
 ---
 
 Am ersten November klopfte es leise an der Fußleiste.

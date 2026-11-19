@@ -8,11 +8,20 @@ category: Geschichten
 keywords: adventskalender geschichten 24 türchen, adventskalender geschichten kinder, 24 geschichten advent, vorlese adventskalender, adventskalender geschichten zum vorlesen
 image: images/adventskalender-geschichten-24-tuerchen.jpg
 imageAlt: "Kind im Bett bei Kerzenlicht schaut auf einen kleinen Adventskalender aus Holz, ein Türchen ist offen"
+youtube: W9wNwzYJ-lA
+youtubeDate: 2026-11-19
+youtubeDauer: 2:11
+youtubeBild: images/tuerchen-video.jpg
+youtubeTitel: "Lieber zuhören? Eine Adventskalender-Geschichte vorgelesen"
+youtubeName: "Adventsgeschichte zum Einschlafen für Kinder ab 3: Das Türchen, das klemmte"
+youtubeText: "Am dreizehnten Dezember geht Finns Türchen nicht auf. Mama nicht, Papa mit dem Buttermesser nicht, Oma nicht. Opa Hinnerk liest die Geschichte in gut zwei Minuten vor. Die 24 Türchen weiter unten sind andere, die liest du selbst."
 ---
 
 Es ist der erste Dezember, kurz nach dem Zähneputzen. Dein Kind sitzt im Schlafanzug auf dem Bett und fragt, ob heute schon das Türchen dran ist. Die Schokolade ist längst aufgegessen, aber das Gefühl, dass jeden Abend etwas auf es wartet, soll bleiben.
 
 Hier stehen **24 Adventskalender Geschichten** für genau diese Abende. Eine pro Tag, jede in ein bis zwei Minuten vorgelesen, alle komplett und kostenlos. Du brauchst nichts zu kaufen, nichts auszudrucken und nichts zu suchen. Du schlägst die Seite auf, liest das Türchen des Tages vor und machst das Licht aus.
+
+::video::
 
 ## So funktioniert dein Vorlese-Adventskalender
 

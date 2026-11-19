@@ -16,14 +16,13 @@ ratgeberLink2: /ratgeber/weihnachtsgeschichten-fuer-kinder-kurz.html
 ratgeberText2: "Drei kurze Weihnachtsgeschichten mit Vorlesezeit"
 ratgeberLink3: /ratgeber/nikolausgeschichte-kinder-kurz.html
 ratgeberText3: "Nikolausgeschichten für den 5. Dezember"
-youtube: 2QW1PVM_SkQ
-youtubeDate: 2026-11-03
-youtubeDauer: 27:32
-youtubeStart: 2:42
-youtubeText: "Die Geschichte gibt es auch vorgelesen. Das Video springt direkt an die richtige Stelle unserer zwölf Weihnachtsgeschichten."
-youtubeName: "Weihnachtsgeschichten zum Einschlafen: 12 Gute-Nacht-Geschichten für Kinder ab 3"
 sammlungSatz: "Alle zwölf stehen auf einer Seite bei den [Weihnachtsgeschichten für Kinder](/geschichten/weihnachtsgeschichten-fuer-kinder.html)."
 verwandt: der-baum-der-zu-gross-war, das-rentier-das-tief-flog, der-pinguin-der-zu-besuch-kam
+youtube: W9wNwzYJ-lA
+youtubeDate: 2026-11-19
+youtubeDauer: 2:11
+youtubeText: "Opa Hinnerk liest dir die Geschichte vor, oben im Leuchtturm am Traummeer. Alle zwölf Weihnachtsgeschichten am Stück gibt es [hier als 27-Minuten-Video](https://youtu.be/2QW1PVM_SkQ)."
+youtubeName: "Adventsgeschichte zum Einschlafen für Kinder ab 3: Das Türchen, das klemmte"
 ---
 
 Finn hatte einen Adventskalender aus Pappe. Jeden Morgen machte er ein Türchen auf.
